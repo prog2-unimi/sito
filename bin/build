@@ -1,0 +1,19 @@
+#!/bin/bash
+
+rm -rf ./docs
+mkdir ./docs
+python -m sphinx -E sito docs
+(cd ./docs
+rm -rf .doctrees/
+rm -rf _sources/
+rm -f ./genindex.html
+find -name \*.html | cut -d/ -f2 | sed 's|^|https://prog2.di.unimi.it/|' > ./sitemap.txt
+    (
+        echo 'User-agent: *' && \
+        find -maxdepth 1 -name _\* | cut -d/ -f2 | sed 's|^\(.*\)|Disallow: /\1/|' && \
+        echo 'Allow: /_static/logo.png '
+    ) > ./robots.txt
+)
+
+
+

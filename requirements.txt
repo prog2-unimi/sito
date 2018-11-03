@@ -1,0 +1,3 @@
+-i https://pypi.python.org/simple
+recommonmark>=0.4.0
+sphinx>=1.8.1
