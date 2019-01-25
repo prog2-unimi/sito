@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Neucha|Roboto|Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Bree+Serif|Neucha|Roboto|Ubuntu+Mono');
 
 html {
   position: relative;
@@ -7,7 +7,7 @@ html {
 
 body {
   margin-bottom: 80px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 li > p {
@@ -24,7 +24,7 @@ p {
 }
 
 nav, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Neucha', cursive;
+    font-family: 'Bree Serif', serif;
 }
 
 .command {
