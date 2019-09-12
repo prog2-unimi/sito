@@ -2,11 +2,11 @@
    :scale: 50%
    :align: left
 
-Programmazione 2
-****************
+Programmazione II
+*****************
 
 
-Questo è il sito dell'insegnamento di `Programmazione 2
+Questo è il sito dell'insegnamento di `Programmazione II
 <https://www.unimi.it/it/ugov/of/af2020000f1x-125>`_,
 tenuto da `Massimo Santini <https://santini.di.unimi.it/>`_ del `Dipartimento di
 Informatica <http://www.di.unimi.it/>`_ dell'`Università degli Studi di Milano
