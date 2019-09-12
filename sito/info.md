@@ -88,3 +88,7 @@ I testi di riferimento sono:
 
 * Joshua Bloch (2017),
   [Effective Java](http://www.informit.com/store/effective-java-9780134685991), *Addison-Wesley Professional*.
+
+Si consulti anche la sezione su [Java](strumenti.html#Java) della pagina sugli
+[strumenti](strumenti) per avere informazioni sulla documentazione specifica del
+linguaggio.
