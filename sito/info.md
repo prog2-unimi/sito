@@ -15,7 +15,7 @@ ragioni](https://cs.brown.edu/courses/cs019/2018/laptop-policy.html) in classe �
 ### Obiettivi dell’insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
-calcolare in un numero finito e ben specificato di passi la soluzione di un
+calcolare in un *numero finito* di passi *ben specificati* la soluzione di un
 problema, la **programmazione** è in buona sostanza la disciplina che consente
 di tradurre tale oggetto astratto in una sequenza concreta di *istruzioni* e di
 *definizioni dei dati* (in un assegnato linguaggio di programmazione) che
@@ -33,10 +33,9 @@ dimensione e ciclo di vita (in "Ingegneria del software"…).
 L'insegnamento "Programmazione II" ha l'obiettivo di accrescere le competenze
 acquisite nel corso del primo anno tramite l'ampliamento della *ricchezza
 espressiva* del linguaggio (o *paradigma*) di programmazione; facendo tesoro
-della conoscenza del paradigma *imperativo* acquisita tramite l'uso del
-linguaggio *Go*, l'insegnamento introduce il paradigma *object oriented*
-(assieme alle relative tecniche di specificazione e progetto) attraverso il
-linguaggio *Java*.
+della conoscenza del paradigma *imperativo* con l'uso del linguaggio *Go*,
+l'insegnamento introduce il paradigma *object oriented* (assieme alle relative
+tecniche di specificazione e progetto) attraverso il linguaggio *Java*.
 
 ### Risultati di apprendimento attesi e argomenti trattati
 
