@@ -65,3 +65,7 @@ blockquote {
   width: auto;
   padding-top: 1em;
 }
+
+table.align-default {
+    text-align: left;
+} 
