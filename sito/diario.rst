@@ -7,6 +7,19 @@ costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
 alle date che al contenuto). 
 
+Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
+`Program Development in Java
+<http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
+quello indicato con *EJ* si riferisce al libro di testo `Effective Java
+<http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
+con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__;
+il materiale indicato come *H* si riferisce agli `Handout
+<https://github.com/let-unimi/handouts/>`__ del docente; si veda la nota sui
+:ref:`numeri di sezione <numeridisezione>` che reca indicazioni su quali parti
+del materiale sono **parte del programma** e quali *letture consigliate, ma
+facoltative*.
+
+
 |
 
 .. table:: 
@@ -14,74 +27,82 @@ alle date che al contenuto).
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | Num   | Data       | Argomento                                                    | Materiale didattico                                                 |
    +=======+============+==============================================================+=====================================================================+
-   | 1     | Mar 8/10   | Introduzione                                                 |                                                                     |
+   | 1     | Mar 8/10   | Introduzione                                                 | PDJ 1                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 2     | Ven 11/10  | Una prima esplorazione di Java                               |                                                                     |
+   | 2     | Ven 11/10  | Una prima esplorazione di Java                               | PDJ 2 *1-4*; JT `Getting Started`_, `OO Programming`_               |
    +-------+------------+                                                              +---------------------------------------------------------------------+
-   | 3     | Mar 15/10  |                                                              |                                                                     |
+   | 3     | Mar 15/10  |                                                              | PDJ 2 *5-8*; JT `Language Basics`_, `Classes and Objects`_          |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 4     | Ven 18/10  | Astrazione procedurale                                       |                                                                     |
+   | 4     | Ven 18/10  | Astrazione procedurale                                       | PDJ 3                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 5     | Mar 22/10  | Eccezioni                                                    |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 5     | Mar 22/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
+   +-------+------------+                                                              |                                                                     |
    | 6     | Mar 29/10  |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    |       | Ven 1/11   | *Ognissanti*                                                 |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 7     | Mar 5/11   | Astrazione dei dati                                          |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 7     | Mar 5/11   | Astrazione dei dati                                          | PDJ 5                                                               |
+   +-------+------------+                                                              |                                                                     |
    | 8     | Ven 8/11   |                                                              |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   +-------+------------+                                                              |                                                                     |
    | 9     | Mar 12/11  |                                                              |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   +-------+------------+                                                              |                                                                     |
    | 10    | Ven 15/11  |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 11    | Mar 19/11  | L'astrazione iterazione                                      |                                                                     |
+   | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 12    | Ven 22/11  | Gerarchia dei tipi                                           |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7                                                               |
+   +-------+------------+                                                              |                                                                     |
    | 13    | Mar 26/11  |                                                              |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   +-------+------------+                                                              |                                                                     |
    | 14    | Ven 29/11  |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 15    | Mar 3/12   | Astrazione polimorfa                                         |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8                                                               |
+   +-------+------------+                                                              |                                                                     |
    | 16    | Ven 6/12   |                                                              |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   +-------+------------+                                                              |                                                                     |
    | 17    | Mar 10/12  |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 18    | Ven 13/12  | Specifiche                                                   |                                                                     |
+   | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 19    | Mar 17/12  | Testing e debugging                                          |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 19    | Mar 17/12  | Testing e debugging                                          | PDJ 10                                                              |
+   +-------+------------+                                                              |                                                                     |
    | 20    | Ven 20/12  |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    |       | 22/12-8/01 | *Vacanze di Natale*                                          |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 21    | Mar 7/1    | Tecniche di progetto                                         |                                                                     |
-   +-------+------------+                                                              +---------------------------------------------------------------------+
+   | 21    | Mar 7/1    | Tecniche di progetto                                         | PDJ 13                                                              |
+   +-------+------------+                                                              |                                                                     |
    | 22    | Ven 10/1   |                                                              |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 23    | Mar 14/1   | Tra progetto ed implementazione                              |                                                                     |
+   | 23    | Mar 14/1   | Tra progetto ed implementazione                              | PDJ 14                                                              |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 24    | Ven 17/1   | AQA                                                          |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
   
 |
 
+.. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
+.. _OO Programming: Concepts https://docs.oracle.com/javase/tutorial/java/concepts/
+.. _Language Basics: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
+.. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
+
 .. admonition:: Nota bene
    :class: alert alert-secondary
 
    Accanto a ciascun riferimento che reca un numero di *capitolo* possono trovarsi
-   dei *numeri di sezione* essi sono da intendersi nel seguente modo: 
+   dei *numeri o titoli di sezione o item* essi sono da intendersi nel seguente modo: 
 
    .. _numeridisezione:
 
-   * se assenti: l'*intero capitolo è parte del programma*,
+   * se assenti: l'*intero capitolo è parte del programma* (ad esempio, con "PDJ" si intende 
+     l'intero capitolo 5 di "Program Development in Java"),
 
-   * se presenti (fuori parentesi): solo *le sezioni indicate sono parte del programma*,
+   * se presenti (fuori parentesi): solo *le sezioni/item indicate sono parte del programma* (ad esempio, 
+     con "EJ 1 3-6, 9" si intende che del capitolo 1 di "Effective Java"
+     sono strettamente parte del programma solo gli item 3, 4, 5, 6 e 9),
 
    * se presenti tra parentesi quadre: le  *sezioni indicate sono letture caldamente raccomandate, 
-     ma facoltative*.
+     ma facoltative* (ad esempio con "PDJ 15 [2-4, 7]" si intende che del capitolo 15 di 
+     "Program Development in Java" è consigliata la lettura delle sezioni 2, 3, 4 e 7).
 
-| 
