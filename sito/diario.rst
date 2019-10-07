@@ -12,9 +12,7 @@ Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
 <http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
-con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__;
-il materiale indicato come *H* si riferisce agli `Handout
-<https://github.com/let-unimi/handouts/>`__ del docente; si veda la nota sui
+con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__; si veda la nota sui
 :ref:`numeri di sezione <numeridisezione>` che reca indicazioni su quali parti
 del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
@@ -31,13 +29,13 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 2     | Ven 11/10  | Una prima esplorazione di Java                               | PDJ 2 *1-3*; JT `Getting Started`_, `Language Basics`_              |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 3     | Mar 15/10  |                                                              | PDJ 2 *4-8*; JT `Classes and Objects`_, `IO Streams`_               |
+   | 3     | Mar 15/10  |                                                              | PDJ 2 *4, 5*; JT `Classes and Objects`_, `Packages`_                |
+   |       |            |                                                              +---------------------------------------------------------------------+
+   | 4     | Ven 18/10  |                                                              | PDJ 2 *6-8*; JT `Lists`_, `IO Streams`_                             |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 4     | Ven 18/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_                                             |
+   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_                                             |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 5     | Mar 22/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
-   |       |            |                                                              |                                                                     |
-   | 6     | Mar 29/10  |                                                              |                                                                     |
+   | 6     | Mar 29/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    |       | Ven 1/11   | *Ognissanti*                                                 |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -85,6 +83,8 @@ facoltative*.
 .. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
 .. _Language Basics: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
 .. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
+.. _Packages: https://docs.oracle.com/javase/tutorial/java/package/
+.. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/13/javadoc/javadoc.html
 
