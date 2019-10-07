@@ -29,11 +29,11 @@ facoltative*.
    +=======+============+==============================================================+=====================================================================+
    | 1     | Mar 8/10   | Introduzione                                                 | PDJ 1                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 2     | Ven 11/10  | Una prima esplorazione di Java                               | PDJ 2 *1-4*; JT `Getting Started`_, `OO Programming`_               |
+   | 2     | Ven 11/10  | Una prima esplorazione di Java                               | PDJ 2 *1-3*; JT `Getting Started`_, `Language Basics`_              |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 3     | Mar 15/10  |                                                              | PDJ 2 *5-8*; JT `Language Basics`_, `Classes and Objects`_          |
+   | 3     | Mar 15/10  |                                                              | PDJ 2 *4-8*; JT `Classes and Objects`_, `IO Streams`_               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 4     | Ven 18/10  | Astrazione procedurale                                       | PDJ 3                                                               |
+   | 4     | Ven 18/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_                                             |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 5     | Mar 22/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
    |       |            |                                                              |                                                                     |
@@ -83,9 +83,10 @@ facoltative*.
 |
 
 .. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
-.. _OO Programming: Concepts https://docs.oracle.com/javase/tutorial/java/concepts/
 .. _Language Basics: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
 .. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
+.. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/13/javadoc/javadoc.html
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
