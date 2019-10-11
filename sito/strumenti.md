@@ -13,13 +13,17 @@ strumenti qui descritti.
 
 Sebbene a partire dalle versioni più recenti le differenze nel linguaggio siano
 minime e il corso non coprirà le *feature* più moderne, è comunque consigliabile
-usare l'ultima versione del *Java Development Kit* (JDK).  Si consiglia pertanto
-di installare la **versione ufficiale Oracle**, disponibile gratuitamente sia
-con licenza [proprietaria](https://www.oracle.com/technetwork/java/javase/downloads/) che [open source](https://jdk.java.net/).
+usare l'ultima versione coperta da [long term
+support](https://en.wikipedia.org/wiki/Long-term_support) (LTS) del Java
+Development Kit (JDK), ossia il **Java SE Development Kit 11**.  Si consiglia
+pertanto di installare la **versione ufficiale Oracle**, disponibile
+gratuitamente sia con licenza
+[proprietaria](https://www.oracle.com/technetwork/java/javase/downloads/) che
+[open source](https://jdk.java.net/).
 
 Oltre ai libri di testo, è di fondamentale importanza consultare la
-[documentazione](https://docs.oracle.com/en/java/javase/13/), in particolare
-quella delle [API](https://docs.oracle.com/en/java/javase/13/docs/api/) delle
+[documentazione](https://docs.oracle.com/en/java/javase/11/), in particolare
+quella delle [API](https://docs.oracle.com/en/java/javase/11/docs/api/) delle
 librerie incluse nel JDK. Possono risultare molto utili anche i [vari
 tutorial](https://docs.oracle.com/javase/tutorial/) ufficiali di Oracle.
 
