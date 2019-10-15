@@ -29,7 +29,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 2     | Ven 11/10  | Una prima esplorazione di Java                               | PDJ 2 *1-3*; JT `Getting Started`_, `Language Basics`_              |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 3     | Mar 15/10  |                                                              | PDJ 2 *4, 5*; JT `Classes and Objects`_, `Packages`_                |
+   | 3     | Mar 15/10  |                                                              | PDJ 2 *4, 5*; JT `Classes and Objects`_, `Packages`_; `H 3`_        |
    |       |            |                                                              +---------------------------------------------------------------------+
    | 4     | Ven 18/10  |                                                              | PDJ 2 *6-8*; JT `Lists`_, `IO Streams`_                             |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -87,6 +87,8 @@ facoltative*.
 .. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/13/javadoc/javadoc.html
+
+.. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
