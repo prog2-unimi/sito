@@ -31,7 +31,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 3     | Mar 15/10  |                                                              | PDJ 2 *4, 5*; JT `Classes and Objects`_, `Packages`_; `H 3`_        |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 4     | Ven 18/10  |                                                              | PDJ 2 *6-8*; JT `Lists`_, `IO Streams`_                             |
+   | 4     | Ven 18/10  |                                                              | PDJ 2 *6-8*; JT `Lists`_, `IO Streams`_; `H 4a`_, `H 4b`_           |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_                                             |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -89,6 +89,8 @@ facoltative*.
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/13/javadoc/javadoc.html
 
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
+.. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
+.. _H 4b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04b.ipynb
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
