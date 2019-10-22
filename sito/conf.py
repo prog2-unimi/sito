@@ -14,7 +14,7 @@ import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'Prog2@UniMI'
-copyright = '2018, Massimo Santini'
+copyright = '2019, Massimo Santini'
 author = 'Massimo Santini'
 
 version = ''
@@ -26,15 +26,16 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
+    'recommonmark'
 ]
 
 templates_path = ['_templates']
 
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
 }
-
-source_suffix = ['.rst', '.md']
 
 master_doc = 'index'
 

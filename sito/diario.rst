@@ -5,14 +5,17 @@ Il seguente diario riporta gli *argomenti* e il *materiale didattico e di
 supporto* relativo sia alle **lezioni già svolte** (riguardo alle quali
 costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
-alle date che al contenuto). 
+alle date che al contenuto).
 
 Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
 <http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
-con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__; si veda la nota sui
+con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__,
+in fine il materiale indicato con *H* si riferisce agli handout (siano essi
+*notebook* o *sorgenti* disponibili nel `repo
+<https://github.com/prog2-unimi/handouts>`__ del corso); si veda la nota sui
 :ref:`numeri di sezione <numeridisezione>` che reca indicazioni su quali parti
 del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
@@ -20,7 +23,7 @@ facoltative*.
 
 |
 
-.. table:: 
+.. table::
 
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | Num   | Data       | Argomento                                                    | Materiale didattico                                                 |
@@ -33,7 +36,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 4     | Ven 18/10  |                                                              | PDJ 2 *6-8*; JT `Lists`_, `IO Streams`_; `H 4a`_, `H 4b`_           |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_                                             |
+   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_; `H 5`_                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 6     | Mar 29/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -77,7 +80,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 24    | Ven 17/1   | AQA                                                          |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-  
+
 |
 
 .. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
@@ -91,23 +94,24 @@ facoltative*.
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
 .. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
 .. _H 4b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04b.ipynb
+.. _H 5: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l05
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
 
    Accanto a ciascun riferimento che reca un numero di *capitolo* possono trovarsi
-   dei *numeri o titoli di sezione o item* essi sono da intendersi nel seguente modo: 
+   dei *numeri o titoli di sezione o item* essi sono da intendersi nel seguente modo:
 
    .. _numeridisezione:
 
-   * se assenti: l'*intero capitolo è parte del programma* (ad esempio, con "PDJ" si intende 
+   * se assenti: l'*intero capitolo è parte del programma* (ad esempio, con "PDJ" si intende
      l'intero capitolo 5 di "Program Development in Java"),
 
-   * se presenti (fuori parentesi): solo *le sezioni/item indicate sono parte del programma* (ad esempio, 
+   * se presenti (fuori parentesi): solo *le sezioni/item indicate sono parte del programma* (ad esempio,
      con "EJ 1 3-6, 9" si intende che del capitolo 1 di "Effective Java"
      sono strettamente parte del programma solo gli item 3, 4, 5, 6 e 9),
 
-   * se presenti tra parentesi quadre: le  *sezioni indicate sono letture caldamente raccomandate, 
-     ma facoltative* (ad esempio con "PDJ 15 [2-4, 7]" si intende che del capitolo 15 di 
+   * se presenti tra parentesi quadre: le  *sezioni indicate sono letture caldamente raccomandate,
+     ma facoltative* (ad esempio con "PDJ 15 [2-4, 7]" si intende che del capitolo 15 di
      "Program Development in Java" è consigliata la lettura delle sezioni 2, 3, 4 e 7).
 
