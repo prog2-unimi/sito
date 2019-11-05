@@ -42,7 +42,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    |       | Ven 1/11   | *Ognissanti*                                                 |                                                                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 7     | Mar 5/11   | Astrazione dei dati                                          | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*                                        |
+   | 7     | Mar 5/11   | Astrazione dei dati                                          | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*; `H 7`_                                |
    |       |            |                                                              +---------------------------------------------------------------------+
    | 8     | Ven 8/11   |                                                              | PDJ 5 *3, 4*; EJ 3 *10 - 13*                                        |
    |       |            |                                                              +---------------------------------------------------------------------+
@@ -95,6 +95,7 @@ facoltative*.
 .. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
 .. _H 4b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04b.ipynb
 .. _H 5: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l05
+.. _H 7: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l07
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
