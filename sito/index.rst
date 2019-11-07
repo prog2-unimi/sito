@@ -15,8 +15,8 @@ Informatica <http://www.di.unimi.it/>`_ dell'`Università degli Studi di Milano
 Da questa pagina potete accedere a:
 
 * :doc:`informazioni generali <info>` sul corso,
+* :doc:`diario delle lezioni <diario>` con i riferimenti agli argomenti,
 * :doc:`strumenti di supporto <strumenti>` costituiti da dispense e software,
-* :doc:`diario delle lezioni <diario>` con i riferimenti agli argomenti
   trattati e agli strumenti utilizzati.
 
 Il **ricevimento studenti** è per appuntamento, gli studenti interessati sono
