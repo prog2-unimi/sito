@@ -2,7 +2,8 @@
 
 rm -rf ./docs
 mkdir ./docs
-python -m sphinx -E sito docs
+#(cd sito && jupyter nbconvert --execute --TemplateExporter.exclude_input=True --to markdown frequenza.ipynb)
+python  -W ignore::UserWarning:recommonmark.parser -m sphinx -E sito docs
 (cd ./docs
 rm -rf .doctrees/
 rm -rf _sources/

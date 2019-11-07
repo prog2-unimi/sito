@@ -1,11 +1,17 @@
 Diario delle lezioni
 ====================
 
+.. .. toctree::
+      :hidden:
+      frequenza
+
 Il seguente diario riporta gli *argomenti* e il *materiale didattico e di
 supporto* relativo sia alle **lezioni già svolte** (riguardo alle quali
 costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
 alle date che al contenuto).
+
+.. Sono disponibili alcune `statistiche sulla frequenza <frequenza.html>`__ alle lezioni. 
 
 Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
@@ -44,7 +50,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 7     | Mar 5/11   | Astrazione dei dati                                          | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*; `H 7`_                                |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 8     | Ven 8/11   |                                                              | PDJ 5 *3, 4*; EJ 3 *10 - 13*                                        |
+   | 8     | Ven 8/11   |                                                              | PDJ 5 *3, 4*; EJ 3 *10 - 13*; `H 8`_                                |
    |       |            |                                                              +---------------------------------------------------------------------+
    | 9     | Mar 12/11  |                                                              | PDJ 5 *5, 6*                                                        |
    |       |            |                                                              +---------------------------------------------------------------------+
@@ -96,6 +102,7 @@ facoltative*.
 .. _H 4b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04b.ipynb
 .. _H 5: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l05
 .. _H 7: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l07
+.. _H 8: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l08
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
