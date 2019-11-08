@@ -1,9 +1,10 @@
 Diario delle lezioni
 ====================
 
-.. .. toctree::
-      :hidden:
-      frequenza
+.. toctree::
+   :hidden:
+
+   frequenze
 
 Il seguente diario riporta gli *argomenti* e il *materiale didattico e di
 supporto* relativo sia alle **lezioni già svolte** (riguardo alle quali
@@ -11,7 +12,7 @@ costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
 alle date che al contenuto).
 
-.. Sono disponibili alcune `statistiche sulla frequenza <frequenza.html>`__ alle lezioni. 
+Sono disponibili alcune `statistiche sulla frequenza <frequenze.html>`__ alle lezioni. 
 
 Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
