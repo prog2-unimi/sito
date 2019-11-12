@@ -28,6 +28,16 @@ del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
 
 
+.. admonition:: Esercizi
+   :class: alert alert-success
+
+   Come illustrato a lezione, si chiede gentilmente agli studenti di consegnare tramite
+   l'`apposito sito <http://reaper.srv.di.unimi.it/>`_ lo svolgimento degli esercizi
+   del 5.6 e/o 5.7 del capitolo 5 del testo *PDJ* al fine di consentire una valutazione
+   dello stato generale della classe (le soluzioni consegnate non saranno usate per
+   valutare individualmente gli studenti e non avranno alcuna influenza sul voto
+   dell'esame).
+
 |
 
 .. table::
