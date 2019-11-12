@@ -53,7 +53,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 8     | Ven 8/11   |                                                              | PDJ 5 *3, 4*; EJ 3 *10 - 13*; `H 8`_                                |
    |       |            |                                                              +---------------------------------------------------------------------+
-   | 9     | Mar 12/11  |                                                              | PDJ 5 *5, 6*; `Programming With Assertions`_                        |
+   | 9     | Mar 12/11  |                                                              | PDJ 5 *5, 6*; `Programming With Assertions`_; `H 9`_                |
    |       |            |                                                              +---------------------------------------------------------------------+
    | 10    | Ven 15/11  |                                                              | PDJ 5 *7 - 10*                                                      |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -108,6 +108,7 @@ facoltative*.
 .. _H 5: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l05
 .. _H 7: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l07
 .. _H 8: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l08
+.. _H 9: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L09.ipynb
 
 
 .. admonition:: Nota bene
