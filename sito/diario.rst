@@ -69,11 +69,11 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6                                                               |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7                                                               |
-   |       |            |                                                              |                                                                     |
-   | 13    | Mar 26/11  |                                                              |                                                                     |
-   |       |            |                                                              |                                                                     |
-   | 14    | Ven 29/11  |                                                              |                                                                     |
+   | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*                                                       |
+   |       |            |                                                              +---------------------------------------------------------------------+
+   | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; `Default Methods`_                                   |
+   |       |            |                                                              +---------------------------------------------------------------------+
+   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*                                                      |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8                                                               |
    |       |            |                                                              |                                                                     |
@@ -106,13 +106,14 @@ facoltative*.
 .. _Packages: https://docs.oracle.com/javase/tutorial/java/package/
 .. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
+.. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 
 .. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
 .. _Standard Doclet: https://docs.oracle.com/en/java/javase/11/docs/specs/doc-comment-spec.html
 
-.. _Programming With Assertions: https://docs.oracle.com/javase/7/docs/technotes/guides/language/assert.html
+.. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
 .. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
