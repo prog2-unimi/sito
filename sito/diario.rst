@@ -53,7 +53,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 4     | Ven 18/10  |                                                              | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; `H 4a`_, `H 4b`_         |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Technology`_; `H 5`_                                |
+   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_, `Standard Doclet`_; `H 5`_                 |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 6     | Mar 29/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                        |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
@@ -109,7 +109,9 @@ facoltative*.
 
 .. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
-.. _Javadoc Technology: https://docs.oracle.com/javase/7/docs/technotes/guides/javadoc/
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
+.. _Standard Doclet: https://docs.oracle.com/en/java/javase/11/docs/specs/doc-comment-spec.html
+
 .. _Programming With Assertions: https://docs.oracle.com/javase/7/docs/technotes/guides/language/assert.html
 
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
