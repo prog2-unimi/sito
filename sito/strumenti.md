@@ -30,5 +30,11 @@ tutorial](https://docs.oracle.com/javase/tutorial/) ufficiali di Oracle.
 ### Strumenti di supporto
 
 Sebbene sia possibile usare un IDE, durante il corso (e durante l'esame) verrà
-utilizzato l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
-[supporto per Java](https://code.visualstudio.com/docs/languages/java); chi preferisce può installare una [versione open](https://vscodium.com/).
+utilizzato l'editor [Visual Studio Code](https://code.visualstudio.com/) con il
+relativo [supporto per Java](https://code.visualstudio.com/docs/languages/java);
+chi preferisce può installare una [versione open](https://vscodium.com/).
+
+Per gli studenti interessati, ma sottolineando che *non è assolutamente materia
+dell'insegnamento* e *non è assolutamente richiesto per il superamento dell'esame*,
+è possibile usare uno strumento di [build automation](https://en.wikipedia.org/wiki/Build_automation),
+come quello mostrato nel [repository d'esempio](https://github.com/prog2-unimi/build-automation-example).
