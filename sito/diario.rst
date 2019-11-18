@@ -67,7 +67,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 10    | Ven 15/11  |                                                              | PDJ 5 *7 - 10*                                                      |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6; EJ 9 *58*; JT `Nested Classes`_; `H 11`_                     |
+   | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6; EJ 9 *58*; JT `Nested Classes`_; `For-each`_; `H 11`_        |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*                                                       |
    |       |            |                                                              +---------------------------------------------------------------------+
@@ -108,6 +108,8 @@ facoltative*.
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+
+.. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
 .. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
