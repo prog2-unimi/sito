@@ -67,7 +67,7 @@ facoltative*.
    |       |            |                                                              +---------------------------------------------------------------------+
    | 10    | Ven 15/11  |                                                              | PDJ 5 *7 - 10*                                                      |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6                                                               |
+   | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6; EJ 9 *58*; JT `Nested Classes`_; `H 11`_                     |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*                                                       |
    |       |            |                                                              +---------------------------------------------------------------------+
@@ -107,6 +107,7 @@ facoltative*.
 .. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
+.. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 
 .. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
@@ -122,6 +123,7 @@ facoltative*.
 .. _H 7: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l07
 .. _H 8: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l08
 .. _H 9: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L09.ipynb
+.. _H 11: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l11
 
 
 .. admonition:: Nota bene
