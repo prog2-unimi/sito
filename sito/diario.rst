@@ -68,7 +68,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
    | 11    | Mar 19/11  | L'astrazione iterazione                                      | PDJ 6; EJ 9 *58*; JT `Nested Classes`_; `For-each`_; `H 11`_        |
    +-------+------------+--------------------------------------------------------------+---------------------------------------------------------------------+
-   | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*                                                       |
+   | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*; `H 12`_                                              |
    |       |            |                                                              +---------------------------------------------------------------------+
    | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; `Default Methods`_                                   |
    |       |            |                                                              +---------------------------------------------------------------------+
@@ -125,7 +125,7 @@ facoltative*.
 .. _H 8: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l08
 .. _H 9: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L09.ipynb
 .. _H 11: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l11
-
+.. _H 12: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l12
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
