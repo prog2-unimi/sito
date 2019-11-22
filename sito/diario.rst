@@ -28,14 +28,13 @@ del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
 
 
-.. .. admonition:: Esercizi
-   :class: alert alert-success
-    Come illustrato a lezione, si chiede gentilmente agli studenti di consegnare tramite
-    l'`apposito sito <http://reaper.srv.di.unimi.it/>`_ lo svolgimento degli esercizi
-    del 5.6 e/o 5.7 del capitolo 5 del testo *PDJ* al fine di consentire una valutazione
-    dello stato generale della classe (le soluzioni consegnate non saranno usate per
-    valutare individualmente gli studenti e non avranno alcuna influenza sul voto
-    dell'esame).
+.. admonition:: Code review
+  :class: alert alert-success
+
+  Come anticipato a lezione, mercoledì 27 (dalle ore **11:00** alle ore **12:30**
+  in aula **Omega**) si terrà una lezione *facoltativa* in cui verrà rivisto e
+  discusso il materiale consegnato dagli studenti (relativo alla soluzione di
+  alcuni esercizi del capitolo 5).
 
 |
 
