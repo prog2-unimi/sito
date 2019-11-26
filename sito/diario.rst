@@ -69,7 +69,8 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*; `H 12`_                                                  |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *19 - 23*; JT `Default Methods`_; `H 13`_    |
+   | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *19 - 23*;                                   |
+   |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*                                               |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -106,6 +107,7 @@ facoltative*.
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+.. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
 
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
