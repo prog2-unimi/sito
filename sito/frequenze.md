@@ -13,7 +13,7 @@ sono stati presenti **84.23** (σ=8.91) studenti.
 
 
 
-![png](frequenze_files/frequenze_5_0.png)
+![png](frequenze_files/frequenze_6_0.png)
 
 
 
@@ -28,13 +28,13 @@ presenti ad un dato numero di lezioni.
 
 
 
-![png](frequenze_files/frequenze_8_0.png)
+![png](frequenze_files/frequenze_9_0.png)
 
 
 Risulta anche interessante osservare il *pattern* (ossia la sequenza dei numeri di lezione) maggiormente comune tra gli studenti. Il grafico che segue mostra i 10 pattern più comuni.
 
 
-![png](frequenze_files/frequenze_11_0.png)
+![png](frequenze_files/frequenze_12_0.png)
 
 
 Risulta interessante *classificare* i pattern di presenza, cercando di dedurre da essi che *tipo* di studente frequentatore essi denotino. Possiamo definire i tipi come segue:
@@ -47,5 +47,5 @@ Risulta interessante *classificare* i pattern di presenza, cercando di dedurre d
 Tale classificazione è evidentemente arbitraria, ma offre nondimeno una ragionevole interpretazione dei dati raccolti. Il grafico seguente mostra le frequenze dei vari tipi di studenti.
 
 
-![png](frequenze_files/frequenze_14_0.png)
+![png](frequenze_files/frequenze_15_0.png)
 

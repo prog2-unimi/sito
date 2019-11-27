@@ -28,13 +28,10 @@ del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
 
 
-.. admonition:: Code review
+.. admonition:: Spostamento lezione
   :class: alert alert-success
 
-  Come anticipato a lezione, mercoledì 27 (dalle ore **11:00** alle ore **12:30**
-  in aula **Omega**) si terrà una lezione *facoltativa* in cui verrà rivisto e
-  discusso il materiale consegnato dagli studenti (relativo alla soluzione di
-  alcuni esercizi del capitolo 5).
+  La lezione del 10/12 si svolgerà nell'aula V1 (senza modifiche d'orario).
 
 |
 
