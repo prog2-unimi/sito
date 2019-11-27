@@ -69,13 +69,13 @@ facoltative*.
    | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *19 - 23*;                                   |
    |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*                                               |
+   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*; JT `Collections`_                            |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8; JT `Generics`_                                                   |
-   |       |            |                                                              |                                                                         |
-   | 16    | Ven 6/12   |                                                              |                                                                         |
-   |       |            |                                                              |                                                                         |
-   | 17    | Mar 10/12  |                                                              |                                                                         |
+   | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*                                                           |
+   |       |            |                                                              +-------------------------------------------------------------------------+
+   | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_                                          |
+   |       |            |                                                              +-------------------------------------------------------------------------+
+   | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*                                                           |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9                                                                   |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -105,15 +105,14 @@ facoltative*.
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 .. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
+.. _Collections: https://docs.oracle.com/javase/tutorial/collections/
+.. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
-
-.. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
+.. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
 .. _Standard Doclet: https://docs.oracle.com/en/java/javase/11/docs/specs/doc-comment-spec.html
-
-.. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
 .. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
