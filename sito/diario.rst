@@ -66,10 +66,11 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 12    | Ven 22/11  | Gerarchia dei tipi                                           | PDJ 7 *1 - 4*; `H 12`_                                                  |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *19 - 23*;                                   |
+   | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *20 - 25*;                                   |
    |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*; JT `Collections`_; `H 14`_                   |
+   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 3 *14*, 4 *18, 18*; JT `Collections`_;               |
+   |       |            |                                                              | `H 14a`_, `H 14b`_                                                      |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*                                                           |
    |       |            |                                                              +-------------------------------------------------------------------------+
@@ -126,7 +127,8 @@ facoltative*.
 .. _H 11: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l11
 .. _H 12: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l12
 .. _H 13: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l13
-.. _H 13: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l14
+.. _H 14a: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l14
+.. _H 14b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L14.ipynb
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
