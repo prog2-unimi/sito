@@ -69,7 +69,7 @@ facoltative*.
    | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *19 - 23*;                                   |
    |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*; JT `Collections`_                            |
+   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 4 *18*; JT `Collections`_; `H 14`_                   |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*                                                           |
    |       |            |                                                              +-------------------------------------------------------------------------+
@@ -108,6 +108,8 @@ facoltative*.
 .. _Collections: https://docs.oracle.com/javase/tutorial/collections/
 .. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
 
+.. https://stackoverflow.com/questions/2723397/what-is-pecs-producer-extends-consumer-super
+
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
@@ -124,6 +126,7 @@ facoltative*.
 .. _H 11: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l11
 .. _H 12: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l12
 .. _H 13: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l13
+.. _H 13: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l14
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
