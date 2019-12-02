@@ -70,7 +70,7 @@ facoltative*.
    |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 3 *14*, 4 *18, 18*; JT `Collections`_;               |
-   |       |            |                                                              | `H 14a`_, `H 14b`_                                                      |
+   |       |            |                                                              | `H 14a`_, `H 14b`_, `H 14c`_                                            |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*                                                           |
    |       |            |                                                              +-------------------------------------------------------------------------+
@@ -128,7 +128,8 @@ facoltative*.
 .. _H 12: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l12
 .. _H 13: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l13
 .. _H 14a: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l14
-.. _H 14b: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L14.ipynb
+.. _H 14b: https://prog2.di.unimi.it/guides/equalityandinheritance
+.. _H 14c: https://prog2.di.unimi.it/guides/compositionandinheritance
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
