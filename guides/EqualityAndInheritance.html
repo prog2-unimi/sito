@@ -13081,7 +13081,9 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Equality-&amp;-Inheritance">Equality &amp; Inheritance<a class="anchor-link" href="#Equality-&amp;-Inheritance">&#182;</a></h1><h2 id="Simmetria">Simmetria<a class="anchor-link" href="#Simmetria">&#182;</a></h2><p>L'implementazione <em>ovvia</em> non funziona: se un sottotipo aggiunge un "valore", non basta controllare con <code>instanceof</code> e verificare che siano uguali i valori in gioco…</p>
+<h1 id="Equality-&amp;-Inheritance">Equality &amp; Inheritance<a class="anchor-link" href="#Equality-&amp;-Inheritance">&#182;</a></h1><p>Questa breve nota discute i limiti imposti dall'ereditarietà al soddisfacimento del contratto imposto dal metodo <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object"><code>equals</code></a>) della classe <code>Object</code>.</p>
+<p>La nota segue l'esposizione della sezione 7.9.3 del testo "Program Development in Java" (di Barbara H. Liskov <em>et al.</em>) e dell'<em>item</em> 10 del testo "Effective Java" (di Joshua Bloch).</p>
+<h2 id="Simmetria">Simmetria<a class="anchor-link" href="#Simmetria">&#182;</a></h2><p>L'implementazione <em>ovvia</em> non funziona: se un sottotipo aggiunge un "valore", non basta controllare con <code>instanceof</code> e verificare che siano uguali i valori in gioco…</p>
 <p>Consideriamo il seguente tipo <code>T</code></p>
 
 </div>
@@ -13180,7 +13182,7 @@ div#notebook {
 </span><span class="hll">  <span class="o">}</span>
 </span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/T.java#L3-L17" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/T.java#L7-L21" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13290,7 +13292,7 @@ div#notebook {
 </span><span class="hll">  <span class="o">}</span>
 </span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/S.java#L3-L18" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/S.java#L7-L22" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13391,7 +13393,7 @@ div#notebook {
     <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
   <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/Main.java#L4-L9" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/Main.java#L8-L13" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13526,7 +13528,7 @@ false
 </span>    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
   <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/trans/S.java#L12-L20" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/trans/S.java#L16-L24" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13628,7 +13630,7 @@ false
     <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
   <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/trans/Main.java#L4-L11" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/trans/Main.java#L9-L16" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13755,7 +13757,7 @@ false
     <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
   <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/T.java#L10-L16" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/T.java#L15-L21" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13856,7 +13858,7 @@ false
     <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
   <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/S.java#L11-L17" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/S.java#L16-L22" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13961,7 +13963,7 @@ false
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/R.java#L3-L11" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/R.java#L8-L16" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14062,7 +14064,7 @@ false
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/Client.java#L5-L11" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/Client.java#L10-L16" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14166,7 +14168,7 @@ false
 </span><span class="hll">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">r</span><span class="o">));</span>
 </span>  <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/Main.java#L4-L13" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/Main.java#L9-L18" target="_blank">[sorgente]</a>
 </div>
 
 </div>
