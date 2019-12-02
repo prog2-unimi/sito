@@ -69,14 +69,14 @@ facoltative*.
    | 13    | Mar 26/11  |                                                              | PDJ 7 *5 - 8*; EJ 2 *3*, 4 *20 - 25*;                                   |
    |       |            |                                                              | JT `Default Methods`_, `Anonymous Classes`_; `H 13`_                    |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 3 *14*, 4 *18, 18*; JT `Collections`_;               |
+   | 14    | Ven 29/11  |                                                              | PDJ 7 *9 - 11*; EJ 3 *14*, 4 *18, 18*;                                  |
    |       |            |                                                              | `H 14a`_, `H 14b`_, `H 14c`_                                            |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*                                                           |
+   | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*; `Generics`_                                              |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_                                          |
+   | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics (Bracha)`_                                 |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*                                                           |
+   | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_                                      |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9                                                                   |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -107,7 +107,9 @@ facoltative*.
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 .. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
 .. _Collections: https://docs.oracle.com/javase/tutorial/collections/
-.. _Generics: https://docs.oracle.com/javase/tutorial/extra/generics/
+.. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
+.. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
+
 
 .. https://stackoverflow.com/questions/2723397/what-is-pecs-producer-extends-consumer-super
 
