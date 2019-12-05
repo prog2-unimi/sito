@@ -8,7 +8,7 @@ Questa pagina contiene una analisi *aggregata* delle informazioni riguardanti la
 
 Il primo grafico riporta il numero assoluto di studenti presenti 
 per ciascuna lezione che si è svolta alla data odierna, in media
-sono stati presenti **81.42** (σ=13.54) studenti.
+sono stati presenti **79.93** (σ=14.27) studenti.
 
 
 
