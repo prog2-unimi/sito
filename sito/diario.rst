@@ -74,7 +74,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 15    | Mar 3/12   | Astrazione polimorfa                                         | PDJ 8 *1 - 3*; `Generics (Bracha)`_                                     |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_                                          |
+   | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_; `H 16`_                                 |
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_                                      |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -133,6 +133,7 @@ facoltative*.
 .. _H 14b: https://prog2.di.unimi.it/guides/equalityandinheritance
 .. _H 14c: https://prog2.di.unimi.it/guides/compositionandinheritance
 .. _H 14d: https://prog2.di.unimi.it/guides/ontologyandinheritance
+.. _H 16: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L16.ipynb
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
