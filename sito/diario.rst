@@ -76,7 +76,8 @@ facoltative*.
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_; `H 16`_                                 |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_                                      |
+   | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_; `Collections (documentation)`_;     |
+   |       |            |                                                              | `H 17`_                                                                 |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9                                                                   |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -107,6 +108,7 @@ facoltative*.
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 .. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
 .. _Collections: https://docs.oracle.com/javase/tutorial/collections/
+.. _Collections (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
@@ -134,6 +136,7 @@ facoltative*.
 .. _H 14c: https://prog2.di.unimi.it/guides/compositionandinheritance
 .. _H 14d: https://prog2.di.unimi.it/guides/ontologyandinheritance
 .. _H 16: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L16.ipynb
+.. _H 17: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l17/digraph
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
