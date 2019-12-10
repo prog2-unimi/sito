@@ -27,12 +27,6 @@ in fine il materiale indicato con *H* si riferisce agli handout (siano essi
 del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
 
-
-.. admonition:: Spostamento lezione
-  :class: alert alert-success
-
-  La lezione del 10/12 si svolgerà nell'aula V1 (senza modifiche d'orario).
-
 |
 
 .. table::
@@ -77,9 +71,9 @@ facoltative*.
    | 16    | Ven 6/12   |                                                              | EJ 5 *26 - 31*; JT `Generics`_; `H 16`_                                 |
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_; `Collections (documentation)`_;     |
-   |       |            |                                                              | `H 17`_                                                                 |
+   |       |            |                                                              | `Collections (Bloch)`_; `H 17`_                                         |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9                                                                   |
+   | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9; `H 18`_                                                          |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 19    | Mar 17/12  | Testing e debugging                                          | PDJ 10                                                                  |
    |       |            |                                                              |                                                                         |
@@ -112,6 +106,7 @@ facoltative*.
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
+.. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 
 .. https://stackoverflow.com/questions/2723397/what-is-pecs-producer-extends-consumer-super
 
@@ -136,7 +131,8 @@ facoltative*.
 .. _H 14c: https://prog2.di.unimi.it/guides/compositionandinheritance
 .. _H 14d: https://prog2.di.unimi.it/guides/ontologyandinheritance
 .. _H 16: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L16.ipynb
-.. _H 17: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l17/digraph
+.. _H 17: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l17
+.. _H 18: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l18/digraph
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
