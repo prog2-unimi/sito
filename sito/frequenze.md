@@ -8,7 +8,7 @@ Questa pagina contiene una analisi *aggregata* delle informazioni riguardanti la
 
 Il primo grafico riporta il numero assoluto di studenti presenti 
 per ciascuna lezione che si è svolta alla data odierna, in media
-sono stati presenti **76.72** (σ=15.01) studenti.
+sono stati presenti **76.05** (σ=14.88) studenti.
 
 
 
@@ -46,15 +46,6 @@ Risulta interessante *classificare* i pattern di presenza, cercando di dedurre d
 
 Tale classificazione è evidentemente arbitraria, ma offre nondimeno una ragionevole interpretazione dei dati raccolti. Il grafico seguente mostra le frequenze dei vari tipi di studenti.
 
-    /Users/santini/.local/share/dir-venv/f9ff2d2596abdb66cb97e5ab34e93dbb-drafts/lib/python3.7/site-packages/ipykernel_launcher.py:5: FutureWarning: 
-    Passing list-likes to .loc or [] with any missing label will raise
-    KeyError in the future, you can use .reindex() as an alternative.
-    
-    See the documentation here:
-    https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#deprecate-loc-reindex-listlike
-      """
 
-
-
-![png](frequenze_files/frequenze_15_1.png)
+![png](frequenze_files/frequenze_15_0.png)
 
