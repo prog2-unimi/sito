@@ -27,6 +27,13 @@ in fine il materiale indicato con *H* si riferisce agli handout (siano essi
 del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
 
+.. admonition:: Avviso
+   :class: alert alert-success
+
+   L'**ultima lezione** è anticipata da venerdì 17/1 a **giovedì 16/1 dalle
+   ore 9:30 alle ore 12:30** nelle aule *Lambda* e *Gamma* (via Celoria, 18);
+   la lezione sarà costituita da una **simulazione d'esame in laboratorio**.
+
 |
 
 .. table::
@@ -73,7 +80,7 @@ facoltative*.
    | 17    | Mar 10/12  |                                                              | PDJ 8 *4 - 7*; ; JT `Collections`_; `Collections (documentation)`_;     |
    |       |            |                                                              | `Collections (Bloch)`_; `H 17`_                                         |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9; `H 18`_                                                          |
+   | 18    | Ven 13/12  | Specifiche                                                   | PDJ 9; `H 18a`_, `H 18b`_                                               |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 19    | Mar 17/12  | Testing e debugging                                          | PDJ 10 *1 - 6*.; `Rice Theorem`_                                        |
    |       |            |                                                              +-------------------------------------------------------------------------+
@@ -87,7 +94,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 23    | Mar 14/1   | Tra progetto ed implementazione                              | PDJ 14                                                                  |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 24    | Ven 17/1   | AQA                                                          |                                                                         |
+   | 24    | Gio 16/1   | **Simulazione d'esame**                                      |                                                                         |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
 
 |
@@ -132,8 +139,8 @@ facoltative*.
 .. _H 14d: https://prog2.di.unimi.it/guides/ontologyandinheritance
 .. _H 16: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L16.ipynb
 .. _H 17: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l17
-.. _H 18: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l18/digraph
-
+.. _H 18a: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l18/digraph
+.. _H 18b: https://prog2-unimi.github.io/handouts/it/unimi/di/prog2/l18/digraph/package-summary.html
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
 
