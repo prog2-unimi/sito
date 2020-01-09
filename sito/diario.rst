@@ -49,7 +49,7 @@ facoltative*.
    |       |            |                                                              +-------------------------------------------------------------------------+
    | 4     | Ven 18/10  |                                                              | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; `H 4a`_, `H 4b`_             |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `Javadoc Guide`_, `Standard Doclet`_; `H 5`_                     |
+   | 5     | Mar 22/10  | Astrazione procedurale                                       | PDJ 3; `How to Write Javadoc`_. `Javadoc Guide`_; `H 5`_                |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 6     | Mar 29/10  | Eccezioni                                                    | PDJ 4; EJ 10                                                            |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -116,8 +116,8 @@ facoltative*.
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
+.. _How to Write Javadoc: https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
-.. _Standard Doclet: https://docs.oracle.com/en/java/javase/11/docs/specs/doc-comment-spec.html
 
 .. _H 3: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L03.ipynb
 .. _H 4a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L04a.ipynb
