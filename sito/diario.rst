@@ -86,7 +86,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 21    | Mar 7/1    | Tecniche di progetto                                         | PDJ 13 *1 - 3, 5, 6, 12 - 14*                                           |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 22    | Ven 10/1   | Tra progetto ed implementazione                              | PDJ 14                                                                  |
+   | 22    | Ven 10/1   | Tra progetto ed implementazione                              | PDJ 14; `H 23`_                                                         |
    |       |            |                                                              +                                                                         +
    | 23    | Mar 14/1   |                                                              |                                                                         |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -139,6 +139,7 @@ facoltative*.
 .. _H 18b: https://prog2-unimi.github.io/handouts/it/unimi/di/prog2/l18/digraph/package-summary.html
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
+.. _H 23: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L23.ipynb
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
