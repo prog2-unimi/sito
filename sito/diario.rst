@@ -12,7 +12,7 @@ costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
 alle date che al contenuto).
 
-Sono disponibili alcune `statistiche sulla frequenza <frequenze.html>`__ alle lezioni. 
+Sono disponibili alcune `statistiche sulla frequenza <frequenze.html>`__ alle lezioni.
 
 Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
@@ -26,13 +26,6 @@ in fine il materiale indicato con *H* si riferisce agli handout (siano essi
 :ref:`numeri di sezione <numeridisezione>` che reca indicazioni su quali parti
 del materiale sono **parte del programma** e quali *letture consigliate, ma
 facoltative*.
-
-.. admonition:: Avviso
-   :class: alert alert-success
-
-   L'**ultima lezione** è anticipata da venerdì 17/1 a **giovedì 16/1 dalle
-   ore 9:30 alle ore 12:30** nelle aule *Lambda* e *Gamma* (via Celoria, 18);
-   la lezione sarà costituita da una **simulazione d'esame in laboratorio**.
 
 |
 
@@ -88,7 +81,7 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 22    | Ven 10/1   | Tra progetto ed implementazione                              | PDJ 14 *1*; `H 23`_                                                     |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 23    | Mar 14/1   |                                                              | PDJ 14 *2, 3*                                                           |
+   | 23    | Mar 14/1   |                                                              | PDJ 14 *2, 3*; `H 24a`_, `H 24b`_                                       |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 24    | Gio 16/1   | **Simulazione d'esame**                                      |                                                                         |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
@@ -140,6 +133,8 @@ facoltative*.
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
 .. _H 23: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L23.ipynb
+.. _H 24a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L24.ipynb
+.. _H 24b: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l24
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
