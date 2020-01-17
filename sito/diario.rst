@@ -79,11 +79,11 @@ facoltative*.
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
    | 21    | Mar 7/1    | Tecniche di progetto                                         | PDJ 13 *1 - 3, 5, 6, 12 - 14*                                           |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 22    | Ven 10/1   | Tra progetto ed implementazione                              | PDJ 14 *1*; `H 23`_                                                     |
+   | 22    | Ven 10/1   | Tra progetto ed implementazione                              | PDJ 14 *1*; `H 22`_                                                     |
    |       |            |                                                              +-------------------------------------------------------------------------+
-   | 23    | Mar 14/1   |                                                              | PDJ 14 *2, 3*; `H 24a`_, `H 24b`_                                       |
+   | 23    | Mar 14/1   |                                                              | PDJ 14 *2, 3*; `H 23a`_, `H 23b`_                                       |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-   | 24    | Gio 16/1   | **Simulazione d'esame**                                      |                                                                         |
+   | 24    | Gio 16/1   | **Simulazione d'esame**                                      | `H 24a`_, `H 24b`_, `H 24c`_                                            |
    +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
 
 |
@@ -132,9 +132,12 @@ facoltative*.
 .. _H 18b: https://prog2-unimi.github.io/handouts/it/unimi/di/prog2/l18/digraph/package-summary.html
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
-.. _H 23: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L23.ipynb
-.. _H 24a: https://nbviewer.jupyter.org/github/prog2-unimi/handouts/blob/master/L24.ipynb
-.. _H 24b: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l24
+.. _H 22: https://github.com/prog2-unimi/handouts/blob/master/L22.md
+.. _H 23a: https://github.com/prog2-unimi/handouts/blob/master/L23.md
+.. _H 23b: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l23
+.. _H 24a: https://github.com/prog2-unimi/handouts/blob/master/L24a.md
+.. _H 24b: https://github.com/prog2-unimi/handouts/blob/master/L24b.md
+.. _H 24c: https://github.com/prog2-unimi/handouts/tree/master/src/it/unimi/di/prog2/l24
 
 .. admonition:: Nota bene
    :class: alert alert-secondary
