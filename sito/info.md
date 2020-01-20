@@ -2,8 +2,8 @@
 
 ### Orario e modalità delle lezioni
 
-Le lezioni del corso si tengono il **martedì** alle ore **14:30 – 16:30** in 
-[Aula Magna](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=79>) 
+Le lezioni del corso si tengono il **martedì** alle ore **14:30 – 16:30** in
+[Aula Magna](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=79>)
 e il **venerdì** alle ore **10:30 – 12:30** in
 [Aula V3](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=11).
 
@@ -61,6 +61,31 @@ Inoltre lo studente è in grado di:
 * documentare il codice in modo ragionevole,
 * validare (attraverso semplici *test*) il comportamento del codice prodotto.
 
+### Argomenti trattati
+
+L'insegnamento è incentrato attorno alle tematiche del progetto, realizzazione
+ed analisi di programmi secondo il paradigma *object oriented*. A tal fine il
+corso prevede sia una trattazione più astratta e principiata dell'argomento, che
+una presentazione più pratica e concreta, svolta attraverso esempi basati sul
+linguaggio di programmazione Java.
+
+Riguardo ai principi, sono introdotti e discussi:
+
+* l'uso di **astrazioni** di vario livello (come i metodi, i tipi di dato astratti, l'iterazione esterna, l'estensione e delega),
+* alcuni **strumenti concettuali** per ragionare su tali astrazioni (come l'*invariante di rappresentazione*, la *funzione di astrazione*, le *pre-*/*post-condizioni*, gli *effetti collaterali*, l'*induzione sui tipi di dato*…),
+* alcuni **criteri di valutazione della qualità** del progetto di codice *object oriented* (come l'*incapsulamento*, il *data hiding*, la *manutenibilità*, il *riuso* e l'*estendibilità*),
+* alcune tecniche di **verifica** (come i *test unitari*) e di *debugging*.
+
+Riguardo al linguaggio Java, sono presentati i seguenti aspetti del lignuaggio:
+
+* costrutti di controllo del flusso (sequenza, iterazione e selezione),
+* tipi di dati elementari,
+* funzioni (metodi statici),
+* classi (concrete, astratte ed interne),
+* interfacce (con metodi di default),
+* ereditariertà e polimorfismo,
+* tipi generici (uso e cenni alla progettazione e realizzazione, vincoli di tipo e wildcard).
+
 ### Prerequisiti
 
 Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisito
@@ -76,9 +101,8 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 
 L'insegnamento non prevede prove in itinere. La prova finale è costituita da una
 **prova pratica** in laboratorio che verte sulla progettazione e sviluppo di un
-software secondo delle *specifiche* assegnate; alla prova scritta può seguire
-(secondo modalità che saranno esplicitate in seguito) un **colloquio orale
-individuale** durante il quale il candidato deve dimostrare:
+software secondo delle *specifiche* assegnate; alla prova scritta (se superata
+con voto superiore a 23/30). Attraverso tali prove il candidato deve dimostrare:
 
 * la conoscenza delle definizioni e delle nozioni fondamentali riguardo agli
   aspetti di orientazione agli oggetti e programmazione,
