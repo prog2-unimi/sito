@@ -101,13 +101,33 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 
 L'insegnamento non prevede prove in itinere. La prova finale è costituita da una
 **prova pratica** in laboratorio che verte sulla progettazione e sviluppo di un
-software secondo delle *specifiche* assegnate; alla prova scritta (se superata
-con voto superiore a 23/30). Attraverso tali prove il candidato deve dimostrare:
+software secondo delle *specifiche* assegnate; alla prova pratica (se superata
+con voto superiore a 23/30) segue una **discussione orale**. Attraverso tali
+prove il candidato deve dimostrare:
 
 * la conoscenza delle definizioni e delle nozioni fondamentali riguardo agli
   aspetti di orientazione agli oggetti e programmazione,
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
+
+#### Criteri di valutazione
+
+Per maggior chiarezza, i criteri di valutazione della *prova pratica* sono
+ispirati al contenuto di tutte le lezioni ed il materiali didattici elencati nel
+:doc:`diario`, con particolare riferimento alle sezioni
+
+* 5.7 Reasoning about Data Abstractions
+* 5.8 Design Issues
+* 5.9 Locality and Modifiability
+* 9.2 Some Criteria for Specifications
+* 14.1 Evaluating a Design
+
+del libro di testo "Program Development in Java: Abstraction, Specification, and
+Object-Oriented Design".
+
+Per quanto concerne l'*orale*, un'ottima traccia ai concetti su cui verterà la
+discussione è costituita dal contenuto delle *Sidebar* presenti nelle parti
+comprese nel programma del libro di testo medesimo.
 
 ### Bibliografia
 
