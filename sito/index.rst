@@ -14,10 +14,8 @@ Informatica <http://www.di.unimi.it/>`_ dell'`Università degli Studi di Milano
 
 Da questa pagina potete accedere a:
 
-* :doc:`informazioni generali <info>` sul corso,
+* :doc:`informazioni generali <info>` sul corso (in particolare, le `modalità di valutazione <info.html#modalita-di-valutazione>`__ e il `programma dettagliato <info.html#programma-dettagliato>`__),
 * :doc:`diario delle lezioni <diario>` con i riferimenti agli argomenti,
-* :doc:`risultati degli appelli <risultati>` con indicazioni circa orali
-  e visione degli elaborati,
 * :doc:`strumenti di supporto <strumenti>` costituiti da dispense e software,
   trattati e agli strumenti utilizzati.
 

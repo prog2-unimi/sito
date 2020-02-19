@@ -86,7 +86,7 @@ Riguardo al linguaggio Java, sono presentati i seguenti aspetti del linguaggio:
 * ereditariertà e polimorfismo,
 * tipi generici (uso e cenni alla progettazione e realizzazione, vincoli di tipo e wildcard).
 
-#### Dettaglio sul materiale didattico
+#### Programma dettagliato
 
 Rispetto alla bibliografia e al materiale didattico, si precisa che
 costituiscono argomenti del corso:
@@ -109,7 +109,9 @@ costituiscono argomenti del corso:
   [Collections](https://docs.oracle.com/javase/tutorial/collections); inoltre la
   parte [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/).
 
-
+Ulteriore materiale di supporto può essere reperito a partire dagli
+[handout](https://github.com/prog2-unimi/handouts/tree/aa1920) dell'anno
+accademico 2019/20.
 
 ### Prerequisiti
 
