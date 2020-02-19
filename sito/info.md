@@ -76,7 +76,7 @@ Riguardo ai principi, sono introdotti e discussi:
 * alcuni **criteri di valutazione della qualità** del progetto di codice *object oriented* (come l'*incapsulamento*, il *data hiding*, la *manutenibilità*, il *riuso* e l'*estendibilità*),
 * alcune tecniche di **verifica** (come i *test unitari*) e di *debugging*.
 
-Riguardo al linguaggio Java, sono presentati i seguenti aspetti del lignuaggio:
+Riguardo al linguaggio Java, sono presentati i seguenti aspetti del linguaggio:
 
 * costrutti di controllo del flusso (sequenza, iterazione e selezione),
 * tipi di dati elementari,
@@ -85,6 +85,31 @@ Riguardo al linguaggio Java, sono presentati i seguenti aspetti del lignuaggio:
 * interfacce (con metodi di default),
 * ereditariertà e polimorfismo,
 * tipi generici (uso e cenni alla progettazione e realizzazione, vincoli di tipo e wildcard).
+
+#### Dettaglio sul materiale didattico
+
+Rispetto alla bibliografia e al materiale didattico, si precisa che
+costituiscono argomenti del corso:
+
+* per quanto concerne il libro di testo [Program Development in Java:
+  Abstraction, Specification, and Object-Oriented Design](http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698) i capitoli dall'1 al
+  10 e 13 e 14;
+
+* per quanto concerne il libro di testo [Effective Java](http://www.informit.com/store/effective-java-9780134685991) i capitoli 2, 3, 4, 5
+  (eccetto gli *item* 32 e 33), 8 (eccetto gli *item* 53 e 55), 9 (eccetto
+  l'*item* 66), 10;
+
+* per quanto concerne  [The Java™
+  Tutorials](https://docs.oracle.com/javase/tutorial/), riguardo la parte "Trails Covering the Basics" le sezioni:
+  [Getting Started](https://docs.oracle.com/javase/tutorial/getStarted/),
+  [Learning the Java Language](https://docs.oracle.com/javase/tutorial/java/)
+  (esclusa la sottosezione "Annotations") e [Essential
+  Classes](https://docs.oracle.com/javase/tutorial/essential/) (limitatamente
+  alle sottosezioni "Exceptions" e "Basic I/O") e
+  [Collections](https://docs.oracle.com/javase/tutorial/collections); inoltre la
+  parte [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/).
+
+
 
 ### Prerequisiti
 
@@ -114,7 +139,7 @@ prove il candidato deve dimostrare:
 
 Per maggior chiarezza, i criteri di valutazione della *prova pratica* sono
 ispirati al contenuto di tutte le lezioni ed il materiali didattici elencati nel
-:doc:`diario`, con particolare riferimento alle sezioni
+qdiario, con particolare riferimento alle sezioni
 
 * 5.7 Reasoning about Data Abstractions
 * 5.8 Design Issues
