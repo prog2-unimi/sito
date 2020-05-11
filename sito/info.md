@@ -124,18 +124,61 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 * aspetti elementari dei linguaggi formali [dal corso "Linguaggi formali e
   automi"].
 
-### Modalità di valutazione
+### Modalità di valutazione "a distanza"
 
-L'insegnamento non prevede prove in itinere. La prova finale è costituita da una
-**prova pratica** in laboratorio che verte sulla progettazione e sviluppo di un
-software secondo delle *specifiche* assegnate; alla prova pratica (se superata
-con voto superiore a 23/30) segue una **discussione orale**. Attraverso tali
-prove il candidato deve dimostrare:
+L'insegnamento non prevede prove in itinere.
+
+<div style="background-color: lightyellow;">
+
+Per il periodo in cui è impedito lo
+svolgimento di esami in presenza presso le sedi dell'Ateneo, la prova finale è
+costituita da una **prova pratica** "a distanza" (che verte sulla progettazione
+e sviluppo di un software secondo delle *specifiche* assegnate) seguita da una
+**discussione orale** "a distanza"; la prova pratica non è valutata in
+trentesimi: il suo superamento consente esclusivamente di accedere all'orale che
+diventa pertanto **obbligatorio** per chiunque intenda superare l'esame.
+
+</div>
+
+Attraverso tali prove il candidato deve dimostrare:
 
 * la conoscenza delle definizioni e delle nozioni fondamentali riguardo agli
   aspetti di orientazione agli oggetti e programmazione,
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
+
+Sia la prova pratica che la discussione orale si svolgono secondo le indicazioni
+dell'Ateneo per gli [esami orali a distanza](https://www.unimi.it/it/studiare/frequentare-un-corso-di-laurea/seguire-il-percorso-di-studi/esami/esami-distanza-faq-gli-studenti/esami-orali-distanza).
+
+Prima della connessione alla piattaforma Microsoft Teams relativa alla prova
+pratica, gli studenti riceveranno al proprio indirizzo `@studenti.unimi.it` una
+mail contenente un link **personale e non cedibile** per collegarsi (usando un
+browser [Chrome](https://www.google.com/chrome/), o
+[Firefox](https://www.mozilla.org/firefox/browsers/), senza necessità di
+installare alcun altro software) ad un ambiente di sviluppo remoto basato su
+[Visual Studio Code](https://code.visualstudio.com/). L'accesso a tale ambiente
+prevede che lo studente scatti una foto con la webcam del suo volto a fianco di
+un suo documento di riconoscimento (legalmente valido, con fotografia), tale
+foto sarà utilizzata *esclusivamente per l'identificazione dello studente da
+parte dei membri della commissione d'esame e sarà cancellata non oltre il
+termine dell'esame*.
+
+<div style="font-size: smaller; background-color: lightcyan;">
+
+Gli studenti interessati ai dettagli tecnici di **∂anake**, l'ambiente di
+sviluppo remoto sopra menzionato, possono prendere visione della [documentazione
+preliminare](https://scythe-suite.github.io/danake/) e del [codice
+sorgente](https://github.com/scythe-suite/danake); si osservi che la conoscenza
+di tali dettagli *non è assolutamente necessaria al superamento dell'esame*, ma
+che i riferimenti qui indicati sono offerti solo a scopo di trasparenza.
+
+Chi fosse interessato a discutere le modalità d'esame e confrontarsi con il
+docente e con i colleghi studenti, può partecipare al workspace
+[Slack](https://slack.com/) costruito all'uopo, iscrivendosi (usando il suo nome
+e cognome completi e l'indirizzo di email `@studenti.unimi.it`) tramite il link
+[https://join.slack.com/t/prog2unimi/signup](https://join.slack.com/t/prog2unimi/signup).
+
+</div>
 
 #### Criteri di valutazione
 
