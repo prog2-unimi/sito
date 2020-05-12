@@ -184,7 +184,7 @@ e cognome completi e l'indirizzo di email `@studenti.unimi.it`) tramite il link
 
 Per maggior chiarezza, i criteri di valutazione della *prova pratica* sono
 ispirati al contenuto di tutte le lezioni ed il materiali didattici elencati nel
-qdiario, con particolare riferimento alle sezioni
+diario, con particolare riferimento alle sezioni
 
 * 5.7 Reasoning about Data Abstractions
 * 5.8 Design Issues
