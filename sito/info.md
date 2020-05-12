@@ -195,8 +195,8 @@ qdiario, con particolare riferimento alle sezioni
 del libro di testo "Program Development in Java: Abstraction, Specification, and
 Object-Oriented Design".
 
-Per quanto concerne l'*orale*, un'ottima traccia ai concetti su cui verterà la
-discussione è costituita dal contenuto delle *Sidebar* presenti nelle parti
+Per quanto concerne l'*orale*, un'ottima **traccia** ai concetti su cui verterà
+la discussione è costituita dal contenuto delle *Sidebar* presenti nelle parti
 comprese nel programma del libro di testo medesimo.
 
 ### Bibliografia
