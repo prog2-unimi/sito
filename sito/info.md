@@ -1,6 +1,6 @@
 ## Informazioni sul corso
 
-### Orario e modalità delle lezioni
+<!-- ### Orario e modalità delle lezioni
 
 Le lezioni del corso si tengono il **martedì** alle ore **14:30 – 16:30** in
 [Aula Magna](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=79>)
@@ -10,7 +10,7 @@ e il **venerdì** alle ore **10:30 – 12:30** in
 Le lezioni sono **frontali**, nell'attuale manifesto degli
 studi il corso *non prevede un laboratorio*; per questa e [altre ottime
 ragioni](https://cs.brown.edu/courses/cs019/2018/laptop-policy.html) in classe è
-**vietato l'uso di laptop** e strumenti analoghi.
+**vietato l'uso di laptop** e strumenti analoghi. -->
 
 ### Obiettivi dell’insegnamento
 
@@ -147,21 +147,19 @@ Attraverso tali prove il candidato deve dimostrare:
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
 
-Sia la prova pratica che la discussione orale si svolgono secondo le indicazioni
-dell'Ateneo per gli [esami orali a distanza](https://www.unimi.it/it/studiare/frequentare-un-corso-di-laurea/seguire-il-percorso-di-studi/esami/esami-distanza-faq-gli-studenti/esami-orali-distanza).
-
-Prima della connessione alla piattaforma Microsoft Teams relativa alla prova
-pratica, gli studenti riceveranno al proprio indirizzo `@studenti.unimi.it` una
-mail contenente un link **personale e non cedibile** per collegarsi (usando un
-browser [Chrome](https://www.google.com/chrome/), o
+Prima dell'inizio della prova pratica, gli studenti riceveranno al proprio
+indirizzo `@studenti.unimi.it` una mail contenente delle istruzioni per il
+collegamento in videoconferenza ed un link **personale e non cedibile** per
+collegarsi (usando il browser [Chrome](https://www.google.com/chrome/), o
 [Firefox](https://www.mozilla.org/firefox/browsers/), senza necessità di
 installare alcun altro software) ad un ambiente di sviluppo remoto basato su
 [Visual Studio Code](https://code.visualstudio.com/). L'accesso a tale ambiente
-prevede che lo studente scatti una foto con la webcam del suo volto a fianco di
-un suo documento di riconoscimento (legalmente valido, con fotografia), tale
-foto sarà utilizzata *esclusivamente per l'identificazione dello studente da
-parte dei membri della commissione d'esame e sarà cancellata non oltre il
-termine dell'esame*.
+prevede una fase di *identificazione* durante la quale lo studente scatta una
+foto con la webcam del suo computer al proprio volto ritratto a fianco di un
+documento di riconoscimento (legalmente valido, con fotografia); tale foto sarà
+utilizzata *esclusivamente per l'identificazione dello studente da parte dei
+membri della commissione d'esame e sarà cancellata non oltre il termine
+dell'esame*.
 
 <div style="font-size: smaller; background-color: lightcyan;">
 
