@@ -2,9 +2,9 @@
 
 <!-- ### Orario e modalità delle lezioni
 
-Le lezioni del corso si tengono il **martedì** alle ore **14:30 – 16:30** in
+Le lezioni del corso si tengono il **martedì** alle ore **14:30 — 16:30** in
 [Aula Magna](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=79>)
-e il **venerdì** alle ore **10:30 – 12:30** in
+e il **venerdì** alle ore **10:30 — 12:30** in
 [Aula V3](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=11).
 
 Le lezioni sono **frontali**, nell'attuale manifesto degli
@@ -12,7 +12,7 @@ studi il corso *non prevede un laboratorio*; per questa e [altre ottime
 ragioni](https://cs.brown.edu/courses/cs019/2018/laptop-policy.html) in classe è
 **vietato l'uso di laptop** e strumenti analoghi. -->
 
-### Obiettivi dell’insegnamento
+### Obiettivi dell'insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
 calcolare in un *numero finito* di passi *ben specificati* la soluzione di un
@@ -109,9 +109,18 @@ costituiscono argomenti del corso:
   [Collections](https://docs.oracle.com/javase/tutorial/collections); inoltre la
   parte [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/).
 
-Ulteriore materiale di supporto può essere reperito a partire dagli
+<div style="background-color: lightyellow;">
+
+Materiale di supporto molto utile può essere reperito a partire dagli
 [handout](https://github.com/prog2-unimi/handouts/tree/aa1920) dell'anno
-accademico 2019/20.
+accademico 2019/20 con particolare riferimento al [codice
+sorgente](https://github.com/prog2-unimi/handouts/tree/aa1920/src/it/unimi/di/prog2)
+e alla [relativa documentazione](https://prog2-unimi.github.io/handouts/) (con i
+link alle guide: [Composition & Inheritance](https://prog2.di.unimi.it/guides/compositionandinheritance),
+[Equality & Inheritance](https://prog2.di.unimi.it/guides/equalityandinheritance) e [Ontology &
+Inheritance](https://prog2.di.unimi.it/guides/ontologyandinheritance)). Tale materiale può costituire il *punto di partenza per alcune domande durante l'esame orale*, per cui **si raccomanda di prenderne visione** per tempo.
+
+</div>
 
 ### Prerequisiti
 
@@ -169,12 +178,6 @@ preliminare](https://scythe-suite.github.io/danake/) e del [codice
 sorgente](https://github.com/scythe-suite/danake); si osservi che la conoscenza
 di tali dettagli *non è assolutamente necessaria al superamento dell'esame*, ma
 che i riferimenti qui indicati sono offerti solo a scopo di trasparenza.
-
-Chi fosse interessato a discutere le modalità d'esame e confrontarsi con il
-docente e con i colleghi studenti, può partecipare al workspace
-[Slack](https://slack.com/) costruito all'uopo, iscrivendosi (usando il suo nome
-e cognome completi e l'indirizzo di email `@studenti.unimi.it`) tramite il link
-[https://join.slack.com/t/prog2unimi/signup](https://join.slack.com/t/prog2unimi/signup).
 
 </div>
 

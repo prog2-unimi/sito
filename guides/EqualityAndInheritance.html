@@ -13182,7 +13182,7 @@ div#notebook {
 </span><span class="hll">  <span class="o">}</span>
 </span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/T.java#L29-L43" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/sym/T.java#L29-L43" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13292,7 +13292,7 @@ div#notebook {
 </span><span class="hll">  <span class="o">}</span>
 </span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/sym/S.java#L29-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/sym/S.java#L29-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13387,13 +13387,13 @@ div#notebook {
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-    <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-  <span class="o">}</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/MainSym.java#L33-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainSym.java#L33-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13429,7 +13429,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Quel che accade è che <code>t instanceof S0</code> è <em>falso</em>, ma <code>s instanceof T0</code> è <em>vero</em>, per cui l'implementazione di <code>equals</code> di <code>S0</code> non sa cosa fare con <code>t</code>, mentre quella di <code>T0</code> funziona con <code>s</code> (ovviamente trascurando <code>b</code> di cui ignora l'esistenza).</p>
+<p>Quel che accade è che <code>t instanceof S</code> è <em>falso</em>, ma <code>s instanceof T</code> è <em>vero</em>, per cui l'implementazione di <code>equals</code> di <code>S</code> non sa cosa fare con <code>t</code>, mentre quella di <code>T</code> funziona con <code>s</code> (ovviamente trascurando <code>b</code> di cui ignora l'esistenza).</p>
 
 </div>
 </div>
@@ -13519,15 +13519,15 @@ false
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="o">)</span> <span class="o">{</span>
-      <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-      <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
-    <span class="o">}</span>
-<span class="hll">    <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="o">)</span> <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">);</span>
-</span><span class="hll">    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-</span>  <span class="o">}</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
+    <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="hll">  <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="o">)</span> <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">);</span>
+</span><span class="hll">  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+</span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/trans/S.java#L37-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/trans/S.java#L37-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13621,15 +13621,15 @@ false
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-    <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-    <span class="n">S</span> <span class="n">u</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
-  <span class="o">}</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+  <span class="n">S</span> <span class="n">u</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/MainTrans.java#L33-L40" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainTrans.java#L33-L40" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13666,7 +13666,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#160;Il-primcipio-di-sostituione">&#160;Il primcipio di sostituione<a class="anchor-link" href="#&#160;Il-primcipio-di-sostituione">&#182;</a></h2><p>Si potrebbe pensare che il problema sia <code>instanceof</code> che è antisimmetrico, per cui una soluzione che viene talvolta suggerita è di sostituire nell'implementazione di <code>equals</code> di <code>T</code> la condizione <code>o instanceof T1</code> con la condizione <code>getClass() == o.getClass()</code> che è simmetrica (e risulta vera se e solo se gli oggetti hanno identico tipo concreto).</p>
+<h2 id="Il-principio-di-sostituione">Il principio di sostituione<a class="anchor-link" href="#Il-principio-di-sostituione">&#182;</a></h2><p>Si potrebbe pensare che il problema sia <code>instanceof</code> che è antisimmetrico, per cui una soluzione che viene talvolta suggerita è di sostituire nell'implementazione di <code>equals</code> di <code>T</code> la condizione <code>o instanceof T</code> con la condizione <code>getClass() == o.getClass()</code> che è simmetrica (e risulta vera se e solo se gli oggetti hanno identico tipo concreto).</p>
 
 </div>
 </div>
@@ -13749,14 +13749,14 @@ false
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
-      <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="o">(</span><span class="n">T</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-      <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="o">.</span><span class="na">a</span><span class="o">;</span>
-    <span class="o">}</span>
-    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
+    <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="o">(</span><span class="n">T</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="o">.</span><span class="na">a</span><span class="o">;</span>
   <span class="o">}</span>
+  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/T.java#L36-L42" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/T.java#L36-L42" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13850,14 +13850,14 @@ false
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
-      <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-      <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
-    <span class="o">}</span>
-    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
+    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
+    <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
   <span class="o">}</span>
+  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/S.java#L37-L43" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/S.java#L37-L43" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13962,7 +13962,7 @@ false
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/R.java#L29-L37" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/R.java#L29-L37" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14063,7 +14063,7 @@ false
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/lsp/Client.java#L31-L37" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/Client.java#L31-L37" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14157,17 +14157,17 @@ false
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-    <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
 
-<span class="hll">    <span class="n">R</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="n">R</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-</span><span class="hll">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-</span><span class="hll">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">r</span><span class="o">));</span>
-</span>  <span class="o">}</span>
+<span class="hll">  <span class="n">R</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="n">R</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+</span><span class="hll">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
+</span><span class="hll">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">r</span><span class="o">));</span>
+</span><span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ei/MainLSP.java#L35-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainLSP.java#L35-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>

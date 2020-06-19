@@ -13081,9 +13081,9 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Composition-&amp;-Inheritance">Composition &amp; Inheritance<a class="anchor-link" href="#Composition-&amp;-Inheritance">&#182;</a></h1><p>Questa breve nota presenta la <em>composizione</em> e la <em>delega</em> come possibile alternativa all'ereditarietà.</p>
+<h1 id="Composition-&amp;-Inheritance">Composition &amp; Inheritance<a class="anchor-link" href="#Composition-&amp;-Inheritance">&#182;</a></h1><p>Questa breve nota presenta la <em>composizione</em> e la <em>delega</em> come possibili alternative all'ereditarietà.</p>
 <p>La nota segue l'esposizione del capitolo 4 (ed in particolare dell'<em>item</em> 18) del testo "Effective Java" (di Joshua Bloch).</p>
-<h2 id="Estendere,-o-utilizzare?">Estendere, o utilizzare?<a class="anchor-link" href="#Estendere,-o-utilizzare?">&#182;</a></h2><p>Supponiamo di avere una classe <code>Adder</code> in grado di svolgere delle somme (di uno, o di una lista di intedi), tenendo traccia del risultato complessivo, il cui codice è</p>
+<h2 id="Estendere,-o-utilizzare?">Estendere, o utilizzare?<a class="anchor-link" href="#Estendere,-o-utilizzare?">&#182;</a></h2><p>Supponiamo di avere una classe <code>Adder</code> in grado di svolgere delle somme (di uno, o di una lista, di interi), tenendo traccia del risultato complessivo, il cui codice è</p>
 
 </div>
 </div>
@@ -13182,7 +13182,7 @@ div#notebook {
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ec/Adder.java#L26-L41" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/Adder.java#L26-L41" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13292,11 +13292,11 @@ div#notebook {
 </span><span class="hll">  <span class="o">}</span>
 </span>
   <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">List</span><span class="o">.</span><span class="na">copyOf</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
+    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ec/LogAdderExt.java#L27-L45" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/LogAdderExt.java#L28-L46" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13391,17 +13391,17 @@ div#notebook {
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-    <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
+  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
 
-    <span class="n">LogAdderExt</span> <span class="n">lae</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderExt</span><span class="o">();</span>
-    <span class="n">lae</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
-  <span class="o">}</span>
+  <span class="n">LogAdderExt</span> <span class="n">lae</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderExt</span><span class="o">();</span>
+  <span class="n">lae</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/MainECE.java#L29-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainECE.java#L29-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13438,7 +13438,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Seppure le somme sono in entrambe i casi corrette, la lista dei valori aggiunti è evidentemente duplicat!. Cosa è successo?</p>
+<p>Seppure le somme sono in entrambe i casi corrette, la lista dei valori aggiunti è evidentemente duplicata. Cosa è successo?</p>
 <p>Per capirlo possiamo eseguire di nuovo il codice del client dopo aver <em>instrumentato</em> il codice dei metodi <code>add</code> delle classi <code>Adder</code> e <code>LogAdderExt</code> con <a href="https://github.com/prog2-unimi/cali">cali</a>, uno strumento che permette di aggiungere automaticamente codice ai metodi per tracciarne le invocazioni.</p>
 
 </div>
@@ -13586,11 +13586,11 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   <span class="o">}</span>
 
   <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">List</span><span class="o">.</span><span class="na">copyOf</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
+    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ec/LogAdderComp.java#L27-L48" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/LogAdderComp.java#L28-L49" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13684,17 +13684,17 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-    <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
+  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
 
-    <span class="n">LogAdderComp</span> <span class="n">lac</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderComp</span><span class="o">();</span>
-    <span class="n">lac</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
-  <span class="o">}</span>
+  <span class="n">LogAdderComp</span> <span class="n">lac</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderComp</span><span class="o">();</span>
+  <span class="n">lac</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/MainECC.java#L29-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainECC.java#L29-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13815,7 +13815,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="o">();</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ef/AdderInterface.java#L26-L33" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/AdderInterface.java#L26-L33" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13909,11 +13909,11 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
 .output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">use</span><span class="o">(</span><span class="n">AdderInterface</span> <span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-  <span class="o">}</span>
+  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+<span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/MainEF.java#L31-L34" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainEF.java#L31-L34" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14032,7 +14032,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ef/AdderForwarder.java#L26-L48" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/AdderForwarder.java#L26-L48" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14149,11 +14149,11 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   <span class="o">}</span>
 
   <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">List</span><span class="o">.</span><span class="na">copyOf</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
+    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/ef/LogAdder.java#L27-L49" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/LogAdder.java#L28-L50" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14164,7 +14164,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Osservate che, tra l'altro, in questa classe è sufficiente sovrascrivere solo i metodi <code>add</code> perché a provvedere le funzionalità del metodo <code>result</code> ha già provvisto il <em>forward</em> contenuto nella classe <code>AdderForwarder</code>; ovviamente va aggiunto il metodo <code>log</code> relativo alla nuova funzionalità provvista dal sottotipo.</p>
+<p>Osservate che, tra l'altro, in questa classe è sufficiente sovrascrivere solo i metodi <code>add</code> perché a implementare le funzionalità del metodo <code>result</code> ha già provvedduto il <em>forward</em> contenuto nella classe <code>AdderForwarder</code>; ovviamente va aggiunto il metodo <code>log</code> relativo alla nuova funzionalità provvista dal sottotipo.</p>
 <p>Ora è del tutto banale poter invocare <code>use</code> sul sommatore, o sul sommatore che tenga traccia degli addendi.</p>
 
 </div>
@@ -14264,7 +14264,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   <span class="o">}</span>
 <span class="o">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/master/src/it/unimi/di/prog2/l14/ci/MainEF.java#L29-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainEF.java#L29-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
