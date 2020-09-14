@@ -10,11 +10,11 @@ Diario delle lezioni
    :class: alert alert-success
 
    Il contenuto di questa pagina verrà aggiornato al prossimo A.A. in occasione dell'inizio del primo
-   semestre nel settembre 2021.
+   semestre nel settembre 2020.
 
-Potete trovare informazioni sulle modalità d'esame e sull'elenco di argomenti
+Potete trovare informazioni sulle modalità d'esame e sull'elenco degli argomenti
 che costituiscono il programma nella pagina di :doc:`info`, con particolare
-riferimento alla sezione `programma dettagliato </info.html##programma-dettagliato>`__.
+riferimento alla sezione `programma dettagliato </info.html#programma-dettagliato>`__.
 
 ..
     .. toctree::
