@@ -1,16 +1,21 @@
 ## Informazioni sul corso
 
-<!-- ### Orario e modalità delle lezioni
+### Orario e modalità delle lezioni
 
-Le lezioni del corso si tengono il **martedì** alle ore **14:30 — 16:30** in
-[Aula Magna](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=79>)
-e il **venerdì** alle ore **10:30 — 12:30** in
-[Aula V3](https://orari-be.divsi.unimi.it/EasyRoom//index.php?content=gestore_aree_pubblico&cercaSede=11).
+L'insegnamento è organizzato in 16 **lezioni** tenute da [Massimo
+Santini](https://santini.di.unimi.it/) (di due ore, che si svolgono di norma il
+*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e di 8 **esercitazioni**
+tenute da [Luca Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore, che
+si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni).
 
-Le lezioni sono **frontali**, nell'attuale manifesto degli
-studi il corso *non prevede un laboratorio*; per questa e [altre ottime
-ragioni](https://cs.brown.edu/courses/cs019/2018/laptop-policy.html) in classe è
-**vietato l'uso di laptop** e strumenti analoghi. -->
+<div style="background-color: lightyellow;">
+
+Per il periodo in cui è impedito lo svolgimento di attività in presenza presso
+le sedi dell'Ateneo la didattica sarà impartita a **distanza** in modalità
+**sincrona** (ossia negli orari sopra citati), così come illustrato nel [diario
+delle lezioni](diario) e nella pagina della [prossima lezione](lezione).
+
+</div>
 
 ### Obiettivi dell'insegnamento
 

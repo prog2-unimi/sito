@@ -7,10 +7,6 @@ costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
 svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
 alle date che al contenuto).
 
-Il corso è organizzato in 16 **lezioni** (di due ore, che si svolgono di norma
-il martedì alle ore 14:30 e il venerdì alle 10:30) e di 8 **esercitazioni** (di
-tre ore, che si svolgono il venerdì alle 10:30, invece di alcune lezioni).
-
 Nel `canale YouTube <https://bit.ly/3cmDTyM>`__ dell'insegnamento disponibili sia
 la *playlist* delle registrazioni delle `lezioni <https://bit.ly/2ZW2k0K>`__,
 che quella delle `esercitazioni <https://bit.ly/3hSCNM3>`__.
