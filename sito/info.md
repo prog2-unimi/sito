@@ -138,7 +138,7 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 * aspetti elementari dei linguaggi formali [dal corso "Linguaggi formali e
   automi"].
 
-### Modalità di valutazione "a distanza"
+### Modalità di valutazione
 
 L'insegnamento non prevede prove in itinere.
 
@@ -146,9 +146,9 @@ L'insegnamento non prevede prove in itinere.
 
 Per il periodo in cui è impedito lo
 svolgimento di esami in presenza presso le sedi dell'Ateneo, la prova finale è
-costituita da una **prova pratica** "a distanza" (che verte sulla progettazione
+costituita da una **prova pratica** a distanza (che verte sulla progettazione
 e sviluppo di un software secondo delle *specifiche* assegnate) seguita da una
-**discussione orale** "a distanza"; la prova pratica non è valutata in
+**discussione orale** a distanza; la prova pratica non è valutata in
 trentesimi: il suo superamento consente esclusivamente di accedere all'orale che
 diventa pertanto **obbligatorio** per chiunque intenda superare l'esame.
 
