@@ -19,7 +19,7 @@ Development Kit (JDK), ossia il **Java SE Development Kit 11**.  Si consiglia
 pertanto di installare la **versione ufficiale Oracle**, disponibile
 gratuitamente sia con licenza
 [proprietaria](https://www.oracle.com/technetwork/java/javase/downloads/) che
-[open source](https://jdk.java.net/).
+[open source](https://openjdk.java.net/).
 
 Oltre ai libri di testo, è di fondamentale importanza consultare la
 [documentazione](https://docs.oracle.com/en/java/javase/11/), in particolare
@@ -38,3 +38,23 @@ Per gli studenti interessati, ma sottolineando che *non è assolutamente materia
 dell'insegnamento* e *non è assolutamente richiesto per il superamento dell'esame*,
 è possibile usare uno strumento di [build automation](https://en.wikipedia.org/wiki/Build_automation),
 come quello mostrato nel [repository d'esempio](https://github.com/prog2-unimi/build-automation-example).
+
+#### GitHub e Gitpod
+
+Per svolgere le esercitazioni e gli *homework* è possibile utilizzare il *cloud
+IDE* [Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual
+Studio Code](https://code.visualstudio.com/) e
+dell'[OpenJDK](https://openjdk.java.net/), offerti come servizio cloud (ossia
+accessibili gratuitamente in rete, senza necessità di installare, o configurare,
+alcun software).
+
+Si sconsiglia che gli studenti interessati creino quanto prima un account su
+[GitHub](https://github.com/), necessario per l'uso di GitPod; si osservi che
+creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è possibile
+beneficiare di [agevolazioni
+interessanti](https://education.github.com/students) come il [GitHub Student
+Developer Pack](https://education.github.com/pack).
+
+Una volta creato l'account è possibile verificare che tutto funzioni a dovere
+usando il bottone "Open in Gitpod" nel [repository delle
+esercitazioni](https://github.com/prog2-unimi/esercitazioni).
