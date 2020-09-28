@@ -1,17 +1,20 @@
 Diario delle lezioni
 ====================
 
-Il seguente diario riporta gli *argomenti* e il *materiale didattico e di
-supporto* relativo sia alle **lezioni già svolte** (riguardo alle quali
-costituisce il programma d'esame *de facto*), che alle lezioni **ancora da
-svolgere**, per le quali è *da intendersi del tutto indicativo* (sia riguardo
-alle date che al contenuto).
+Il seguente diario riporta gli *argomenti* e il *materiale didattico* relativi
+sia alle **lezioni già svolte** (riguardo alle quali costituisce il programma
+d'esame *de facto*), che alle lezioni **ancora da svolgere**, per le quali è *da
+intendersi del tutto indicativo* (sia riguardo alle date che al contenuto).
 
-Nel `canale YouTube <https://bit.ly/3cmDTyM>`__ dell'insegnamento disponibili sia
-la *playlist* delle registrazioni delle `lezioni <https://bit.ly/2ZW2k0K>`__,
-che quella delle `esercitazioni <https://bit.ly/3hSCNM3>`__.
+Le *lezioni* di **teoria** sono indicate col prefisso *T*, mentre le
+**esercitazioni** sono indicate col prefisso *E*; in ogni caso, la pagina sulla
+:doc:`prossima lezione <lezione>` contiene di volta in volta il link aggiornato
+per l'accesso sincrono. Le registrazioni delle lezioni sono raccolte nel `canale
+YouTube del corso <https://bit.ly/3cmDTyM>`__ nelle *playlist* denominate
+`teoria <https://bit.ly/2ZW2k0K>`__ e `esercitazioni
+<https://bit.ly/3hSCNM3>`__.
 
-Il materiale didattico indicato come *PDJ* si riferisce al libro di testo
+Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
@@ -23,20 +26,29 @@ disponibili nel `repository degli handout
 indicato con *E* si riferisce alle esercitazioni (disponibili nel `repository
 delle esercitazioni <https://github.com/prog2-unimi/esercitazioni>`__ del
 corso); si veda la nota sui :ref:`numeri di sezione <numeridisezione>` che reca
-indicazioni su quali parti del materiale sono **parte del programma** e quali
+indicazioni su quali parti del materiale sono *parte del programma* e quali
 *letture consigliate, ma facoltative*.
 
 |
 
 .. table::
+  :widths: 10 10 50 30
 
-  +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-  | Num   | Data       | Argomento                                                    | Materiale didattico                                                     |
-  +=======+============+==============================================================+=========================================================================+
-  | 1     | Mar 29/9   | Introduzione                                                 | PDJ 1                                                                   |
-  +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
-  | 2     | Ven 2/10   | Un primo sguardo a Java                                      | PDJ 2                                                                   |
-  +-------+------------+--------------------------------------------------------------+-------------------------------------------------------------------------+
+  +---------+---------+----------------------------------+------------------------+
+  | Lezione | Data    | Argomento                        | Materiale didattico    |
+  +=========+=========+==================================+========================+
+  | T1      | M 29/9  | Introduzione                     | PDJ 1                  |
+  +---------+---------+----------------------------------+------------------------+
+  | T2      | V 2/10  | Il linguaggio Java               | PDJ 2                  |
+  +---------+---------+                                  +                        +
+  | T3      | M 6/10  |                                  |                        |
+  +---------+---------+                                  +                        +
+  | T4      | V 9/10  |                                  |                        |
+  +---------+---------+----------------------------------+------------------------+
+  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3                  |
+  +---------+---------+                                  +                        +
+  | E6      | V 16/10 |                                  |                        |
+  +---------+---------+----------------------------------+------------------------+
 
 |
 

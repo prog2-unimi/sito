@@ -2,11 +2,11 @@
 
 ### Orario e modalità delle lezioni
 
-L'insegnamento è organizzato in 16 **lezioni** tenute da [Massimo
+L'insegnamento è organizzato in 16 lezioni di **teoria** tenute da [Massimo
 Santini](https://santini.di.unimi.it/) (di due ore, che si svolgono di norma il
-*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e di 8 **esercitazioni**
+*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e 8 di **esercitazioni**
 tenute da [Luca Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore, che
-si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni).
+si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni di teoria).
 
 <div style="background-color: lightyellow;">
 
