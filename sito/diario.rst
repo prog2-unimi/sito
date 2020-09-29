@@ -85,7 +85,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
   .. _numeridisezione:
 
-  * se assenti: l'*intero capitolo è parte del programma* (ad esempio, con "PDJ" si intende
+  * se assenti: l'*intero capitolo è parte del programma* (ad esempio, con "PDJ 5" si intende
     l'intero capitolo 5 di "Program Development in Java"),
 
   * se presenti (fuori parentesi): solo *le sezioni/item indicate sono parte del programma* (ad esempio,
