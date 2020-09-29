@@ -48,7 +48,7 @@ dell'[OpenJDK](https://openjdk.java.net/), offerti come servizio cloud (ossia
 accessibili gratuitamente in rete, senza necessità di installare, o configurare,
 alcun software).
 
-Si sconsiglia che gli studenti interessati creino quanto prima un account su
+Si consiglia che gli studenti interessati creino quanto prima un account su
 [GitHub](https://github.com/), necessario per l'uso di GitPod; si osservi che
 creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è possibile
 beneficiare di [agevolazioni
