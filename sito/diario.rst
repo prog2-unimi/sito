@@ -45,7 +45,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------+
   | T4      | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_. `Javadoc Guide`_]              |
+  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]              |
   +---------+---------+                                  +                                                                 +
   | E1      | V 16/10 |                                  |                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
