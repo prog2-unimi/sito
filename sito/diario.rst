@@ -45,7 +45,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------+
   | T4      | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]              |
+  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; `H5`_       |
   +---------+---------+                                  +-----------------------------------------------------------------+
   | E1      | V 16/10 |                                  | E `e01`                                                         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
@@ -83,11 +83,13 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
-.. _How to Write Javadoc: https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html
+.. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
 
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
+
+.. _H5: https://github.com/prog2-unimi/handouts/tree/aa2021/src/it/unimi/di/prog2/t05
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
