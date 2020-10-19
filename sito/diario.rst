@@ -37,29 +37,29 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
   | Lezione | Data    | Argomento                        | Materiale didattico                                             |
   +=========+=========+==================================+=================================================================+
-  | T1      | M 29/9  | Introduzione                     | PDJ 1                                                           |
+  | T01     | M 29/9  | Introduzione                     | PDJ 1                                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T2      | V 2/10  | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Language Basics`_, `Packages`_               |
+  | T02     | V 2/10  | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Language Basics`_, `Packages`_               |
   +---------+---------+                                  +-----------------------------------------------------------------+
-  | T3      | M 6/10  |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                         |
+  | T03     | M 6/10  |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                         |
   +---------+---------+                                  +-----------------------------------------------------------------+
-  | T4      | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`              |
+  | T04     | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T5      | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; `H5`_       |
+  | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; `t05`_      |
   +---------+---------+                                  +-----------------------------------------------------------------+
-  | E1      | V 16/10 |                                  | E `e01`                                                         |
+  | E01     | V 16/10 |                                  | E `e01`_                                                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T6      | M 20/10 | Eccezioni                        | PDJ 4; EJ 10                                                    |
+  | T06     | M 20/10 | Eccezioni                        | PDJ 4; EJ 10                                                    |
   +---------+---------+                                  +                                                                 +
-  | E2      | V 23/10 |                                  |                                                                 |
+  | E02     | V 23/10 |                                  |                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T7      | M 27/10 | Astrazione dei dati              | PDJ 5                                                           |
+  | T07     | M 27/10 | Astrazione dei dati              | PDJ 5                                                           |
   +---------+---------+                                  +                                                                 +
-  | E3      | V 30/10 |                                  |                                                                 |
+  | E03     | V 30/10 |                                  |                                                                 |
   +---------+---------+                                  +                                                                 +
-  | T8      | M  3/11 |                                  |                                                                 |
+  | T08     | M  3/11 |                                  |                                                                 |
   +---------+---------+                                  +                                                                 +
-  | E4      | V  6/11 |                                  |                                                                 |
+  | E04     | V  6/11 |                                  |                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
 
 |
@@ -89,7 +89,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
 
-.. _H5: https://github.com/prog2-unimi/handouts/tree/aa2021/src/it/unimi/di/prog2/t05
+
+.. _t05: https://github.com/prog2-unimi/handouts/tree/984f09fd55777819d2c00b51888ccc64d5482aae/src/it/unimi/di/prog2/t05
+.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/0d42e824efceb71161df4da1fa57fa18d4ffa518/soluzioni/e01
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
