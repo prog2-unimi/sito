@@ -45,13 +45,13 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------+
   | T04     | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; `t05`_      |
+  | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; H `t05`_    |
   +---------+---------+                                  +-----------------------------------------------------------------+
   | E01     | V 16/10 |                                  | E `e01`_                                                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
-  | T06     | M 20/10 | Eccezioni                        | PDJ 4; EJ 10                                                    |
-  +---------+---------+                                  +                                                                 +
-  | E02     | V 23/10 |                                  |                                                                 |
+  | T06     | M 20/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                  |
+  +---------+---------+                                  +-----------------------------------------------------------------+
+  | E02     | V 23/10 |                                  | E `e02`                                                         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
   | T07     | M 27/10 | Astrazione dei dati              | PDJ 5                                                           |
   +---------+---------+                                  +                                                                 +
@@ -70,6 +70,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Packages: https://docs.oracle.com/javase/tutorial/java/package/
 .. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
+.. _Exceptions: https://docs.oracle.com/javase/tutorial/essential/exceptions/
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 .. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html

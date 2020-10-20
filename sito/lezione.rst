@@ -8,9 +8,10 @@ l'orario ufficiale).
 
 .. raw:: html
 
-  <iframe width="800" height="450" src="https://www.youtube.com/embed/ct077ZH9-fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-..
   Collegati usando il seguente bottone: <a href="https://bit.ly/3l1lB9l"><img src="https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white&style=for-the-badge"/></a>
+
+..
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/ct077ZH9-fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |
 
