@@ -43,7 +43,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------+
   | T03     | M 6/10  |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                         |
   +---------+---------+                                  +-----------------------------------------------------------------+
-  | T04     | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`              |
+  | T04     | V 9/10  |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`_             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------+
   | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; H `t05`_    |
   +---------+---------+                                  +-----------------------------------------------------------------+
@@ -91,6 +91,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
 
 
+.. _t04: https://github.com/prog2-unimi/esercitazioni/tree/c7b0369b74c3d9857b67dc5221de9e99b9771fec/soluzioni/t04
 .. _t05: https://github.com/prog2-unimi/handouts/tree/984f09fd55777819d2c00b51888ccc64d5482aae/src/it/unimi/di/prog2/t05
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/0d42e824efceb71161df4da1fa57fa18d4ffa518/soluzioni/e01
 
