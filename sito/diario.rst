@@ -57,13 +57,14 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +------------------------------------------------------------------+
   | E03     | V 30/10 |                                  | E `e03`_                                                         |
   +---------+---------+                                  +------------------------------------------------------------------+
-  | T08     | M  3/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*; JT `Programming With Assertions`_ |
-  +---------+---------+                                  +                                                                  +
-  | E04     | V  6/11 |                                  |                                                                  |
+  | T08     | M  3/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*;                                   |
+  |         |         |                                  | [JT `Programming With Assertions`_]; H `t08`_                    |
+  +---------+---------+                                  +------------------------------------------------------------------+
+  | E04     | V  6/11 |                                  | E `e04`                                                          |
   +---------+---------+                                  +------------------------------------------------------------------+
   | T09     | M 10/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                    |
-  +---------+---------+                                  +                                                                  +
-  | E05     | V 13/11 |                                  |                                                                  |
+  +---------+---------+                                  +------------------------------------------------------------------+
+  | E05     | V 13/11 |                                  | E `e05`                                                          |
   +---------+---------+----------------------------------+------------------------------------------------------------------+
 
 |
@@ -98,6 +99,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t04: https://github.com/prog2-unimi/esercitazioni/tree/c7b0369b74c3d9857b67dc5221de9e99b9771fec/soluzioni/t04
 .. _t05: https://github.com/prog2-unimi/handouts/tree/984f09fd55777819d2c00b51888ccc64d5482aae/src/it/unimi/di/prog2/t05
 .. _t07: https://github.com/prog2-unimi/handouts/tree/56b3dea1d9191753cbf2cccda3e949ce2333c80e/src/it/unimi/di/prog2/t07
+.. _t08: https://github.com/prog2-unimi/handouts/tree/cb8d983ae46b4b4b57776030d1c03c8203e533e1/src/it/unimi/di/prog2/t08
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/0d42e824efceb71161df4da1fa57fa18d4ffa518/soluzioni/e01
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/18cb3a7c734ab270e7eda2001dd8119984d81987/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/a266289dfddac2bb7a9f4bba04c86f4adac4ade3/soluzioni/e03
