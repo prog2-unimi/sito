@@ -34,85 +34,91 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. table::
   :widths: 10 10 30 50
 
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | Lezione | Data    | Argomento                        | Materiale didattico                                              |
-  +=========+=========+==================================+==================================================================+
-  | T01     | M 29/9  | Introduzione                     | PDJ 1                                                            |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T02     | V  2/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Language Basics`_, `Packages`_                |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | T03     | M  6/10 |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                          |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | T04     | V  9/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`_              |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; H `t05`_     |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | E01     | V 16/10 |                                  | E `e01`_                                                         |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T06     | M 20/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                   |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | E02     | V 23/10 |                                  | E `e02`_                                                         |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T07     | M 27/10 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*; H `t07`_                          |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | E03     | V 30/10 |                                  | E `e03`_                                                         |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | T08     | M  3/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*;                                   |
-  |         |         |                                  | [JT `Programming With Assertions`_]; H `t08`_                    |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | E04     | V  6/11 |                                  | E `e04`_                                                         |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | T09     | M 10/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                    |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | E05     | V 13/11 |                                  | E `e05`                                                          |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T10     | M 17/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*                                         |
-  +---------+---------+                                  +------------------------------------------------------------------+
-  | T11     | V 20/11 |                                  | JT `Nested Classes`_; `For-each`_                                |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T12     | M 24/11 | Gerarchia e generici             | PDJ 7, 8                                                         |
-  +---------+---------+                                  |                                                                  |
-  | E06     | V 27/11 |                                  |                                                                  |
-  +---------+---------+                                  |                                                                  |
-  | T13     | M  1/12 |                                  |                                                                  |
-  +---------+---------+                                  |                                                                  |
-  | T14     | V  4/12 |                                  |                                                                  |
-  +---------+---------+                                  |                                                                  |
-  | E07     | V 11/12 |                                  |                                                                  |
-  +---------+---------+                                  |                                                                  |
-  | T15     | M 15/12 |                                  |                                                                  |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  | T16     | V 18/12 | Specificazione, progetto e       | PDJ 9, 13, 14                                                    |
-  +---------+---------+ implementazione                  |                                                                  |
-  | E08     | V   8/1 |                                  |                                                                  |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
-  |         | M  12/1 | Q&A / Simulazione d'esame        |                                                                  |
-  +---------+---------+----------------------------------+------------------------------------------------------------------+
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | Lezione | Data    | Argomento                        | Materiale didattico                                                   |
+  +=========+=========+==================================+=======================================================================+
+  | T01     | M 29/9  | Introduzione                     | PDJ 1                                                                 |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T02     | V  2/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Language Basics`_, `Packages`_ |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T03     | M  6/10 |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                               |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T04     | V  9/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_; E `t04`_                   |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T05     | M 13/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]; H `t05`_          |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E01     | V 16/10 |                                  | E `e01`_                                                              |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T06     | M 20/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E02     | V 23/10 |                                  | E `e02`_                                                              |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T07     | M 27/10 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*; H `t07`_                               |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E03     | V 30/10 |                                  | E `e03`_                                                              |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T08     | M  3/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*;                                        |
+  |         |         |                                  | [JT `Programming With Assertions`_]; H `t08`_                         |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E04     | V  6/11 |                                  | E `e04`_                                                              |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T09     | M 10/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                         |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E05     | V 13/11 |                                  | E `e05`                                                               |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T10     | M 17/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
+  +---------+---------+                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_,        |
+  | T11     | V 20/11 |                                  | `For-each`_                                                           |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T12     | M 24/11 | Gerarchia e generici             | PDJ 7, 8                                                              |
+  +---------+---------+                                  |                                                                       |
+  | E06     | V 27/11 |                                  |                                                                       |
+  +---------+---------+                                  |                                                                       |
+  | T13     | M  1/12 |                                  |                                                                       |
+  +---------+---------+                                  |                                                                       |
+  | T14     | V  4/12 |                                  |                                                                       |
+  +---------+---------+                                  |                                                                       |
+  | E07     | V 11/12 |                                  |                                                                       |
+  +---------+---------+                                  |                                                                       |
+  | T15     | M 15/12 |                                  |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T16     | V 18/12 | Specificazione, progetto e       | PDJ 9, 13, 14                                                         |
+  +---------+---------+ implementazione                  |                                                                       |
+  | E08     | V   8/1 |                                  |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  |         | M  12/1 | Q&A / Simulazione d'esame        |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
 
 .. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
 .. _Language Basics: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
-.. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
 .. _Packages: https://docs.oracle.com/javase/tutorial/java/package/
+
+.. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
+
 .. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
-.. _Exceptions: https://docs.oracle.com/javase/tutorial/essential/exceptions/
-.. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
-.. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
-.. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
-.. _Collections: https://docs.oracle.com/javase/tutorial/collections/
-.. _Collections (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
-.. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
-.. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
-
-.. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
-
-.. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
-.. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
+
+.. _Exceptions: https://docs.oracle.com/javase/tutorial/essential/exceptions/
+
+.. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
+
+.. _Access Control: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+.. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+.. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
+.. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
+
+.. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
+.. _Collections: https://docs.oracle.com/javase/tutorial/collections/
+.. _Collections (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
+.. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
+.. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
+
 
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
@@ -126,6 +132,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/18cb3a7c734ab270e7eda2001dd8119984d81987/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/a266289dfddac2bb7a9f4bba04c86f4adac4ade3/soluzioni/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/f75e200b540a5741af2c551586e34d41ccc1298c/soluzioni/e04
+
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
