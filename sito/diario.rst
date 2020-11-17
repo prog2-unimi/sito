@@ -68,7 +68,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T10     | M 17/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
   +---------+---------+                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_,        |
-  | T11     | V 20/11 |                                  | `For-each`_                                                           |
+  | T11     | V 20/11 |                                  | `For-each`_; H `t10`_                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T12     | M 24/11 | Gerarchia e generici             | PDJ 7, 8                                                              |
   +---------+---------+                                  |                                                                       |
@@ -132,7 +132,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/18cb3a7c734ab270e7eda2001dd8119984d81987/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/a266289dfddac2bb7a9f4bba04c86f4adac4ade3/soluzioni/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/f75e200b540a5741af2c551586e34d41ccc1298c/soluzioni/e04
-
+.. _t10: https://github.com/prog2-unimi/handouts/tree/4f2cc82977accd6df3a27a3bd01c23ead56049ec/src/it/unimi/di/prog2/t10
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
