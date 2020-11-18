@@ -64,7 +64,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T09     | M 10/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E05     | V 13/11 |                                  | E `e05`                                                               |
+  | E05     | V 13/11 |                                  | E `e05`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T10     | M 17/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
   +---------+---------+                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_,        |
@@ -132,6 +132,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/18cb3a7c734ab270e7eda2001dd8119984d81987/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/a266289dfddac2bb7a9f4bba04c86f4adac4ade3/soluzioni/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/f75e200b540a5741af2c551586e34d41ccc1298c/soluzioni/e04
+.. _e05: https://github.com/prog2-unimi/esercitazioni/tree/86eed5c6d3d67c1533430ffb736a4e0693090988/soluzioni/e05
 .. _t10: https://github.com/prog2-unimi/handouts/tree/4f2cc82977accd6df3a27a3bd01c23ead56049ec/src/it/unimi/di/prog2/t10
 
 .. admonition:: Nota bene
