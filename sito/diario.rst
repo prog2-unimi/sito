@@ -70,17 +70,17 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_,        |
   | T11     | V 20/11 |                                  | `For-each`_; H `t10`_, `t11`_                                         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T12     | M 24/11 | Gerarchia e generici             | PDJ 7, 8                                                              |
-  +---------+---------+                                  |                                                                       |
-  | E06     | V 27/11 |                                  |                                                                       |
-  +---------+---------+                                  |                                                                       |
-  | T13     | M  1/12 |                                  |                                                                       |
-  +---------+---------+                                  |                                                                       |
-  | T14     | V  4/12 |                                  |                                                                       |
-  +---------+---------+                                  |                                                                       |
-  | E07     | V 11/12 |                                  |                                                                       |
-  +---------+---------+                                  |                                                                       |
-  | T15     | M 15/12 |                                  |                                                                       |
+  | T12     | M 24/11 | Ereditarietà e composizione      | PDJ 7 *1 - 7*;                                                        |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E06     | V 27/11 |                                  | E `e06`                                                               |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T13     | M  1/12 |                                  | PDJ 7 *8 - 11*; JT `Default Methods`_                                 |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T14     | V  4/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E07     | V 11/12 |                                  | E `e07`; JT `Collections`_; `C. (documentation)`_; `C. (Bloch)`_      |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T15     | M 15/12 |                                  | JT `Generics (Bracha)`_                                               |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T16     | V 18/12 | Specificazione, progetto e       | PDJ 9, 13, 14                                                         |
   +---------+---------+ implementazione                  |                                                                       |
@@ -114,8 +114,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Collections: https://docs.oracle.com/javase/tutorial/collections/
-.. _Collections (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
-.. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
+.. _C. (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _C. (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
