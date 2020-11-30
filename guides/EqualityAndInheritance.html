@@ -1,16 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>EqualityAndInheritance</title>
+<title>EqualityAndInheritance</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<style type="text/css">
+  pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+  </style>
 
 
 
 <style type="text/css">
-    /*!
+/*!
 *
 * Twitter Bootstrap
 *
@@ -12944,81 +13019,7 @@ ul.typeahead-list  > li > a.pull-right {
 .terminal-app #terminado-container {
   margin-top: 20px;
 }
-/*# sourceMappingURL=style.min.css.map */
-    </style>
-<style type="text/css">
-    .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
-.highlight .c { color: #408080; font-style: italic } /* Comment */
-.highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #008000; font-weight: bold } /* Keyword */
-.highlight .o { color: #666666 } /* Operator */
-.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
-.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
-.highlight .gd { color: #A00000 } /* Generic.Deleted */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #FF0000 } /* Generic.Error */
-.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-.highlight .gi { color: #00A000 } /* Generic.Inserted */
-.highlight .go { color: #888888 } /* Generic.Output */
-.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-.highlight .gt { color: #0044DD } /* Generic.Traceback */
-.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
-.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
-.highlight .kp { color: #008000 } /* Keyword.Pseudo */
-.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #B00040 } /* Keyword.Type */
-.highlight .m { color: #666666 } /* Literal.Number */
-.highlight .s { color: #BA2121 } /* Literal.String */
-.highlight .na { color: #7D9029 } /* Name.Attribute */
-.highlight .nb { color: #008000 } /* Name.Builtin */
-.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-.highlight .no { color: #880000 } /* Name.Constant */
-.highlight .nd { color: #AA22FF } /* Name.Decorator */
-.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #0000FF } /* Name.Function */
-.highlight .nl { color: #A0A000 } /* Name.Label */
-.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
-.highlight .nv { color: #19177C } /* Name.Variable */
-.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-.highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mb { color: #666666 } /* Literal.Number.Bin */
-.highlight .mf { color: #666666 } /* Literal.Number.Float */
-.highlight .mh { color: #666666 } /* Literal.Number.Hex */
-.highlight .mi { color: #666666 } /* Literal.Number.Integer */
-.highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
-.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
-.highlight .sc { color: #BA2121 } /* Literal.String.Char */
-.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
-.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
-.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
-.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-.highlight .sx { color: #008000 } /* Literal.String.Other */
-.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
-.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
-.highlight .ss { color: #19177C } /* Literal.String.Symbol */
-.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.highlight .fm { color: #0000FF } /* Name.Function.Magic */
-.highlight .vc { color: #19177C } /* Name.Variable.Class */
-.highlight .vg { color: #19177C } /* Name.Variable.Global */
-.highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-    </style>
-
-
+/*# sourceMappingURL=style.min.css.map */</style>
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 body {
@@ -13032,44 +13033,62 @@ div#notebook {
 }div#notebook-container{
   padding: 6ex 12ex 8ex 12ex;
 }@media print {
+  body {
+    margin: 0;
+  }
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
 
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css">
 
-<!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
+    init_mathjax = function() {
+        if (window.MathJax) {
+        // MathJax loaded
+            MathJax.Hub.Config({
+                TeX: {
+                    equationNumbers: {
+                    autoNumber: "AMS",
+                    useLabelIds: true
+                    }
+                },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true,
+                    processEnvironments: true
+                },
+                displayAlign: 'center',
+                CommonHTML: {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                },
+                "HTML-CSS": {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                }
+            });
+        
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
-    });
+    }
+    init_mathjax();
     </script>
     <!-- End of mathjax configuration --></head>
 <body>
@@ -13082,7 +13101,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Equality-&amp;-Inheritance">Equality &amp; Inheritance<a class="anchor-link" href="#Equality-&amp;-Inheritance">&#182;</a></h1><p>Questa breve nota discute i limiti imposti dall'ereditarietà al soddisfacimento del contratto imposto dal metodo <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object"><code>equals</code></a>) della classe <code>Object</code>.</p>
-<p>La nota segue l'esposizione della sezione 7.9.3 del testo "Program Development in Java" (di Barbara H. Liskov <em>et al.</em>) e dell'<em>item</em> 10 del testo "Effective Java" (di Joshua Bloch).</p>
+<p>La nota segue l'esposizione della <em>Sezione 7.9.3</em> del testo "Program Development in Java" (di Barbara H. Liskov <em>et al.</em>) e dell'<em>Item 10</em> del testo "Effective Java" (di Joshua Bloch).</p>
 <h2 id="Simmetria">Simmetria<a class="anchor-link" href="#Simmetria">&#182;</a></h2><p>L'implementazione <em>ovvia</em> non funziona: se un sottotipo aggiunge un "valore", non basta controllare con <code>instanceof</code> e verificare che siano uguali i valori in gioco…</p>
 <p>Consideriamo il seguente tipo <code>T</code></p>
 
@@ -13098,8 +13117,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13166,23 +13190,23 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">T</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">a</span><span class="o">;</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">T</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">T</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">a</span> <span class="o">=</span> <span class="n">a</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">T</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">a</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+  <span class="p">}</span>
 
-<span class="hll">  <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-</span><span class="hll">    <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="o">)</span> <span class="o">{</span>
-</span><span class="hll">      <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="o">(</span><span class="n">T</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-</span><span class="hll">      <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="o">.</span><span class="na">a</span><span class="o">;</span>
-</span><span class="hll">    <span class="o">}</span>
-</span><span class="hll">    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-</span><span class="hll">  <span class="o">}</span>
-</span><span class="o">}</span>
+<span class="hll">  <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hll">    <span class="k">if</span> <span class="p">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hll">      <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="n">o</span><span class="p">;</span>
+</span><span class="hll">      <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="p">.</span><span class="na">a</span><span class="p">;</span>
+</span><span class="hll">    <span class="p">}</span>
+</span><span class="hll">    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class="hll">  <span class="p">}</span>
+</span><span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/sym/T.java#L29-L43" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/sym/T.java#L29-L43" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13193,7 +13217,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>ed il suo sottotipo <code>S</code></p>
+<p>e il suo sottotipo <code>S</code></p>
 
 </div>
 </div>
@@ -13207,8 +13231,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13275,24 +13304,24 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">S</span> <span class="kd">extends</span> <span class="n">T</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">b</span><span class="o">;</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">S</span> <span class="kd">extends</span> <span class="n">T</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">S</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">b</span> <span class="o">=</span> <span class="n">b</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">S</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
+  <span class="p">}</span>
 
-<span class="hll">  <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-</span><span class="hll">    <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="o">)</span> <span class="o">{</span>
-</span><span class="hll">      <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-</span><span class="hll">      <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
-</span><span class="hll">    <span class="o">}</span>
-</span><span class="hll">    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-</span><span class="hll">  <span class="o">}</span>
-</span><span class="o">}</span>
+<span class="hll">  <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hll">    <span class="k">if</span> <span class="p">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hll">      <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">S</span><span class="p">)</span> <span class="n">o</span><span class="p">;</span>
+</span><span class="hll">      <span class="k">return</span> <span class="kd">super</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">o</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="p">.</span><span class="na">b</span><span class="p">;</span>
+</span><span class="hll">    <span class="p">}</span>
+</span><span class="hll">    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class="hll">  <span class="p">}</span>
+</span><span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/sym/S.java#L29-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/sym/S.java#L29-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13303,7 +13332,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Entrambe i tipi sono dotati di una implementazione di <code>equals</code> (qui evidenziata in giallo) che, dopo aver verificato il tipo dell'argomento <code>o</code> procedono all'ovvio controllo dell'identità dei valori del/i campi corrispondente/i.</p>
+<p>Entrambi i tipi sono dotati di una implementazione di <code>equals</code> (qui evidenziata in giallo) che, dopo aver verificato il tipo dell'argomento <code>o</code> procedono all'ovvio controllo dell'identità dei valori del/i campo/i corrispondente/i.</p>
 <p>Tale implementazione viola la proprietà di <strong>simmetria</strong>, ossia $t \sim s$ non implica $s \sim t$, come dimostrato dal seguente metodo <code>main</code></p>
 
 </div>
@@ -13318,8 +13347,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13386,14 +13420,14 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-<span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">s</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainSym.java#L33-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/MainSym.java#L33-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13417,8 +13451,8 @@ div#notebook {
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>true
-false
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ei.MainSym
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ei.MainSym
 </pre>
 </div>
 </div>
@@ -13429,7 +13463,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Quel che accade è che <code>t instanceof S</code> è <em>falso</em>, ma <code>s instanceof T</code> è <em>vero</em>, per cui l'implementazione di <code>equals</code> di <code>S</code> non sa cosa fare con <code>t</code>, mentre quella di <code>T</code> funziona con <code>s</code> (ovviamente trascurando <code>b</code> di cui ignora l'esistenza).</p>
+<p>Quel che accade è che <code>t instanceof S</code> è <em>falso</em>, ma <code>s instanceof T</code> è <em>vero</em>, per cui l'implementazione di <code>equals</code> di <code>S</code> non sa cosa fare con <code>t</code>, mentre quella di <code>T</code> funziona con <code>s</code> (ovviamente trascurando <code>b</code>, di cui ignora l'esistenza).</p>
 
 </div>
 </div>
@@ -13450,8 +13484,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13518,16 +13557,16 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-  <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-    <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
-  <span class="o">}</span>
-<span class="hll">  <span class="k">if</span> <span class="o">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="o">)</span> <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">);</span>
-</span><span class="hll">  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-</span><span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">S</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">S</span><span class="p">)</span> <span class="n">o</span><span class="p">;</span>
+    <span class="k">return</span> <span class="kd">super</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">o</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="p">.</span><span class="na">b</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="hll">  <span class="k">if</span> <span class="p">(</span><span class="n">o</span> <span class="k">instanceof</span> <span class="n">T</span><span class="p">)</span> <span class="k">return</span> <span class="kd">super</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">o</span><span class="p">);</span>
+</span><span class="hll">  <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/trans/S.java#L37-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/trans/S.java#L37-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13538,7 +13577,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Così facendo infatti, la simmetria è rispsttata, ma risulterà violata la proprietà <strong>transitiva</strong>, ovvero anche avendo $s \sim t$ e $t \sim u$ non è detto che $s \sim u$. Questo dimostrato dal seguente <code>main</code></p>
+<p>Così facendo infatti, la simmetria è rispettata, ma risulterà violata la proprietà <strong>transitiva</strong>, ovvero anche avendo $s \sim t$ e $t \sim u$ non è detto che $s \sim u$. Questo è dimostrato dalla seguente porzione di codice</p>
 
 </div>
 </div>
@@ -13552,8 +13591,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13620,16 +13664,16 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-  <span class="n">S</span> <span class="n">u</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">u</span><span class="o">));</span>
-<span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+  <span class="n">S</span> <span class="n">u</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">u</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">u</span><span class="p">));</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainTrans.java#L33-L40" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/MainTrans.java#L33-L40" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13653,9 +13697,8 @@ false
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>true
-true
-false
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ei.MainTrans
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ei.MainTrans
 </pre>
 </div>
 </div>
@@ -13680,8 +13723,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13748,15 +13796,15 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-  <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
-    <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="o">(</span><span class="n">T</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-    <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="o">.</span><span class="na">a</span><span class="o">;</span>
-  <span class="o">}</span>
-  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-<span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">getClass</span><span class="p">()</span> <span class="o">==</span> <span class="n">o</span><span class="p">.</span><span class="na">getClass</span><span class="p">())</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="n">o</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">==</span> <span class="n">t</span><span class="p">.</span><span class="na">a</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/T.java#L36-L42" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/lsp/T.java#L36-L42" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13781,8 +13829,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13849,15 +13902,15 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="o">(</span><span class="n">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
-  <span class="k">if</span> <span class="o">(</span><span class="n">getClass</span><span class="o">()</span> <span class="o">==</span> <span class="n">o</span><span class="o">.</span><span class="na">getClass</span><span class="o">())</span> <span class="o">{</span>
-    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="o">(</span><span class="n">S</span><span class="o">)</span> <span class="n">o</span><span class="o">;</span>
-    <span class="k">return</span> <span class="kd">super</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">o</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="o">.</span><span class="na">b</span><span class="o">;</span>
-  <span class="o">}</span>
-  <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
-<span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">equals</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">getClass</span><span class="p">()</span> <span class="o">==</span> <span class="n">o</span><span class="p">.</span><span class="na">getClass</span><span class="p">())</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">S</span><span class="p">)</span> <span class="n">o</span><span class="p">;</span>
+    <span class="k">return</span> <span class="kd">super</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">o</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">==</span> <span class="n">s</span><span class="p">.</span><span class="na">b</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/S.java#L37-L43" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/lsp/S.java#L37-L43" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13884,8 +13937,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13952,17 +14010,17 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">R</span> <span class="kd">extends</span> <span class="n">T</span> <span class="o">{</span>
-  <span class="kd">public</span> <span class="nf">R</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
-  <span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">R</span> <span class="kd">extends</span> <span class="n">T</span> <span class="p">{</span>
+  <span class="kd">public</span> <span class="nf">R</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">sayHi</span><span class="o">()</span> <span class="o">{</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hi!&quot;</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">sayHi</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hi!&quot;</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/R.java#L29-L37" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/lsp/R.java#L29-L37" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13973,7 +14031,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Supponiamo ora di sviluppare una classe di utilità con un metodo <code>isSmall</code> che restituisca <code>true</code> per tutti gli oggetti per cui <code>a</code> è <code>1</code>, oppure <code>2</code> e supponiamo (sebbene questo sia estremamente innaturale ed inefficiente) di implementare tale metodo verificando l'appartenenza ad un insieme <code>SMALLS</code> che contiene gli unici due oggetti che soddisfano tale requisito.</p>
+<p>Supponiamo ora di sviluppare una classe di utilità con un metodo <code>isSmall</code> che restituisca <code>true</code> per tutti gli oggetti per cui <code>a</code> è <code>1</code>, oppure <code>2</code> e supponiamo (sebbene questo sia estremamente innaturale e inefficiente) di implementare tale metodo verificando l'appartenenza a un insieme <code>SMALLS</code> che contiene gli unici due oggetti che soddisfano tale requisito.</p>
 
 </div>
 </div>
@@ -13987,8 +14045,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -14055,15 +14118,15 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Client</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">Set</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">SMALLS</span> <span class="o">=</span> <span class="n">Set</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">),</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">2</span><span class="o">));</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Client</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">Set</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">SMALLS</span> <span class="o">=</span> <span class="n">Set</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="k">new</span> <span class="n">T</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="k">new</span> <span class="n">T</span><span class="p">(</span><span class="mi">2</span><span class="p">));</span>
 
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">isSmall</span><span class="o">(</span><span class="n">T</span> <span class="n">t</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">SMALLS</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">t</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">isSmall</span><span class="p">(</span><span class="n">T</span> <span class="n">t</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">SMALLS</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="n">t</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/lsp/Client.java#L31-L37" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/lsp/Client.java#L31-L37" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14074,7 +14137,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Il seguente <code>main</code> mostra che il confronto tra oggetti di tipo diverso (anche se uno è sottotipo dell'altro) restituisce <code>false</code> (il che risolve i problemni di simmetria e transitività); mostra però anche che sostituendo il sottotipo <code>R</code> a <code>T</code> (vedi il codice evidenziato) il comportamento cambia!</p>
+<p>La seguente porzione di codice mostra che il confronto tra oggetti di tipo diverso (anche se uno è sottotipo dell'altro) restituisce <code>false</code> (il che risolve i problemi di simmetria e transitività); mostra però anche che sostituendo il sottotipo <code>R</code> a <code>T</code> (vedi il codice evidenziato) il comportamento cambia!</p>
 
 </div>
 </div>
@@ -14088,8 +14151,13 @@ false
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -14156,18 +14224,18 @@ false
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
-  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">t</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">S</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+  <span class="n">T</span> <span class="n">t</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">s</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
 
-<span class="hll">  <span class="n">R</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="n">R</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
-</span><span class="hll">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">t</span><span class="o">));</span>
-</span><span class="hll">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">isSmall</span><span class="o">(</span><span class="n">r</span><span class="o">));</span>
-</span><span class="o">}</span>
+<span class="hll">  <span class="n">R</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="n">R</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span><span class="hll">  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">Client</span><span class="p">.</span><span class="na">isSmall</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+</span><span class="hll">  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">Client</span><span class="p">.</span><span class="na">isSmall</span><span class="p">(</span><span class="n">r</span><span class="p">));</span>
+</span><span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ei/MainLSP.java#L35-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ei/MainLSP.java#L35-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14191,10 +14259,8 @@ false
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>false
-false
-true
-false
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ei.MainLSP
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ei.MainLSP
 </pre>
 </div>
 </div>
@@ -14205,7 +14271,7 @@ false
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Questo accade perché l'implementazione di <code>Set</code> si basa sul metodo <code>equals</code> per decidere se un oggetto appartiene all'insieme, ma gli elementi di <code>SMALLS</code> (che sono di tipo <code>T</code>) non risultano mai uguali ad oggetti di tipo <code>R</code>!</p>
+<p>Questo accade perché l'implementazione di <code>Set</code> si basa sul metodo <code>equals</code> per decidere se un oggetto appartiene all'insieme, ma gli elementi di <code>SMALLS</code> (che sono di tipo <code>T</code>) non risultano mai uguali a oggetti di tipo <code>R</code>!</p>
 
 </div>
 </div>
@@ -14214,7 +14280,10 @@ false
   </div>
 </body>
 
+
+
+
  
 
 
-</html>
+<link href="custom.css" rel="stylesheet">

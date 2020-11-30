@@ -1,16 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>CompositionAndInheritance</title>
+<title>CompositionAndInheritance</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<style type="text/css">
+  pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+  </style>
 
 
 
 <style type="text/css">
-    /*!
+/*!
 *
 * Twitter Bootstrap
 *
@@ -12944,81 +13019,7 @@ ul.typeahead-list  > li > a.pull-right {
 .terminal-app #terminado-container {
   margin-top: 20px;
 }
-/*# sourceMappingURL=style.min.css.map */
-    </style>
-<style type="text/css">
-    .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
-.highlight .c { color: #408080; font-style: italic } /* Comment */
-.highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #008000; font-weight: bold } /* Keyword */
-.highlight .o { color: #666666 } /* Operator */
-.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
-.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
-.highlight .gd { color: #A00000 } /* Generic.Deleted */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #FF0000 } /* Generic.Error */
-.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-.highlight .gi { color: #00A000 } /* Generic.Inserted */
-.highlight .go { color: #888888 } /* Generic.Output */
-.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-.highlight .gt { color: #0044DD } /* Generic.Traceback */
-.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
-.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
-.highlight .kp { color: #008000 } /* Keyword.Pseudo */
-.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #B00040 } /* Keyword.Type */
-.highlight .m { color: #666666 } /* Literal.Number */
-.highlight .s { color: #BA2121 } /* Literal.String */
-.highlight .na { color: #7D9029 } /* Name.Attribute */
-.highlight .nb { color: #008000 } /* Name.Builtin */
-.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-.highlight .no { color: #880000 } /* Name.Constant */
-.highlight .nd { color: #AA22FF } /* Name.Decorator */
-.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #0000FF } /* Name.Function */
-.highlight .nl { color: #A0A000 } /* Name.Label */
-.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
-.highlight .nv { color: #19177C } /* Name.Variable */
-.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-.highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mb { color: #666666 } /* Literal.Number.Bin */
-.highlight .mf { color: #666666 } /* Literal.Number.Float */
-.highlight .mh { color: #666666 } /* Literal.Number.Hex */
-.highlight .mi { color: #666666 } /* Literal.Number.Integer */
-.highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
-.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
-.highlight .sc { color: #BA2121 } /* Literal.String.Char */
-.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
-.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
-.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
-.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-.highlight .sx { color: #008000 } /* Literal.String.Other */
-.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
-.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
-.highlight .ss { color: #19177C } /* Literal.String.Symbol */
-.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.highlight .fm { color: #0000FF } /* Name.Function.Magic */
-.highlight .vc { color: #19177C } /* Name.Variable.Class */
-.highlight .vg { color: #19177C } /* Name.Variable.Global */
-.highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-    </style>
-
-
+/*# sourceMappingURL=style.min.css.map */</style>
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 body {
@@ -13032,44 +13033,62 @@ div#notebook {
 }div#notebook-container{
   padding: 6ex 12ex 8ex 12ex;
 }@media print {
+  body {
+    margin: 0;
+  }
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
 
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css">
 
-<!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
+    init_mathjax = function() {
+        if (window.MathJax) {
+        // MathJax loaded
+            MathJax.Hub.Config({
+                TeX: {
+                    equationNumbers: {
+                    autoNumber: "AMS",
+                    useLabelIds: true
+                    }
+                },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true,
+                    processEnvironments: true
+                },
+                displayAlign: 'center',
+                CommonHTML: {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                },
+                "HTML-CSS": {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                }
+            });
+        
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
-    });
+    }
+    init_mathjax();
     </script>
     <!-- End of mathjax configuration --></head>
 <body>
@@ -13082,8 +13101,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Composition-&amp;-Inheritance">Composition &amp; Inheritance<a class="anchor-link" href="#Composition-&amp;-Inheritance">&#182;</a></h1><p>Questa breve nota presenta la <em>composizione</em> e la <em>delega</em> come possibili alternative all'ereditarietà.</p>
-<p>La nota segue l'esposizione del capitolo 4 (ed in particolare dell'<em>item</em> 18) del testo "Effective Java" (di Joshua Bloch).</p>
-<h2 id="Estendere,-o-utilizzare?">Estendere, o utilizzare?<a class="anchor-link" href="#Estendere,-o-utilizzare?">&#182;</a></h2><p>Supponiamo di avere una classe <code>Adder</code> in grado di svolgere delle somme (di uno, o di una lista, di interi), tenendo traccia del risultato complessivo, il cui codice è</p>
+<p>La nota segue l'esposizione del <em>Capitolo 4</em> (e in particolare dell'<em>Item 18</em>) del testo "Effective Java" (di Joshua Bloch).</p>
+<h2 id="Estendere-o-utilizzare?">Estendere o utilizzare?<a class="anchor-link" href="#Estendere-o-utilizzare?">&#182;</a></h2><p>Supponiamo di avere una classe <code>Adder</code> in grado di tenere traccia di somme tra interi (che possono essere svolte considerando un numero per volta oppure prelevando gli addendi da una lista), il cui codice è</p>
 
 </div>
 </div>
@@ -13097,8 +13116,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13165,24 +13189,24 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Adder</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Adder</span> <span class="p">{</span>
 
-  <span class="kd">private</span> <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">result</span> <span class="o">+=</span> <span class="n">x</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">result</span> <span class="o">+=</span> <span class="n">x</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">l</span><span class="o">)</span> <span class="n">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="p">:</span> <span class="n">l</span><span class="p">)</span> <span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/Adder.java#L26-L41" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ec/Adder.java#L26-L41" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13208,8 +13232,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13276,27 +13305,27 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdderExt</span> <span class="kd">extends</span> <span class="n">Adder</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdderExt</span> <span class="kd">extends</span> <span class="n">Adder</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">seen</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">seen</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-<span class="hll">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">)</span> <span class="o">{</span>
-</span><span class="hll">    <span class="n">seen</span><span class="o">.</span><span class="na">addAll</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-</span><span class="hll">    <span class="kd">super</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-</span><span class="hll">  <span class="o">}</span>
+<span class="hll">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hll">    <span class="n">seen</span><span class="p">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+</span><span class="hll">    <span class="kd">super</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+</span><span class="hll">  <span class="p">}</span>
 </span>
-  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">List</span><span class="p">.</span><span class="na">copyOf</span><span class="p">(</span><span class="n">seen</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/LogAdderExt.java#L28-L46" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ec/LogAdderExt.java#L27-L45" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13307,7 +13336,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Si osservi che (basandosi sulle specifiche del supertipo) appare assolutamente corretta l'idea di sovrascrivere entrambe i metodi <code>add</code>, anche quello evidenziato in giallo.</p>
+<p>Si osservi che (basandosi sulle specifiche del supertipo) appare assolutamente corretta l'idea di sovrascrivere entrambi i metodi <code>add</code>, anche quello evidenziato in giallo.</p>
 <p>L'esecuzione di un semplice <em>client</em> di tali implementazioni</p>
 
 </div>
@@ -13322,8 +13351,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13390,18 +13424,18 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="p">();</span>
+  <span class="n">a</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
 
-  <span class="n">LogAdderExt</span> <span class="n">lae</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderExt</span><span class="o">();</span>
-  <span class="n">lae</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lae</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
-<span class="o">}</span>
+  <span class="n">LogAdderExt</span> <span class="n">lae</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderExt</span><span class="p">();</span>
+  <span class="n">lae</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">lae</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">lae</span><span class="p">.</span><span class="na">log</span><span class="p">());</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainECE.java#L29-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/MainECE.java#L29-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13425,9 +13459,8 @@ div#notebook {
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>6
-6
-[1, 2, 3, 1, 2, 3]
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ci.MainECE
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ci.MainECE
 </pre>
 </div>
 </div>
@@ -13438,7 +13471,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Seppure le somme sono in entrambe i casi corrette, la lista dei valori aggiunti è evidentemente duplicata. Cosa è successo?</p>
+<p>Seppure le somme sono corrette in entrambi i casi, la lista dei valori aggiunti è evidentemente duplicata. Cosa è successo?</p>
 <p>Per capirlo possiamo eseguire di nuovo il codice del client dopo aver <em>instrumentato</em> il codice dei metodi <code>add</code> delle classi <code>Adder</code> e <code>LogAdderExt</code> con <a href="https://github.com/prog2-unimi/cali">cali</a>, uno strumento che permette di aggiungere automaticamente codice ai metodi per tracciarne le invocazioni.</p>
 
 </div>
@@ -13446,8 +13479,19 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Class LogAdderExt not found in package it.unimi.di.prog2.l14.ci.ec
+</pre>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
+</div>
+
+</div>
+</div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
@@ -13458,21 +13502,25 @@ div#notebook {
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>it.unimi.di.prog2.l14.ci.ec.Adder.add([1, 2, 3])
-it.unimi.di.prog2.l14.ci.ec.Adder.add(1)
-it.unimi.di.prog2.l14.ci.ec.Adder.add(2)
-it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
-6
-it.unimi.di.prog2.l14.ci.ec.LogAdderExt.add([1, 2, 3])
-it.unimi.di.prog2.l14.ci.ec.Adder.add([1, 2, 3])
-it.unimi.di.prog2.l14.ci.ec.LogAdderExt.add(1)
-it.unimi.di.prog2.l14.ci.ec.Adder.add(1)
-it.unimi.di.prog2.l14.ci.ec.LogAdderExt.add(2)
-it.unimi.di.prog2.l14.ci.ec.Adder.add(2)
-it.unimi.di.prog2.l14.ci.ec.LogAdderExt.add(3)
-it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
-6
-[1, 2, 3, 1, 2, 3]
+<pre>Class Adder not found in package it.unimi.di.prog2.l14.ci.ec
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ci.MainECE
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ci.MainECE
 </pre>
 </div>
 </div>
@@ -13483,9 +13531,9 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Quel che accade è che l'implementazione del metodo <code>add</code> per la lista di <code>LogAdderExt</code> (dopo aver aggiunto alla lista gli interi) invoca il metodo del <em>supertipo</em> il quale, a sua volta, invoca il metodo <code>add</code> per il singolo intero; questo, a causa del fatto che il tipo concreto <code>LogAdderExt</code>, risulta in una chiamata del suo metodo <code>add</code> per un singolo intero (che aggiunge di nuovo il numero alla lista) che infine chiama il metodo del <em>supertipo</em> che svolge la somma.</p>
+<p>Quel che accade è che l'implementazione del metodo <code>add</code> per la lista di <code>LogAdderExt</code>, dopo aver aggiunto alla lista gli interi passati come argomento, invoca il metodo del <em>supertipo</em> il quale, a sua volta, invoca il metodo <code>add</code> per il singolo intero; questo, a causa del fatto che il tipo concreto è <code>LogAdderExt</code>, risulta in una chiamata del suo metodo <code>add</code> per un singolo intero (che aggiunge di nuovo il numero alla lista) che infine chiama il metodo del <em>supertipo</em> che svolge la somma.</p>
 <p>Osservate è <strong>molto improbabile</strong> basarsi sulle specifiche per evitare un problema del genere, dato che non è necessario che una specifica segnali che adopererà altri metodi della classe per svolgere il suo compito — a meno che la classe non sia esplicitamente specificata (e documentata) per essere estesa.</p>
-<h3 id="Compisizione">Compisizione<a class="anchor-link" href="#Compisizione">&#182;</a></h3><p>Una soluzione semplice a questo problema è fare in modo che la classe che somma e tiene traccia dei numeri non estenda <code>Adder</code> ma lo adoperi, attraverso la composizione, come nella classe <code>LogAdderComp</code></p>
+<h3 id="Composizione">Composizione<a class="anchor-link" href="#Composizione">&#182;</a></h3><p>Una soluzione semplice a questo problema è fare in modo che la classe che somma e tiene traccia dei numeri non estenda <code>Adder</code> ma lo adoperi, attraverso la composizione, come nella classe <code>LogAdderComp</code></p>
 
 </div>
 </div>
@@ -13499,8 +13547,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13567,30 +13620,30 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdderComp</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="n">Adder</span> <span class="n">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdderComp</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="n">Adder</span> <span class="n">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="p">();</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">seen</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-    <span class="n">adder</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">seen</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+    <span class="n">adder</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">seen</span><span class="o">.</span><span class="na">addAll</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-    <span class="n">adder</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">seen</span><span class="p">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+    <span class="n">adder</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">adder</span><span class="o">.</span><span class="na">result</span><span class="o">();</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">adder</span><span class="p">.</span><span class="na">result</span><span class="p">();</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">List</span><span class="p">.</span><span class="na">copyOf</span><span class="p">(</span><span class="n">seen</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ec/LogAdderComp.java#L28-L49" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ec/LogAdderComp.java#L27-L48" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13615,8 +13668,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13683,18 +13741,18 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">Adder</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="p">();</span>
+  <span class="n">a</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
 
-  <span class="n">LogAdderComp</span> <span class="n">lac</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderComp</span><span class="o">();</span>
-  <span class="n">lac</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">lac</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
-<span class="o">}</span>
+  <span class="n">LogAdderComp</span> <span class="n">lac</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdderComp</span><span class="p">();</span>
+  <span class="n">lac</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">lac</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">lac</span><span class="p">.</span><span class="na">log</span><span class="p">());</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainECC.java#L29-L38" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/MainECC.java#L29-L38" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13711,9 +13769,8 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>6
-6
-[1, 2, 3]
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ci.MainECC
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ci.MainECC
 </pre>
 </div>
 </div>
@@ -13738,8 +13795,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13806,16 +13868,16 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">AdderInterface</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">AdderInterface</span> <span class="p">{</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">);</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">);</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">);</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">);</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="o">();</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="p">();</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/AdderInterface.java#L26-L33" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ef/AdderInterface.java#L26-L33" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13840,8 +13902,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13908,12 +13975,12 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">use</span><span class="o">(</span><span class="n">AdderInterface</span> <span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-  <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-<span class="o">}</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">use</span><span class="p">(</span><span class="n">AdderInterface</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">a</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainEF.java#L31-L34" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/MainEF.java#L31-L34" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13926,7 +13993,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>consentendo di decidere in un secondo momento se usare un semplice <code>Adder</code> (il cui codice è identico a quello presentato in precedenza, fatta eccezione per il fatto che nell'intestazione della classe aggiungeremo <code>implements AdderInterface</code>) che tenga traccia della somma, o una variante di esso in grado di tener traccia anche degli addendi.</p>
 <p>Ma non vogliamo incorrere nell'errore precedente.</p>
-<p>Per questa ragione astraiamo l'idea di usare il supertipo in una classe che implementi l'interfaccia di cui sopra, delegando (<em>forward</em>) ogni metodo al supertipo. Questa classe si comporta un po' come <code>LogAdderComp</code>, ma non altera alcun comportamento, si occopua solo di "girare" al supertipo tutte le chiamate.</p>
+<p>Per questa ragione astraiamo l'idea di usare il supertipo in una classe che implementi l'interfaccia di cui sopra, delegando (<em>forward</em>) ogni metodo al supertipo. Questa classe si comporta un po' come <code>LogAdderComp</code>, ma non altera alcun comportamento; si occupa solo di "girare" al supertipo tutte le chiamate.</p>
 
 </div>
 </div>
@@ -13940,8 +14007,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -14008,31 +14080,31 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AdderForwarder</span> <span class="kd">implements</span> <span class="n">AdderInterface</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AdderForwarder</span> <span class="kd">implements</span> <span class="n">AdderInterface</span> <span class="p">{</span>
 
-  <span class="kd">private</span> <span class="kd">final</span> <span class="n">AdderInterface</span> <span class="n">adder</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="n">AdderInterface</span> <span class="n">adder</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">AdderForwarder</span><span class="o">(</span><span class="n">AdderInterface</span> <span class="n">adder</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">adder</span> <span class="o">=</span> <span class="n">adder</span><span class="o">;</span>
-  <span class="o">}</span>
-
-  <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">adder</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">AdderForwarder</span><span class="p">(</span><span class="n">AdderInterface</span> <span class="n">adder</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">adder</span> <span class="o">=</span> <span class="n">adder</span><span class="p">;</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">adder</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">adder</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">adder</span><span class="o">.</span><span class="na">result</span><span class="o">();</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">adder</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">result</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">adder</span><span class="p">.</span><span class="na">result</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/AdderForwarder.java#L26-L48" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ef/AdderForwarder.java#L26-L48" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14061,8 +14133,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -14129,31 +14206,31 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdder</span> <span class="kd">extends</span> <span class="n">AdderForwarder</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LogAdder</span> <span class="kd">extends</span> <span class="n">AdderForwarder</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kd">final</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">seen</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
 
-  <span class="kd">public</span> <span class="nf">LogAdder</span><span class="o">(</span><span class="n">AdderInterface</span> <span class="n">adder</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">(</span><span class="n">adder</span><span class="o">);</span>
-  <span class="o">}</span>
-
-  <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">seen</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">LogAdder</span><span class="p">(</span><span class="n">AdderInterface</span> <span class="n">adder</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">(</span><span class="n">adder</span><span class="p">);</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">seen</span><span class="o">.</span><span class="na">addAll</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">seen</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">Collections</span><span class="o">.</span><span class="na">unmodifiableList</span><span class="o">(</span><span class="n">seen</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">seen</span><span class="p">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">l</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">log</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">List</span><span class="p">.</span><span class="na">copyOf</span><span class="p">(</span><span class="n">seen</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/ef/LogAdder.java#L28-L50" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/ef/LogAdder.java#L27-L49" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14179,8 +14256,13 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -14247,24 +14329,24 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainEF</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainEF</span> <span class="p">{</span>
 
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">use</span><span class="o">(</span><span class="n">AdderInterface</span> <span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">a</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">));</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">result</span><span class="o">());</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">use</span><span class="p">(</span><span class="n">AdderInterface</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">a</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="na">result</span><span class="p">());</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">AdderInterface</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="o">();</span>
-    <span class="n">use</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">AdderInterface</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Adder</span><span class="p">();</span>
+    <span class="n">use</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
 
-    <span class="n">LogAdder</span> <span class="n">la</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdder</span><span class="o">(</span><span class="k">new</span> <span class="n">Adder</span><span class="o">());</span>
-    <span class="n">use</span><span class="o">(</span><span class="n">la</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">la</span><span class="o">.</span><span class="na">log</span><span class="o">());</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+    <span class="n">LogAdder</span> <span class="n">la</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LogAdder</span><span class="p">(</span><span class="k">new</span> <span class="n">Adder</span><span class="p">());</span>
+    <span class="n">use</span><span class="p">(</span><span class="n">la</span><span class="p">);</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">la</span><span class="p">.</span><span class="na">log</span><span class="p">());</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/l14/ci/MainEF.java#L29-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/ci/MainEF.java#L29-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -14275,7 +14357,7 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Osservate che c'è un vantaggio in più: <code>LogAdder</code> può scegliere nel suo costruttore a che implementazione di <code>AdderInterface</code> fare riferimento; se in futuro ci fossero implementazioni migliori, <code>LogAdder</code> non essendo vincolato ad essere un sottotipo di <code>Adder</code>, potrebbe essere utilizzato con una di tali implementazioni.</p>
+<p>Osservate che c'è un vantaggio in più: <code>LogAdder</code> può scegliere nel suo costruttore a che implementazione di <code>AdderInterface</code> fare riferimento; se in futuro ci fossero implementazioni migliori, <code>LogAdder</code>, non essendo vincolato a essere un sottotipo di <code>Adder</code>, potrebbe essere utilizzato con una qualunque di tali implementazioni.</p>
 <p>L'esecuzione del codice <em>client</em> mostra il comportamento desiderato</p>
 
 </div>
@@ -14289,9 +14371,8 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>6
-6
-[1, 2, 3]
+<pre>Error: Could not find or load main class it.unimi.di.prog2.l14.ci.MainEF
+Caused by: java.lang.ClassNotFoundException: it.unimi.di.prog2.l14.ci.MainEF
 </pre>
 </div>
 </div>
@@ -14304,7 +14385,10 @@ it.unimi.di.prog2.l14.ci.ec.Adder.add(3)
   </div>
 </body>
 
+
+
+
  
 
 
-</html>
+<link href="custom.css" rel="stylesheet">
