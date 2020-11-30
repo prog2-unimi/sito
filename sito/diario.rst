@@ -74,7 +74,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E06     | V 27/11 |                                  | E `e06`                                                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T13     | M  1/12 |                                  | PDJ 7 *8 - 11*; JT `Default Methods`_                                 |
+  | T13     | M  1/12 |                                  | PDJ 7 *8 - 11*; JT `Default Methods`_;                                |
+  |         |         |                                  | H Equality_ [Ontology_ e Composition_]                                |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T14     | V  4/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -119,6 +120,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
+.. _Composition: /guides/compositionandinheritance
+.. _Equality: /guides/equalityandinheritance
+.. _Ontology: /guides/ontologyandinheritance
 
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
