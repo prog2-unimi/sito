@@ -13117,8 +13117,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13185,28 +13190,28 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kt">int</span> <span class="n">base</span><span class="o">;</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">base</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">Square</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">Square</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">base</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">base</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">base</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="na">base</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="p">;</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&quot;Square, base = %d&quot;</span><span class="o">,</span> <span class="n">base</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="na">format</span><span class="p">(</span><span class="s">&quot;Square, base = %d&quot;</span><span class="p">,</span> <span class="n">base</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/rs/Square.java#L24-L43" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/rs/Square.java#L24-L43" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13231,8 +13236,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13299,29 +13309,29 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="kd">extends</span> <span class="n">Square</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kt">int</span> <span class="n">height</span><span class="o">;</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="kd">extends</span> <span class="n">Square</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">height</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">Rectangle</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">,</span> <span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">(</span><span class="n">base</span><span class="o">);</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">Rectangle</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">,</span> <span class="kt">int</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">(</span><span class="n">base</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">height</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">height</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="na">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="o">(</span><span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="p">(</span><span class="kt">int</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&quot;Rectangle: base = %d, height = %d&quot;</span><span class="o">,</span> <span class="n">base</span><span class="o">(),</span> <span class="n">height</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="na">format</span><span class="p">(</span><span class="s">&quot;Rectangle: base = %d, height = %d&quot;</span><span class="p">,</span> <span class="n">base</span><span class="p">(),</span> <span class="n">height</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/rs/Rectangle.java#L24-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/rs/Rectangle.java#L24-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13348,8 +13358,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13416,37 +13431,37 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="o">{</span>
-  <span class="kd">private</span> <span class="kt">int</span> <span class="n">base</span><span class="o">,</span> <span class="n">height</span><span class="o">;</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="p">{</span>
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">base</span><span class="p">,</span> <span class="n">height</span><span class="p">;</span>
 
-  <span class="kd">public</span> <span class="nf">Rectangle</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">,</span> <span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">Rectangle</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">,</span> <span class="kt">int</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">base</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">base</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">base</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="na">base</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">height</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">height</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="na">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="o">(</span><span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="p">(</span><span class="kt">int</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="p">;</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&quot;WrongFigures.Rectangle: base = %d, height = %d&quot;</span><span class="o">,</span> <span class="n">base</span><span class="o">(),</span> <span class="n">height</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="na">format</span><span class="p">(</span><span class="s">&quot;WrongFigures.Rectangle: base = %d, height = %d&quot;</span><span class="p">,</span> <span class="n">base</span><span class="p">(),</span> <span class="n">height</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/sr/Rectangle.java#L24-L52" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/sr/Rectangle.java#L24-L52" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13471,8 +13486,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13539,29 +13559,29 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="kd">extends</span> <span class="n">Rectangle</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Square</span> <span class="kd">extends</span> <span class="n">Rectangle</span> <span class="p">{</span>
 
-  <span class="kd">public</span> <span class="nf">Square</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">(</span><span class="n">base</span><span class="o">,</span> <span class="n">base</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="nf">Square</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">base</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="o">(</span><span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">base</span><span class="o">(</span><span class="n">base</span><span class="o">);</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">height</span><span class="o">(</span><span class="n">base</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">base</span><span class="p">(</span><span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">base</span><span class="p">(</span><span class="n">base</span><span class="p">);</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">height</span><span class="p">(</span><span class="n">base</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="o">(</span><span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">base</span><span class="o">(</span><span class="n">height</span><span class="o">);</span>
-    <span class="kd">super</span><span class="o">.</span><span class="na">height</span><span class="o">(</span><span class="n">height</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">height</span><span class="p">(</span><span class="kt">int</span> <span class="n">height</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">base</span><span class="p">(</span><span class="n">height</span><span class="p">);</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">height</span><span class="p">(</span><span class="n">height</span><span class="p">);</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&quot;Square, base = %d&quot;</span><span class="o">,</span> <span class="n">base</span><span class="o">());</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="na">format</span><span class="p">(</span><span class="s">&quot;Square, base = %d&quot;</span><span class="p">,</span> <span class="n">base</span><span class="p">());</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/sr/Square.java#L24-L44" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/sr/Square.java#L24-L44" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13586,8 +13606,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13654,29 +13679,29 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Histogram</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Histogram</span> <span class="p">{</span>
 
-  <span class="n">List</span><span class="o">&lt;</span><span class="n">Rectangle</span><span class="o">&gt;</span> <span class="n">rectangles</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LinkedList</span><span class="o">&lt;&gt;();</span>
+  <span class="n">List</span><span class="o">&lt;</span><span class="n">Rectangle</span><span class="o">&gt;</span> <span class="n">rectangles</span> <span class="o">=</span> <span class="k">new</span> <span class="n">LinkedList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="n">Rectangle</span> <span class="n">r</span><span class="o">)</span> <span class="o">{</span>
-    <span class="kt">int</span> <span class="n">i</span><span class="o">;</span>
-    <span class="k">for</span> <span class="o">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">rectangles</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="k">if</span> <span class="o">(</span><span class="n">rectangles</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">height</span><span class="o">()</span> <span class="o">&gt;</span> <span class="n">r</span><span class="o">.</span><span class="na">height</span><span class="o">())</span> <span class="k">break</span><span class="o">;</span>
-    <span class="n">rectangles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">i</span><span class="o">,</span> <span class="n">r</span><span class="o">);</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="n">Rectangle</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">rectangles</span><span class="p">.</span><span class="na">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="n">rectangles</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="na">height</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">r</span><span class="p">.</span><span class="na">height</span><span class="p">())</span> <span class="k">break</span><span class="p">;</span>
+    <span class="n">rectangles</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+  <span class="p">}</span>
 
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">changeBase</span><span class="o">(</span><span class="n">Rectangle</span> <span class="n">o</span><span class="o">,</span> <span class="kt">int</span> <span class="n">base</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">NoSuchElementException</span> <span class="o">{</span>
-    <span class="kd">final</span> <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">rectangles</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="n">o</span><span class="o">);</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">idx</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span> <span class="n">rectangles</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">idx</span><span class="o">).</span><span class="na">base</span><span class="o">(</span><span class="n">base</span><span class="o">);</span>
-    <span class="k">else</span> <span class="k">throw</span> <span class="k">new</span> <span class="n">NoSuchElementException</span><span class="o">();</span>
-  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">changeBase</span><span class="p">(</span><span class="n">Rectangle</span> <span class="n">o</span><span class="p">,</span> <span class="kt">int</span> <span class="n">base</span><span class="p">)</span> <span class="kd">throws</span> <span class="n">NoSuchElementException</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">rectangles</span><span class="p">.</span><span class="na">indexOf</span><span class="p">(</span><span class="n">o</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">idx</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="n">rectangles</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">idx</span><span class="p">).</span><span class="na">base</span><span class="p">(</span><span class="n">base</span><span class="p">);</span>
+    <span class="k">else</span> <span class="k">throw</span> <span class="k">new</span> <span class="n">NoSuchElementException</span><span class="p">();</span>
+  <span class="p">}</span>
 
   <span class="nd">@Override</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
-    <span class="k">return</span> <span class="n">rectangles</span><span class="o">.</span><span class="na">toString</span><span class="o">();</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">rectangles</span><span class="p">.</span><span class="na">toString</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/sr/Histogram.java#L28-L48" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/sr/Histogram.java#L28-L48" target="_blank">[sorgente]</a>
 </div>
 
 </div>
@@ -13701,8 +13726,13 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<style>.output_html .hll { background-color: #ffffcc }
-.output_html  { background: #f8f8f8; }
+<style>pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.output_html .hll { background-color: #ffffcc }
+.output_html { background: #f8f8f8; }
 .output_html .c { color: #408080; font-style: italic } /* Comment */
 .output_html .err { border: 1px solid #FF0000 } /* Error */
 .output_html .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13769,29 +13799,29 @@ div#notebook {
 .output_html .vg { color: #19177C } /* Name.Variable.Global */
 .output_html .vi { color: #19177C } /* Name.Variable.Instance */
 .output_html .vm { color: #19177C } /* Name.Variable.Magic */
-.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainSR</span> <span class="o">{</span>
+.output_html .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="output_html"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainSR</span> <span class="p">{</span>
 
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
 
-    <span class="n">Histogram</span> <span class="n">hist1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Histogram</span><span class="o">();</span>
-    <span class="n">Rectangle</span> <span class="n">r1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Rectangle</span><span class="o">(</span><span class="mi">4</span><span class="o">,</span> <span class="mi">4</span><span class="o">),</span> <span class="n">r2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Rectangle</span><span class="o">(</span><span class="mi">3</span><span class="o">,</span> <span class="mi">3</span><span class="o">);</span>
-    <span class="n">hist1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">r1</span><span class="o">);</span>
-    <span class="n">hist1</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">r2</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">hist1</span><span class="o">);</span>
-    <span class="n">hist1</span><span class="o">.</span><span class="na">changeBase</span><span class="o">(</span><span class="n">r2</span><span class="o">,</span> <span class="mi">6</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">hist1</span><span class="o">);</span>
+    <span class="n">Histogram</span> <span class="n">hist1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Histogram</span><span class="p">();</span>
+    <span class="n">Rectangle</span> <span class="n">r1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">r2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
+    <span class="n">hist1</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">r1</span><span class="p">);</span>
+    <span class="n">hist1</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">r2</span><span class="p">);</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">hist1</span><span class="p">);</span>
+    <span class="n">hist1</span><span class="p">.</span><span class="na">changeBase</span><span class="p">(</span><span class="n">r2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">hist1</span><span class="p">);</span>
 
-    <span class="n">Histogram</span> <span class="n">hist2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Histogram</span><span class="o">();</span>
-    <span class="n">Square</span> <span class="n">s1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Square</span><span class="o">(</span><span class="mi">4</span><span class="o">),</span> <span class="n">s2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Square</span><span class="o">(</span><span class="mi">3</span><span class="o">);</span>
-    <span class="n">hist2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">s1</span><span class="o">);</span>
-    <span class="n">hist2</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">s2</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">hist2</span><span class="o">);</span>
-    <span class="n">hist2</span><span class="o">.</span><span class="na">changeBase</span><span class="o">(</span><span class="n">s2</span><span class="o">,</span> <span class="mi">6</span><span class="o">);</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">hist2</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+    <span class="n">Histogram</span> <span class="n">hist2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Histogram</span><span class="p">();</span>
+    <span class="n">Square</span> <span class="n">s1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Square</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">s2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Square</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+    <span class="n">hist2</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">s1</span><span class="p">);</span>
+    <span class="n">hist2</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">s2</span><span class="p">);</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">hist2</span><span class="p">);</span>
+    <span class="n">hist2</span><span class="p">.</span><span class="na">changeBase</span><span class="p">(</span><span class="n">s2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">hist2</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
-<p><a href="https://github.com/prog2-unimi/handouts/blob/aa1920/src/it/unimi/di/prog2/t13/oi/MainSR.java#L28-L48" target="_blank">[sorgente]</a>
+<p><a href="https://github.com/prog2-unimi/handouts/blob/aa2021/src/it/unimi/di/prog2/t13/oi/MainSR.java#L28-L48" target="_blank">[sorgente]</a>
 </div>
 
 </div>
