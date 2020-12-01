@@ -49,14 +49,14 @@ della conoscenza del paradigma *imperativo* appresa tramite l'uso del linguaggio
 relative tecniche di specificazione e progetto) attraverso il linguaggio *Java*
 (e non solo).
 
-### Risultati di apprendimento attesi e argomenti trattati
+### Risultati di apprendimento attesi
 
 A seguito del superamento dell'esame, lo studente conosce le principali nozioni
 riguardanti l'*object orientation* quali:
 
 * astrazione (tramite procedure e tipi di dati),
 * incapsulamento (tramite classi concrete/astratte e interfacce),
-* estensibilità (per ereditarietà, composizione e delega),
+* estensibilità (per ereditarietà, o composizione),
 * polimorfismo (e tipi generici).
 
 Inoltre lo studente è in grado di:
@@ -76,10 +76,10 @@ linguaggio di programmazione Java.
 
 Riguardo ai principi, sono introdotti e discussi:
 
-* l'uso di **astrazioni** di vario livello (come i metodi, i tipi di dato astratti, l'iterazione esterna, l'estensione e delega),
+* l'uso di **astrazioni** di vario livello (come i metodi, i tipi di dato astratti, l'iterazione esterna, l'estensione),
 * alcuni **strumenti concettuali** per ragionare su tali astrazioni (come l'*invariante di rappresentazione*, la *funzione di astrazione*, le *pre-*/*post-condizioni*, gli *effetti collaterali*, l'*induzione sui tipi di dato*…),
 * alcuni **criteri di valutazione della qualità** del progetto di codice *object oriented* (come l'*incapsulamento*, il *data hiding*, la *manutenibilità*, il *riuso* e l'*estendibilità*),
-* alcune tecniche di **verifica** (come i *test unitari*) e di *debugging*.
+* alcune tecniche di *verifica* e di *debugging*.
 
 Riguardo al linguaggio Java, sono presentati i seguenti aspetti del linguaggio:
 
