@@ -94,7 +94,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T17     | V   8/1 | Tra progetto, specificazione e   | PDJ 9; PDJ 13 *1, 2, 12*; PDJ 14 *1*                                  |
   |         |         | implementazione                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | E08     | M  12/1 | *Simulazione d'esame* e Q&A      |                                                                       |
+  | E08     | M  15/1 | *Simulazione d'esame* e Q&A      |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
