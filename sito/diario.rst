@@ -76,14 +76,15 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T12     | M 24/11 | Ereditarietà e composizione      | PDJ 7 *1 - 7*; EJ 4; H `t12`_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E06     | V 27/11 |                                  | E `e06`                                                               |
+  | E06     | V 27/11 |                                  | E `e06`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T13     | M  1/12 |                                  | PDJ 7 *8 - 11*; JT `Default Methods`_;                                |
-  |         |         |                                  | H Equality_ [Ontology_ e Composition_]                                |
+  | T13     | M  1/12 |                                  | PDJ 7 *8 - 11*; JT `Default Methods`_; H `t13`_,                      |
+  |         |         |                                  | Equality_, [Ontology_ e Composition_]                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T14     | V  4/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
+  | T14     | V  4/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; JT `Collections (tutorial)`_; H `t14`_;        |
+  |         |         |                                  | [`Collections (Bloch)`_, `Collections (docs)`_]                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E07     | V 11/12 |                                  | E `e07`; JT `Collections`_; `C. (documentation)`_; `C. (Bloch)`_      |
+  | E07     | V 11/12 |                                  | E `e07`                                                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T15     | M 15/12 |                                  | EJ 5 *26 - 32*; JT `Generics (Bracha)`_                               |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -121,9 +122,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
-.. _Collections: https://docs.oracle.com/javase/tutorial/collections/
-.. _C. (documentation): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
-.. _C. (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
+.. _Collections (tutorial): https://docs.oracle.com/javase/tutorial/collections/
+.. _Collections (docs): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
@@ -147,6 +148,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t10: https://github.com/prog2-unimi/handouts/tree/4f2cc82977accd6df3a27a3bd01c23ead56049ec/src/it/unimi/di/prog2/t10
 .. _t11: https://github.com/prog2-unimi/handouts/tree/c4129d83311f75c0578ec45fa42a556e34c56b04/src/it/unimi/di/prog2/t11
 .. _t12: https://github.com/prog2-unimi/handouts/tree/038db547302039a14c88e498a8fe68ed0110d85c/src/it/unimi/di/prog2/t12
+.. _t13: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t13
+.. _e06: https://github.com/prog2-unimi/esercitazioni/tree/8f39e1848a423b3d85b8947799641f60aec359cf/soluzioni/e06
+.. _t14: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t14
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
