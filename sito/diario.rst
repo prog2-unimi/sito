@@ -86,7 +86,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E07     | V 11/12 |                                  | E `e07`                                                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T15     | M 15/12 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_                               |
+  | T15     | M 15/12 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_; H `Generics and subtyping`_  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T16     | V 18/12 | Testing e debugging              | PDJ 10                                                                |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -131,6 +131,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Composition: /guides/compositionandinheritance
 .. _Equality: /guides/equalityandinheritance
 .. _Ontology: /guides/ontologyandinheritance
+.. _Generics and subtyping: /guides/genericsandsubtyping
 
 .. _JUnit: https://junit.org/
 .. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
