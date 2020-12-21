@@ -88,7 +88,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T15     | M 15/12 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_; H `Generics and subtyping`_  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T16     | V 18/12 | Testing e debugging              | PDJ 10                                                                |
+  | T16     | V 18/12 | Testing e debugging              | PDJ 10; H `t16`_; [Junit_]                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | *CR3*   | V 18/12 | *Code review*                    |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -134,7 +134,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Generics and subtyping: /guides/genericsandsubtyping
 
 .. _JUnit: https://junit.org/
-.. _Rice Theorem: https://www.dcc.fc.up.pt/~acm/ricep.pdf
 
 
 .. _t04: https://github.com/prog2-unimi/esercitazioni/tree/c7b0369b74c3d9857b67dc5221de9e99b9771fec/soluzioni/t04
@@ -152,6 +151,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t13: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t13
 .. _e06: https://github.com/prog2-unimi/esercitazioni/tree/8f39e1848a423b3d85b8947799641f60aec359cf/soluzioni/e06
 .. _t14: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t14
+.. _t16: https://github.com/prog2-unimi/handouts/tree/a26e235dbd062e345494506554235a6b0850779d/src/it/unimi/di/prog2/t16
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
