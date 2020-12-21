@@ -84,7 +84,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T14     | V  4/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; JT `Collections (tutorial)`_; H `t14`_;        |
   |         |         |                                  | [`Collections (Bloch)`_, `Collections (docs)`_]                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E07     | V 11/12 |                                  | E `e07`                                                               |
+  | E07     | V 11/12 |                                  | E `e07`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T15     | M 15/12 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_; H `Generics and subtyping`_  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -151,7 +151,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t13: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t13
 .. _e06: https://github.com/prog2-unimi/esercitazioni/tree/8f39e1848a423b3d85b8947799641f60aec359cf/soluzioni/e06
 .. _t14: https://github.com/prog2-unimi/handouts/tree/8474b5f2f642c6440f33801a613b7cd509ae3bc0/src/it/unimi/di/prog2/t14
+.. _e07: https://github.com/prog2-unimi/esercitazioni/tree/d0b044221ebd0bea7d17333a94e2601db50abd0d/soluzioni/e07
 .. _t16: https://github.com/prog2-unimi/handouts/tree/a26e235dbd062e345494506554235a6b0850779d/src/it/unimi/di/prog2/t16
+
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
