@@ -7,11 +7,9 @@ d'esame *de facto*), che alle lezioni **ancora da svolgere**, per le quali è *d
 intendersi del tutto indicativo* (sia riguardo alle date che al contenuto).
 
 Le *lezioni* di **teoria** sono indicate col prefisso *T*, mentre le
-**esercitazioni** sono indicate col prefisso *E*; in ogni caso, la pagina sulla
-:doc:`prossima lezione <lezione>` contiene di volta in volta il link aggiornato
-per l'accesso sincrono. Le registrazioni delle lezioni sono raccolte nel `canale
-YouTube del corso <https://bit.ly/3cmDTyM>`__ nelle *playlist* denominate
-`teoria <https://bit.ly/2ZW2k0K>`__ e `esercitazioni
+**esercitazioni** sono indicate col prefisso *E*. Le registrazioni delle lezioni
+sono raccolte nel `canale YouTube del corso <https://bit.ly/3cmDTyM>`__ nelle
+*playlist* denominate `teoria <https://bit.ly/2ZW2k0K>`__ e `esercitazioni
 <https://bit.ly/3hSCNM3>`__.
 
 Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
@@ -95,7 +93,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T17     | V   8/1 | Tra progetto, specificazione e   | PDJ 9; PDJ 13 *1, 2, 12*; PDJ 14 *1*                                  |
   |         |         | implementazione                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | E08     | V  15/1 | *Simulazione d'esame* e Q&A      |                                                                       |
+  | E08     | V  15/1 | *Domande e risposte*             |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
