@@ -98,7 +98,7 @@ costituiscono argomenti del corso:
 
 * per quanto concerne il libro di testo [Program Development in Java:
   Abstraction, Specification, and Object-Oriented Design](http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698) i capitoli dall'1 al
-  10 e 13 e 14;
+  10 e 13 (limitatamente alle sezioni 1, 2 e 12) e 14 (limitatamente alla sezione 1);
 
 * per quanto concerne il libro di testo [Effective Java](http://www.informit.com/store/effective-java-9780134685991) i capitoli 2, 3, 4, 5
   (eccetto gli *item* 32 e 33), 8 (eccetto gli *item* 53 e 55), 9 (eccetto
@@ -117,13 +117,10 @@ costituiscono argomenti del corso:
 <div style="background-color: lightyellow;">
 
 Materiale di supporto molto utile può essere reperito a partire dagli
-[handout](https://github.com/prog2-unimi/handouts/tree/aa1920) dell'anno
-accademico 2019/20 con particolare riferimento al [codice
-sorgente](https://github.com/prog2-unimi/handouts/tree/aa1920/src/it/unimi/di/prog2)
-e alla [relativa documentazione](https://prog2-unimi.github.io/handouts/) (con i
-link alle guide: [Composition & Inheritance](https://prog2.di.unimi.it/guides/compositionandinheritance),
-[Equality & Inheritance](https://prog2.di.unimi.it/guides/equalityandinheritance) e [Ontology &
-Inheritance](https://prog2.di.unimi.it/guides/ontologyandinheritance)). Tale materiale può costituire il *punto di partenza per alcune domande durante l'esame orale*, per cui **si raccomanda di prenderne visione** per tempo.
+[handout](https://github.com/prog2-unimi/handouts/tree/aa12021), dalle [esercitazioni](https://github.com/prog2-unimi/esercitazioni) e i dalle guide: [Composition & Inheritance](https://prog2.di.unimi.it/guides/compositionandinheritance),
+[Equality & Inheritance](https://prog2.di.unimi.it/guides/equalityandinheritance), [Ontology &
+Inheritance](https://prog2.di.unimi.it/guides/ontologyandinheritance))
+e [Generics & Subtyping](https://prog2.di.unimi.it/guides/genericsandsubtyping). Tale materiale può costituire il *punto di partenza per alcune domande durante l'esame orale*, per cui **si raccomanda di prenderne visione** per tempo.
 
 </div>
 
