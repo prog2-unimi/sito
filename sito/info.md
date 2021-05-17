@@ -141,9 +141,9 @@ L'insegnamento non prevede prove in itinere.
 
 <div style="background-color: lightyellow;">
 
-Fino alla sessione di giugno/luglio 2021, in ossequio alle disposizioni vigenti,
-la prova finale è costituita da una **prova pratica a distanza** (che verte
-sulla progettazione e sviluppo di un software secondo delle *specifiche*
+Fino alla sessione di giugno/luglio 2021 compresa, in ossequio alle disposizioni
+vigenti, la prova finale è costituita da una **prova pratica a distanza** (che
+verte sulla progettazione e sviluppo di un software secondo delle *specifiche*
 assegnate) seguita da una **discussione orale**.
 
 </div>
