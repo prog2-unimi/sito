@@ -141,13 +141,10 @@ L'insegnamento non prevede prove in itinere.
 
 <div style="background-color: lightyellow;">
 
-Per il periodo in cui è impedito lo
-svolgimento di esami in presenza presso le sedi dell'Ateneo, la prova finale è
-costituita da una **prova pratica** a distanza (che verte sulla progettazione
-e sviluppo di un software secondo delle *specifiche* assegnate) seguita da una
-**discussione orale** a distanza; la prova pratica non è valutata in
-trentesimi: il suo superamento consente esclusivamente di accedere all'orale che
-diventa pertanto **obbligatorio** per chiunque intenda superare l'esame.
+Fino alla sessione di giugno/luglio 2021, in ossequio alle disposizioni vigenti,
+la prova finale è costituita da una **prova pratica a distanza** (che verte
+sulla progettazione e sviluppo di un software secondo delle *specifiche*
+assegnate) seguita da una **discussione orale**.
 
 </div>
 
