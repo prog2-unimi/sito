@@ -4,19 +4,9 @@
 
 L'insegnamento è organizzato in 16 lezioni di **teoria** tenute da [Massimo
 Santini](https://santini.di.unimi.it/) (di due ore, che si svolgono di norma il
-*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e 8 di **esercitazioni**
-tenute da [Luca Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore, che
-si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni di teoria).
-
-<div style="background-color: lightyellow;">
-
-Per il periodo in cui è impedito lo svolgimento di attività in presenza presso
-le sedi dell'Ateneo la didattica sarà impartita a **distanza** in modalità
-**sincrona** (ossia negli orari sopra citati), così come illustrato nel [diario
-delle lezioni](diario) e nella pagina della [prossima lezione](lezione).
-
-</div>
-
+*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e 8/12 di **esercitazioni**
+tenute da [Luca Prigioniero](https://prigioniero.di.unimi.it/) (di due/tre ore, che
+si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni di teoria, e alle *13:30*).
 ### Obiettivi dell'insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
@@ -139,12 +129,13 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 
 L'insegnamento non prevede prove in itinere.
 
+La prova finale è costituita da una **prova pratica** valutata in trentesimi (che
+verte sulla progettazione e sviluppo di un software secondo delle *specifiche*
+assegnate) seguita da una **discussione orale** (a richiesta per chi abbia riportato una valutazione compresa tra 23/30 e 27/30 nella prova pratica e obbligatoria per chi abbia riportato una valutazione superiore).
+
 <div style="background-color: lightyellow;">
 
-Fino alla sessione di giugno/luglio 2021 compresa, in ossequio alle disposizioni
-vigenti, la prova finale è costituita da una **prova pratica a distanza** (che
-verte sulla progettazione e sviluppo di un software secondo delle *specifiche*
-assegnate) seguita da una **discussione orale**.
+In ossequio alla normativa vigente, entrambe le prove si svolgeranno **in presenza**, fatte salve le eccezioni previste; la prova *pratica* si svolgerà nella *stessa data ed ora indipendentemente dalla modalità*.
 
 </div>
 
@@ -157,26 +148,22 @@ Attraverso tali prove il candidato deve dimostrare:
 
 Prima dell'inizio della prova pratica, gli studenti riceveranno al proprio
 indirizzo `@studenti.unimi.it` una mail contenente delle istruzioni per il
-collegamento in videoconferenza ed un link **personale e non cedibile** per
-collegarsi (usando il browser [Chrome](https://www.google.com/chrome/), o
+collegamento ed un link **personale e non cedibile** per collegarsi (usando il
+browser [Chrome](https://www.google.com/chrome/), o
 [Firefox](https://www.mozilla.org/firefox/browsers/), senza necessità di
 installare alcun altro software) ad un ambiente di sviluppo remoto basato su
-[Visual Studio Code](https://code.visualstudio.com/). L'accesso a tale ambiente
-prevede una fase di *identificazione* durante la quale lo studente scatta una
-foto con la webcam del suo computer al proprio volto ritratto a fianco di un
-documento di riconoscimento (legalmente valido, con fotografia); tale foto sarà
-utilizzata *esclusivamente per l'identificazione dello studente da parte dei
-membri della commissione d'esame e sarà cancellata non oltre il termine
-dell'esame*.
+[Visual Studio Code](https://code.visualstudio.com/).
 
-<div style="font-size: smaller; background-color: lightcyan;">
+<div style="background-color: lightyellow;">
 
-Gli studenti interessati ai dettagli tecnici di **∂anake**, l'ambiente di
-sviluppo remoto sopra menzionato, possono prendere visione della [documentazione
-preliminare](https://scythe-suite.github.io/danake/) e del [codice
-sorgente](https://github.com/scythe-suite/danake); si osservi che la conoscenza
-di tali dettagli *non è assolutamente necessaria al superamento dell'esame*, ma
-che i riferimenti qui indicati sono offerti solo a scopo di trasparenza.
+L'accesso *a distanza* a tale ambiente prevede una fase di *identificazione*
+durante la quale lo studente scatta una foto con la webcam del suo computer al
+proprio volto ritratto a fianco di un documento di riconoscimento (legalmente
+valido, con fotografia); tale foto sarà utilizzata *esclusivamente per
+l'identificazione dello studente da parte dei membri della commissione d'esame e
+sarà cancellata non oltre il termine dell'esame*; durante la prova lo studente
+dovrà mantenere aperta una sessione in videoconferenza col docente. Per chi
+svolge la prova *in presenza* l'accesso all'ambiente avverrà tramite un computer di una delle aule attrezzate opportunamente predisposte e l'identificazione avverrà tramite consultazione deldocumento di riconoscimento (legalmente valido) durante la prova.
 
 </div>
 

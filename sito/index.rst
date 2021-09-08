@@ -7,7 +7,7 @@ Programmazione II
 
 
 Questo è il sito dell'insegnamento di `Programmazione II
-<https://www.unimi.it/it/ugov/of/af2020000f1x-125>`_,
+<https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2022/programmazione-ii>`_,
 tenuto da `Massimo Santini <https://santini.di.unimi.it/>`_ del `Dipartimento di
 Informatica <http://www.di.unimi.it/>`_ dell'`Università degli Studi di Milano
 <https://www.unimi.it/>`_.
@@ -31,7 +31,5 @@ pregati di prendere visione delle linee guida per il  `rapporto con gli studenti
 
    info
    diario
-   lezione
-   musica
    risultati
    strumenti
