@@ -3,10 +3,16 @@
 ### Orario e modalità delle lezioni
 
 L'insegnamento è organizzato in 16 lezioni di **teoria** tenute da [Massimo
-Santini](https://santini.di.unimi.it/) (di due ore, che si svolgono di norma il
-*martedì* alle ore *14:30* e il *venerdì* alle *10:30*) e 8/12 di **esercitazioni**
-tenute da [Luca Prigioniero](https://prigioniero.di.unimi.it/) (di due/tre ore, che
-si svolgono il *venerdì* alle *10:30*, invece di alcune lezioni di teoria, e alle *13:30*).
+Santini](https://santini.di.unimi.it/) (di due ore), che si svolgono di norma il
+*martedì* alle ore *14:30* e 8 lezioni di **esercitazioni** tenute da [Luca
+Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore), che si svolgono di
+norma il *venerdì* dalle *10:30*. Il diario riporta le date ed il tipo di
+ciascuna lezione. Le lezioni di martedì si svolgono in aula *G10* mentre quelle
+del venerdì si svolgono in aula *G24* per la prima parte ed eventualmente
+proseguono (dopo la pausa pranzo), in aula *202*; maggiori informazioni sulle
+aule sono disponibili all'[apposito
+sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture).
+
 ### Obiettivi dell'insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
