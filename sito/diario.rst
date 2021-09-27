@@ -9,6 +9,10 @@ intendersi del tutto indicativo* (sia riguardo alle date che al contenuto).
 Le *lezioni* di **teoria** sono indicate col prefisso *T*, mentre le
 **esercitazioni** sono indicate col prefisso *E*.
 
+Per seguire le **lezioni ed esercitazioni in streaming** è sufficiente accedere
+all'`opportuno team <https://bit.ly/prog2-team>`__ tramite l'applicazione
+Microsoft Teams.
+
 Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
 `Program Development in Java
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,

@@ -13,6 +13,14 @@ proseguono (dopo la pausa pranzo), in aula *202*; maggiori informazioni sulle
 aule sono disponibili all'[apposito
 sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture).
 
+<div style="background-color: lightyellow;">
+
+Chi non potesse recarsi in aula può seguire le lezioni in streaming accedendo
+all'[apposito team](https://bit.ly/prog2-team) tramite l'applicazione Microsoft
+Teams.
+
+</div>
+
 ### Obiettivi dell'insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
