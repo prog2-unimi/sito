@@ -12,9 +12,7 @@
 {%- endblock %}
 
 {%- block extrahead %}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="description" content="Sito web dell'insegnamento di Programmazione II del Dipartimento di Informatica dell'Università degli Studi di Milano.">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Sito web dell'insegnamento di Programmazione II del Dipartimento di Informatica dell'Università degli Studi di Milano.">
 
 <!-- Verification for Google search -->
 <meta name="google-site-verification" content="OEmY0pq_idloSTRBHPIzXfeBIAFcMDmzlTU539vTkiU">
@@ -36,32 +34,6 @@
 <meta property="og:site_name" content="Prog2@UniMI — Programmazione II">
 <meta property="article:published_time" content="{{iso_now}}">
 <meta property="article:modified_time" content="{{iso_now}}">
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-  window.addEventListener("load", function () {
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#eaf7f7",
-          "text": "#5c7291"
-        },
-        "button": {
-          "background": "#56cbdb",
-          "text": "#ffffff"
-        }
-      },
-      "position": "bottom-right",
-      "content": {
-        "message": "Questo sito utilizza cookie per raccogliere informazioni, in forma aggregata, sul numero degli utenti.",
-        "dismiss": "Va bene!",
-        "link": "Maggiori informazioni.",
-        "href": "http://www.unimi.it/62210.htm"
-      }
-    })
-  });
-</script>
 {% endblock %}
 
 {%- block css %}
@@ -73,22 +45,21 @@
 
 
 {%- block document %}
-    <script type="text/javascript">
-      (function(window, document, dataLayerName, id) {
-      window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
-      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
-      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
-      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
-      tags.async=!0,tags.src="https://mapio.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
-      !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
-      })(window, document, 'dataLayer', '5d2fd19a-2b0e-4269-8c5d-349d84f6f003');
-    </script><noscript><iframe src="https://mapio.containers.piwik.pro/5d2fd19a-2b0e-4269-8c5d-349d84f6f003/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <main class="container">
         {% block body %}{% endblock %}
     </main>
-{%- endblock %}
 
 {%- block relbar1 %}
+<script type="text/javascript">
+  (function(window, document, dataLayerName, id) {
+  window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+  function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+  var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+  var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+  tags.async=!0,tags.src="https://mapio.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+  !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+  })(window, document, 'dataLayer', '5d2fd19a-2b0e-4269-8c5d-349d84f6f003');
+</script><noscript><iframe src="https://mapio.containers.piwik.pro/5d2fd19a-2b0e-4269-8c5d-349d84f6f003/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html">Prog2@UniMI</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
