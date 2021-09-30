@@ -73,6 +73,16 @@
 
 
 {%- block document %}
+    <script type="text/javascript">
+      (function(window, document, dataLayerName, id) {
+      window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+      tags.async=!0,tags.src="https://mapio.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+      !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+      })(window, document, 'dataLayer', '5d2fd19a-2b0e-4269-8c5d-349d84f6f003');
+    </script><noscript><iframe src="https://mapio.containers.piwik.pro/5d2fd19a-2b0e-4269-8c5d-349d84f6f003/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <main class="container">
         {% block body %}{% endblock %}
     </main>
@@ -119,27 +129,14 @@
 {%- block footer %}
 <footer class="footer">
   <div class="container">
-      <a href="https://github.com/mapio/prog2"><img src="https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="GitHub stars"></a>
+      <a href="https://github.com/prog2-unimi/sito"><img src="https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="GitHub stars"></a>
       <a href="http://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License: GPL v3"></a>
       <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg" alt="License: CC BY-SA 4.0"></a>
-      <span class="float-right">© Massimo Santini 2018 - {{last_updated}}</span>
+      <span class="float-right">© Massimo Santini 2021 - {{last_updated}}</span>
   </div>
 </footer>
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-377250-23"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-19887129-3');
-  $(document).ready(function() {
-      $('p > img').addClass('mx-auto d-block');
-      $('.tocnav a').addClass('dropdown-item');
-      $('.tocnav ul').css('list-style-type', 'none');
-      $('.tocnav > ul').css('padding', '0');
-  });
-</script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -178,18 +175,4 @@
   "description": "Sito web dell'insegnamento di Programmazione II del Dipartimento di Informatica dell'Università degli Studi di Milano."
 }
 </script>
-<!-- Ticksel v1.0 -->
-<script type="text/javascript">
-  var _tcfg = _tcfg || [];
-  (function () {
-    _tcfg.push(["tags", ""]);
-    var u = "https://cdn.ticksel.com/js/analytics_v1.0.js"; _tcfg.push(["account_id", 1387073]);
-    var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
-    g.type = "text/javascript"; g.async = true; g.src = u; g.setAttribute("crossorigin", "anonymous");
-    g.setAttribute("integrity", "sha256-7grd8jMivCG0iCcJ7m/Ny4gvWb0mPVpFhRQovLkaUl8=");
-    s.parentNode.insertBefore(g, s);
-  })();
-</script>
-<noscript><img src="https://beacon.ticksel.com/beam?account_id=1387073&referrer=&tags=" style="border:0;" width="0" height="0" alt="" /></noscript>
-<!-- End Ticksel Code -->
 {%- endblock %}
