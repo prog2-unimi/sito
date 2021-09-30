@@ -1,16 +1,5 @@
 {% extends 'basic/layout.html' %}
 
-{%- macro vscript() %}
-    <script src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
-    {%- for scriptfile in script_files %}
-    <script src="{{ pathto(scriptfile, 1) }}"></script>
-    {%- endfor %}
-{%- endmacro %}
-
-{%- block scripts %}
-   {{- vscript() }}
-{%- endblock %}
-
 {%- block extrahead %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Sito web dell'insegnamento di Programmazione II del Dipartimento di Informatica dell'Università degli Studi di Milano.">
