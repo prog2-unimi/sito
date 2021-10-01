@@ -18,7 +18,7 @@ Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
 <http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
-con *JT* a `The Java™ Tutorials <https://docs.oracle.com/javase/tutorial/>`__,
+con *JT* a `The Java™ Tutorials <https://dev.java/learn/>`__,
 quello con *H* si riferisce agli handout (siano essi *notebook* o *sorgenti*
 disponibili nel `repository degli handout
 <https://github.com/prog2-unimi/handouts>`__ del corso), in fine il materiale
@@ -38,8 +38,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +=========+=========+==================================+=======================================================================+
   | T01     | M 28/9  | Introduzione                     | PDJ 1                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T02     | V  1/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Language Basics`_, `Packages`_ |
-  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T02     | V  1/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
+  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_                             |
@@ -55,13 +56,13 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 |
 
-.. _Getting Started: https://docs.oracle.com/javase/tutorial/getStarted/
-.. _Language Basics: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/
-.. _Packages: https://docs.oracle.com/javase/tutorial/java/package/
+.. _Getting Started: https://dev.java/learn/tutorial/your-first-java-app/getting-started-with-java.html
+.. _Java Language Basics: https://dev.java/learn/tutorial/getting-to-know-the-language/basics/language-basics.html
+.. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/learn/tutorial/getting-to-know-the-language/object-class-interface.html
 
-.. _Classes and Objects: https://docs.oracle.com/javase/tutorial/java/javaOO/
+.. _Classes and Objects: https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/classes-and-objects.html
 
-.. _Lists: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
+.. _Lists: https://dev.java/learn/tutorial/mastering-the-api/collections-framework/extending-collection-with-list.html
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html

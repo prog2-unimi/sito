@@ -101,22 +101,33 @@ Rispetto alla bibliografia e al materiale didattico, si precisa che
 costituiscono argomenti del corso:
 
 * per quanto concerne il libro di testo [Program Development in Java:
-  Abstraction, Specification, and Object-Oriented Design](http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698) i capitoli dall'1 al
-  10 e 13 (limitatamente alle sezioni 1, 2 e 12) e 14 (limitatamente alla sezione 1);
+  Abstraction, Specification, and Object-Oriented Design](http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698) i capitoli dall'1 al 9;
 
 * per quanto concerne il libro di testo [Effective Java](http://www.informit.com/store/effective-java-9780134685991) i capitoli 2, 3, 4, 5
   (eccetto gli *item* 32 e 33), 8 (eccetto gli *item* 53 e 55), 9 (eccetto
   l'*item* 66), 10;
 
 * per quanto concerne  [The Java™
-  Tutorials](https://docs.oracle.com/javase/tutorial/), riguardo la parte "Trails Covering the Basics" le sezioni:
-  [Getting Started](https://docs.oracle.com/javase/tutorial/getStarted/),
-  [Learning the Java Language](https://docs.oracle.com/javase/tutorial/java/)
-  (esclusa la sottosezione "Annotations") e [Essential
-  Classes](https://docs.oracle.com/javase/tutorial/essential/) (limitatamente
-  alle sottosezioni "Exceptions" e "Basic I/O") e
-  [Collections](https://docs.oracle.com/javase/tutorial/collections); inoltre la
-  parte [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/).
+  Tutorials](https://dev.java/learn/), le sezioni
+    * "Running Your First Java Application" limitatamente a [Getting Started
+      with
+      Java](https://dev.java/learn/tutorial/your-first-java-app/getting-started-with-java.html);
+    * "Getting to Know the Language", limitatamente a [Getting to know the
+      basics of the Java
+      language](https://dev.java/learn/tutorial/getting-to-know-the-language/basics/language-basics.html),
+      [Objects, Classes, Interfaces, Packages, and
+      inheritance](https://dev.java/learn/tutorial/getting-to-know-the-language/object-class-interface.html),
+      [Classes and
+      Objects](https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/classes-and-objects.html),
+      [Numbers and
+      strings](https://dev.javalearn/tutorial/getting-to-know-the-language/numbers-and-strings/numbers-strings.html),
+      [Inheritance](https://dev.java/learn/tutorial/getting-to-know-the-language/inheritance/inheritance.html),
+      [Interfaces](https://dev.java/learn/tutorial/getting-to-know-the-language/interfaces/interfaces.html),
+      [Generics](https://dev.java/learn/tutorial/getting-to-know-the-language/generics/generics.html)
+      e
+      [Packages](https://dev.java/learn/tutorial/getting-to-know-the-language/packages.html);
+    * "Mastering the API", limitatamente a [The Collections
+      Framework](https://dev.java/learn/tutorial/mastering-the-api/collections-framework/collections.html).
 
 <div style="background-color: lightyellow;">
 
@@ -191,7 +202,6 @@ diario, con particolare riferimento alle sezioni
 * 5.8 Design Issues
 * 5.9 Locality and Modifiability
 * 9.2 Some Criteria for Specifications
-* 14.1 Evaluating a Design
 
 del libro di testo "Program Development in Java: Abstraction, Specification, and
 Object-Oriented Design".
