@@ -41,9 +41,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T02     | V  1/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Classes and Objects`_                               |
+  | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Creating and Using Objects`_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `IO Streams`_                             |
+  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_                                |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T05     | M 12/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -60,10 +60,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Java Language Basics: https://dev.java/learn/tutorial/getting-to-know-the-language/basics/language-basics.html
 .. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/learn/tutorial/getting-to-know-the-language/object-class-interface.html
 
-.. _Classes and Objects: https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/classes-and-objects.html
+.. _Creating and Using Objects: https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/creating-objects.html
 
 .. _Lists: https://dev.java/learn/tutorial/mastering-the-api/collections-framework/extending-collection-with-list.html
-.. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
+.. _Scanner: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/
