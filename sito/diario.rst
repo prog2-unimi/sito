@@ -66,7 +66,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _IO Streams: https://docs.oracle.com/javase/tutorial/essential/io/streams.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/11/javadoc/
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/
 
 .. _Exceptions: https://docs.oracle.com/javase/tutorial/essential/exceptions/
 
@@ -79,7 +79,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 .. _Collections (tutorial): https://docs.oracle.com/javase/tutorial/collections/
-.. _Collections (docs): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _Collections (docs): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
