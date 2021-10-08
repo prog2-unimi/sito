@@ -43,7 +43,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Creating and Using Objects`_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_                                |
+  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_ ; `t04`_                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T05     | M 12/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -91,6 +91,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _JUnit: https://junit.org/
 
+.. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
