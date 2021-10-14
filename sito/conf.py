@@ -14,7 +14,7 @@ import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'Prog2@UniMI'
-copyright = '2019, Massimo Santini'
+copyright = '2021, Massimo Santini'
 author = 'Massimo Santini'
 
 version = ''
@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
-    'recommonmark'
+    'myst_parser'
 ]
 
 templates_path = ['_templates']
