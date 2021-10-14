@@ -1,6 +1,6 @@
-## Informazioni sul corso
+# Informazioni sul corso
 
-### Orario e modalità delle lezioni
+## Orario e modalità delle lezioni
 
 L'insegnamento è organizzato in 16 lezioni di **teoria** tenute da [Massimo
 Santini](https://santini.di.unimi.it/) (di due ore), che si svolgono di norma il
@@ -20,7 +20,7 @@ Teams.
 
 </div>
 
-### Obiettivi dell'insegnamento
+## Obiettivi dell'insegnamento
 
 Se informalmente un *algoritmo* è un insieme di regole che consentono di
 calcolare in un *numero finito* di passi *ben specificati* la soluzione di un
@@ -52,7 +52,7 @@ della conoscenza del paradigma *imperativo* appresa tramite l'uso del linguaggio
 relative tecniche di specificazione e progetto) attraverso il linguaggio *Java*
 (e non solo).
 
-### Risultati di apprendimento attesi
+## Risultati di apprendimento attesi
 
 A seguito del superamento dell'esame, lo studente conosce le principali nozioni
 riguardanti l'*object orientation* quali:
@@ -69,7 +69,7 @@ Inoltre lo studente è in grado di:
 * documentare il codice in modo ragionevole,
 * validare (attraverso semplici *test*) il comportamento del codice prodotto.
 
-### Argomenti trattati
+## Argomenti trattati
 
 L'insegnamento è incentrato attorno alle tematiche del progetto, realizzazione
 ed analisi di programmi secondo il paradigma *object oriented*. A tal fine il
@@ -94,7 +94,7 @@ Riguardo al linguaggio Java, sono presentati i seguenti aspetti del linguaggio:
 * ereditariertà e polimorfismo,
 * tipi generici (uso e cenni alla progettazione e realizzazione, vincoli di tipo e wildcard).
 
-#### Programma dettagliato
+### Programma dettagliato
 
 Rispetto alla bibliografia e al materiale didattico, si precisa che
 costituiscono argomenti del corso:
@@ -138,7 +138,7 @@ e [Generics & Subtyping](https://prog2.di.unimi.it/guides/genericsandsubtyping).
 
 </div>
 
-### Prerequisiti
+## Prerequisiti
 
 Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisito
 *in modo solido* prima di apprestarsi a seguire le lezioni:
@@ -149,7 +149,7 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 * aspetti elementari dei linguaggi formali [dal corso "Linguaggi formali e
   automi"].
 
-### Modalità di valutazione
+## Modalità di valutazione
 
 L'insegnamento non prevede prove in itinere.
 
@@ -191,7 +191,7 @@ svolge la prova *in presenza* l'accesso all'ambiente avverrà tramite un compute
 
 </div>
 
-#### Criteri di valutazione
+### Criteri di valutazione
 
 Per maggior chiarezza, i criteri di valutazione della *prova pratica* sono
 ispirati al contenuto di tutte le lezioni ed il materiali didattici elencati nel
@@ -209,7 +209,7 @@ Per quanto concerne l'*orale*, un'ottima **traccia** ai concetti su cui verterà
 la discussione è costituita dal contenuto delle *Sidebar* presenti nelle parti
 comprese nel programma del libro di testo medesimo.
 
-### Bibliografia
+## Bibliografia
 
 I libri di testo (ossia il cui uso *non è facoltativo*) del corso sono:
 
