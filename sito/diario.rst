@@ -105,7 +105,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _JUnit: https://junit.org/
 
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
-.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/b2fec276eb264efa37af14385137160537c48c6e/soluzioni
+.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
