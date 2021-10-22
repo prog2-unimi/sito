@@ -51,7 +51,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T06     | M 19/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E02     | V 22/10 |                                  |                                                                       |
+  | E02     | V 22/10 |                                  | E `e02`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T07     | M 26/10 | Astrazione dei dati              | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -106,6 +106,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
+.. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
