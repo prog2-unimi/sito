@@ -43,7 +43,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Creating and Using Objects`_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_ ; `t04`_                       |
+  | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_ ; H `t04`_                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T05     | M 12/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -53,7 +53,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E02     | V 22/10 |                                  | E `e02`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T07     | M 26/10 | Astrazione dei dati              | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*                                          |
+  | T07     | M 26/10 | Astrazione dei dati              | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*; H `t07`_                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T08     | V 29/10 |                                  | PDJ 5 *3, 4*                                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -107,6 +107,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
+.. _t07: https://github.com/prog2-unimi/handouts/tree/d283b28efed290d1d44675fd89a1c027f5cb3e7e/src/it/unimi/di/prog2/t07
+
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
