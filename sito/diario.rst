@@ -41,7 +41,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T02     | V  1/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Creating and Using Objects`_                        |
+  | T03     | M  5/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_                  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T04     | V  8/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_ ; H `t04`_                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -55,7 +55,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T07     | M 26/10 | Astrazione dei dati              | PDJ 5 *1, 2*; EJ 2 *1, 2, 4*; H `t07`_                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T08     | V 29/10 |                                  | PDJ 5 *3, 4*                                                          |
+  | T08     | V 29/10 |                                  | PDJ 5 *3, 4*; [JT `Records`_]                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T09     | M  2/11 |                                  | PDJ 5 *5, 6*; EJ 3 *10 - 13*;                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -69,19 +69,21 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 |
 
-.. _Getting Started: https://dev.java/learn/tutorial/your-first-java-app/getting-started-with-java.html
-.. _Java Language Basics: https://dev.java/learn/tutorial/getting-to-know-the-language/basics/language-basics.html
-.. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/learn/tutorial/getting-to-know-the-language/object-class-interface.html
+.. _Getting Started: https://dev.java/learn/getting-started-with-java/
+.. _Java Language Basics: https://dev.java/learn/java-language-basics/
+.. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/oop/
 
-.. _Creating and Using Objects: https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/creating-objects.html
+.. _Calling Methods and Constructors: https://dev.java/learn/calling-methods-and-constructors/
 
-.. _Lists: https://dev.java/learn/tutorial/mastering-the-api/collections-framework/extending-collection-with-list.html
+.. _Lists: https://dev.java/learn/extending-collection-with-list/
 .. _Scanner: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/
 
-.. _Exceptions: https://docs.oracle.com/javase/tutorial/essential/exceptions/
+.. _Exceptions: https://dev.java/learn/exceptions/
+
+.. _Records: https://dev.java/learn/using-record-to-model-immutable-data/
 
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
