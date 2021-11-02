@@ -102,9 +102,8 @@ costituiscono argomenti del corso:
 * per quanto concerne il libro di testo [Program Development in Java:
   Abstraction, Specification, and Object-Oriented Design](http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698) i capitoli dall'1 al 9;
 
-* per quanto concerne il libro di testo [Effective Java](http://www.informit.com/store/effective-java-9780134685991) i capitoli 2, 3, 4, 5
-  (eccetto gli *item* 32 e 33), 8 (eccetto gli *item* 53 e 55), 9 (eccetto
-  l'*item* 66), 10;
+* per quanto concerne il libro di testo [Effective Java](http://www.informit.com/store/effective-java-9780134685991)
+  i capitoli 2, 3, 4, 5 (eccetto gli *item* 32 e 33), 8 (eccetto gli *item* 53 e 55), 9 (eccetto l'*item* 66), 10;
 
 * per quanto concerne  [The Java™
   Tutorials](https://dev.java/learn/), le sezioni
