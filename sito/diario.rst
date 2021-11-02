@@ -57,12 +57,11 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T08     | V 29/10 |                                  | PDJ 5 *3, 4*; [JT `Records`_]                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T09     | M  2/11 |                                  | PDJ 5 *5, 6*; EJ 3 *10 - 13*;                                         |
+  | T09     | M  2/11 |                                  | PDJ 5 *5, 6*; EJ 3 *10 - 13*; [JT `Programming With Assertions`_]     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E03     | V  5/11 |                                  |                                                                       |
+  | E03     | V  5/11 |                                  | E `e03`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T10     | M  9/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                         |
-  |         |         |                                  | [JT `Programming With Assertions`_]                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E04     | V 12/11 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -107,10 +106,11 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _JUnit: https://junit.org/
 
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
-.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
-.. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
 .. _t07: https://github.com/prog2-unimi/handouts/tree/d283b28efed290d1d44675fd89a1c027f5cb3e7e/src/it/unimi/di/prog2/t07
 
+.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
+.. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
+.. _e03: https://github.com/prog2-unimi/esercitazioni/tree/8fde33bee5ac214711ee35f759ac341cf2ed4b80/testi/e03
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
