@@ -63,7 +63,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T10     | M  9/11 |                                  | PDJ 5 *7 - 9*; EJ 4 *15 - 17*                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E04     | V 12/11 |                                  |                                                                       |
+  | E04     | V 12/11 |                                  | E `e04`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T11     | M 16/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
   |         |         |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
@@ -115,7 +115,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
-.. _e03: https://github.com/prog2-unimi/esercitazioni/tree/8fde33bee5ac214711ee35f759ac341cf2ed4b80/testi/e03
+.. _e03: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/soluzioni/e03
+.. _e04: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/testi/e04
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
