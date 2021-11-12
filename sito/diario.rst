@@ -116,7 +116,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/soluzioni/e03
-.. _e04: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/testi/e04
+.. _e04: https://github.com/prog2-unimi/esercitazioni/tree/d55fe83f161ab269e166338b612d522f82fb6217/soluzioni/e04
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
