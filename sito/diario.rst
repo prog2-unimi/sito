@@ -68,7 +68,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T11     | M 16/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
   |         |         |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E05     | V 19/11 |                                  |                                                                       |
+  | E05     | V 19/11 |                                  | E `e05`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -117,6 +117,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/soluzioni/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/d55fe83f161ab269e166338b612d522f82fb6217/soluzioni/e04
+.. _e05: https://github.com/prog2-unimi/esercitazioni/tree/8c2dc793a8a4e12819a296c13838e6126c41fff0/testi/e05
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
