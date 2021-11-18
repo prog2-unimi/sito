@@ -65,8 +65,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E04     | V 12/11 |                                  | E `e04`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T11     | M 16/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*;                                             |
-  |         |         |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
+  | T11     | M 16/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*; JT `Access control`_, `Nested Classes`_     |
+  |         |         |                                  | `Anonymous Classes`_; H `t11`_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E05     | V 19/11 |                                  | E `e05`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -112,6 +112,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
 .. _t07: https://github.com/prog2-unimi/handouts/tree/d283b28efed290d1d44675fd89a1c027f5cb3e7e/src/it/unimi/di/prog2/t07
+.. _t11: https://github.com/prog2-unimi/handouts/tree/35d282bf1185faeca847bc1461abcb7daa29740b/src/it/unimi/di/prog2/t11
 
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
