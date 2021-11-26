@@ -72,7 +72,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   |         | M 23/11 | **sospesa**                      |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | E06     | V 26/11 | Astrazione dati e iterazione     |                                                                       |
+  | E06     | V 26/11 | Astrazione dati e iterazione     | E `e06`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   |         | M 30/11 | **sospesa**                      |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -140,6 +140,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/soluzioni/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/d55fe83f161ab269e166338b612d522f82fb6217/soluzioni/e04
 .. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b1ed7023c171f069b2ffe28f4e68acb0af427e6d/soluzioni/e05
+.. _e06: https://github.com/prog2-unimi/esercitazioni/tree/f73d4c680cefd93a8a830d48baab72366eb54847/soluzioni/e05
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
