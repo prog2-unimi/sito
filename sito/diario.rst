@@ -85,7 +85,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | E07     | V 17/12 |                                  | JT `Collections (tutorial)`_;                                         |
   |         |         |                                  | [`Collections (Bloch)`_, `Collections (docs)`_]                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T15     | M 14/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
+  | T15     | M 21/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T16     | M 11/01 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_; H `Generics and subtyping`_  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
