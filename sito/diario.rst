@@ -72,11 +72,11 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | E06     | V 26/11 | Astrazione dati e iterazione     | E `e06`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T12     | V 10/12 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; EJ 4                                                   |
+  | T12     | V 10/12 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; EJ 4; H `Ereditarietà e ontologia`_                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T13     | M 14/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_; H Equality_                     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T14     | V 17/12 |                                  | PDJ 7 *9 - 11*; [Ontology_ e Composition_]                            |
+  | T14     | V 17/12 |                                  | PDJ 7 *9 - 11*; [H Composition_]                                      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E07     | TBA     |                                  | JT `Collections (tutorial)`_;                                         |
   |         |         |                                  | [`Collections (Bloch)`_, `Collections (docs)`_]                       |
@@ -120,10 +120,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
 .. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
-.. _Composition: /guides/compositionandinheritance
-.. _Equality: /guides/equalityandinheritance
-.. _Ontology: /guides/ontologyandinheritance
-.. _Generics and subtyping: /guides/genericsandsubtyping
+.. _Ereditarietà e ontologia: https://prog2-unimi.github.io/notes/EACO.html
+.. _Composition: https://prog2-unimi.github.io/notes/CED.html
+.. _Equality: https://prog2-unimi.github.io/notes/UEE.html
+.. _Generics and subtyping: https://prog2-unimi.github.io/notes/TGERDS.html
 
 .. _JUnit: https://junit.org/
 
