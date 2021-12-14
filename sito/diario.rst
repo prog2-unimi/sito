@@ -74,7 +74,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T12     | V 10/12 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T13     | M 14/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_                                  |
+  | T13     | M 14/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_; H `t13`_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T14     | V 17/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H H Equality_, Composition_                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -131,6 +131,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
 .. _t07: https://github.com/prog2-unimi/handouts/tree/d283b28efed290d1d44675fd89a1c027f5cb3e7e/src/it/unimi/di/prog2/t07
 .. _t11: https://github.com/prog2-unimi/handouts/tree/35d282bf1185faeca847bc1461abcb7daa29740b/src/it/unimi/di/prog2/t11
+.. _t13: https://github.com/prog2-unimi/handouts/tree/318f1bac5e15cd616382aa62e0222e5022904f5b/src/it/unimi/di/prog2/t13
 
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
 .. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
