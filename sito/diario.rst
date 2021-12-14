@@ -74,9 +74,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T12     | V 10/12 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T13     | M 14/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_; H Equality_                     |
+  | T13     | M 14/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_                                  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T14     | V 17/12 |                                  | PDJ 7 *9 - 11*; EJ 4; [H Composition_]                                |
+  | T14     | V 17/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H H Equality_, Composition_                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | *E07*   | L 20/12 | *Incontro integrativo            | JT `Collections (tutorial)`_;                                         |
   |         | H 15:00 | (facoltativo, via Teams)*        | [`Collections (Bloch)`_, `Collections (docs)`_]                       |
