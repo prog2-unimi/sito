@@ -83,9 +83,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T15     | M 21/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_                                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T16     | M 11/01 |                                  | EJ 5 *26 - 31*; JT `Generics (Bracha)`_; H `Generics and subtyping`_  |
+  | T16     | M 11/01 |                                  | EJ 5 *26 - 31*; H `Generics and subtyping`_                           |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E08     | V 14/01 |                                  |                                                                       |
+  | E08     | V 14/01 |                                  | E `e08`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -118,7 +118,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Collections (docs): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
-.. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
 
 .. _Dispatching: https://prog2-unimi.github.io/notes/DM.html
 .. _Ereditarietà e ontologia: https://prog2-unimi.github.io/notes/EACO.html
@@ -139,6 +138,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/d55fe83f161ab269e166338b612d522f82fb6217/soluzioni/e04
 .. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b1ed7023c171f069b2ffe28f4e68acb0af427e6d/soluzioni/e05
 .. _e06: https://github.com/prog2-unimi/esercitazioni/tree/f73d4c680cefd93a8a830d48baab72366eb54847/soluzioni/e05
+.. _e08: https://github.com/prog2-unimi/esercitazioni/tree/de2980b9925430f47350403f700be597679d589d/testi/e08
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
