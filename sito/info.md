@@ -158,7 +158,13 @@ assegnate) seguita da una **discussione orale** (a richiesta per chi abbia ripor
 
 <div style="background-color: lightyellow;">
 
-In ossequio alla normativa vigente, entrambe le prove si svolgeranno **in presenza**, fatte salve le eccezioni previste; la prova *pratica* si svolgerà nella *stessa data ed ora indipendentemente dalla modalità*.
+In conseguenza dei recenti sviluppi della situazione e in ottemperanza alle
+nuove e recenti indicazioni ricevute dal Rettore e dal Presidente del Collegio
+Didattico (dati in particolare i problemi relativi alla capienza delle aule
+informatizzate), **le prove scritte e orali** degli appelli di gennaio e
+febbraio **si svolgeranno a distanza** per tutti gli studenti — fatte salve
+ulteriori e repentine comunicazioni dovute a cambiamenti nelle indicazioni
+dell'Ateneo, indipendenti dalla volontà del docente.
 
 </div>
 
