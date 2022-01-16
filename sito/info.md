@@ -191,8 +191,7 @@ proprio volto ritratto a fianco di un documento di riconoscimento (legalmente
 valido, con fotografia); tale foto sarà utilizzata *esclusivamente per
 l'identificazione dello studente da parte dei membri della commissione d'esame e
 sarà cancellata non oltre il termine dell'esame*; durante la prova lo studente
-dovrà mantenere aperta una sessione in videoconferenza col docente. Per chi
-svolge la prova *in presenza* l'accesso all'ambiente avverrà tramite un computer di una delle aule attrezzate opportunamente predisposte e l'identificazione avverrà tramite consultazione deldocumento di riconoscimento (legalmente valido) durante la prova.
+dovrà mantenere aperta una sessione in videoconferenza col docente.
 
 </div>
 
