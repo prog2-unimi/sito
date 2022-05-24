@@ -57,13 +57,13 @@ html_theme_options = {
 
 html_static_path = ['_static']
 
-#html_sidebars = { '**': [], }
-
 html_last_updated_fmt = '%-d/%-m/%y'
 
 html_context = {
     'iso_now': datetime.datetime.utcnow().isoformat()
 }
+
+myst_heading_anchors = 3
 
 # -- Options for todo extension ----------------------------------------------
 
