@@ -1,7 +1,7 @@
 # Strumenti e materiale di supporto
 
 Questa pagina contiene alcune indicazioni circa il [linguaggio di
-programmazione](#Java) e gli strumenti di [supporto allo sviluppo](#supporto)
+programmazione](#java) e gli strumenti di [supporto allo sviluppo](#strumenti-di-supporto)
 adottati per il corso.
 
 Si osserva che, data la *maturità culturale* che ci si attende dagli studenti
