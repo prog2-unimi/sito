@@ -108,32 +108,29 @@ costituiscono argomenti del corso:
 * per quanto concerne  [The Java™
   Tutorials](https://dev.java/learn/), le sezioni
     * "Running Your First Java Application" limitatamente a [Getting Started
-      with
-      Java](https://dev.java/learn/tutorial/your-first-java-app/getting-started-with-java.html);
+      with Java](https://dev.java/learn/getting-started-with-java/);
     * "Getting to Know the Language", limitatamente a [Getting to know the
       basics of the Java
-      language](https://dev.java/learn/tutorial/getting-to-know-the-language/basics/language-basics.html),
-      [Objects, Classes, Interfaces, Packages, and
-      inheritance](https://dev.java/learn/tutorial/getting-to-know-the-language/object-class-interface.html),
-      [Classes and
-      Objects](https://dev.java/learn/tutorial/getting-to-know-the-language/classes-and-objects/classes-and-objects.html),
-      [Numbers and
-      strings](https://dev.javalearn/tutorial/getting-to-know-the-language/numbers-and-strings/numbers-strings.html),
-      [Inheritance](https://dev.java/learn/tutorial/getting-to-know-the-language/inheritance/inheritance.html),
-      [Interfaces](https://dev.java/learn/tutorial/getting-to-know-the-language/interfaces/interfaces.html),
-      [Generics](https://dev.java/learn/tutorial/getting-to-know-the-language/generics/generics.html)
-      e
-      [Packages](https://dev.java/learn/tutorial/getting-to-know-the-language/packages.html);
+      language](https://dev.java/learn/java-language-basics/), [Objects,
+      Classes, Interfaces, Packages, and inheritance](https://dev.java/oop/),
+      [Classes and Objects](https://dev.java/learn/classes-and-objects/),
+      [Numbers and strings](https://dev.java/learn/numbers-and-strings/),
+      [Inheritance](https://dev.java/learn/inheritance/),
+      [Interfaces](https://dev.java/learn/interfaces/),
+      [Generics](https://dev.java/learn/generics/) e
+      [Packages](https://dev.java/learn/packages/);
     * "Mastering the API", limitatamente a [The Collections
-      Framework](https://dev.java/learn/tutorial/mastering-the-api/collections-framework/collections.html).
+      Framework](https://dev.java/learn/the-collections-framework/).
 
 <div style="background-color: lightyellow;">
 
 Materiale di supporto molto utile può essere reperito a partire dagli
-[handout](https://github.com/prog2-unimi/handouts/tree/aa12021), dalle [esercitazioni](https://github.com/prog2-unimi/esercitazioni) e i dalle guide: [Composition & Inheritance](https://prog2.di.unimi.it/guides/compositionandinheritance),
-[Equality & Inheritance](https://prog2.di.unimi.it/guides/equalityandinheritance), [Ontology &
-Inheritance](https://prog2.di.unimi.it/guides/ontologyandinheritance))
-e [Generics & Subtyping](https://prog2.di.unimi.it/guides/genericsandsubtyping). Tale materiale può costituire il *punto di partenza per alcune domande durante l'esame orale*, per cui **si raccomanda di prenderne visione** per tempo.
+[handout](https://github.com/prog2-unimi/handouts/tree/aa12021), dalle
+[esercitazioni](https://github.com/prog2-unimi/esercitazioni), dalle
+[note](https://github.com/prog2-unimi/notes) e dai [temi d'esame
+svolti](https://prog2unimi-temi-svolti.netlify.app/). Tale materiale può
+costituire il *punto di partenza per alcune domande durante l'esame orale*, per
+cui **si raccomanda di prenderne visione** per tempo.
 
 </div>
 
@@ -223,7 +220,7 @@ I libri di testo (ossia il cui uso *non è facoltativo*) del corso sono:
 * Joshua Bloch (2017),
   [Effective Java](http://www.informit.com/store/effective-java-9780134685991), *Addison-Wesley Professional*.
 
-Si consulti anche la sezione su [Java](strumenti.html#Java) della pagina sugli
+Si consulti anche la sezione su [Java](strumenti.md#java) della pagina sugli
 [strumenti](strumenti) per avere informazioni sulla documentazione specifica del
 linguaggio.
 
