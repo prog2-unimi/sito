@@ -7,18 +7,10 @@ Santini](https://santini.di.unimi.it/) (di due ore), che si svolgono di norma il
 *martedì* alle ore *14:30* e 8 lezioni di **esercitazioni** tenute da [Luca
 Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore), che si svolgono il
 *venerdì* dalle *10:30*; il [diario](diario) riporta le date ed il tipo di
-ciascuna lezione. Le lezioni di martedì si svolgono in aula *G10* mentre quelle
+ciascuna lezione. Le lezioni di martedì si svolgono in aula *V3* mentre quelle
 del venerdì si svolgono in aula *Magna Bertoni*; maggiori informazioni sulle
 aule sono disponibili all'[apposito
 sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture).
-
-<div style="background-color: lightyellow;">
-
-Chi non potesse recarsi in aula può seguire le lezioni in streaming accedendo
-all'[apposito team](https://bit.ly/prog2-team) tramite l'applicazione Microsoft
-Teams.
-
-</div>
 
 ## Obiettivi dell'insegnamento
 
@@ -31,18 +23,21 @@ rendano il calcolo suscettibile di esecuzione da parte di un dispositivo
 automatico (come ad esempio un computer).
 
 L'insegnamento
-[Programmazione](https://www.unimi.it/it/ugov/of/af20200000f1x-56) del primo
-anno fornisce le prime competenze relative a tale disciplina, esse verranno
+[Programmazione](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/programmazione-0) 
+del primo anno fornisce le prime competenze relative a tale disciplina, esse verranno
 accresciute negli anni successivi sia rispetto alla capacità di trattare
-*problemi più complessi* (ad esempio negli insegnamenti di [Algoritmi e
-strutture dati](https://www.unimi.it/it/ugov/of/af20200000f1x-52), [Ricerca
-operativa](https://www.unimi.it/it/ugov/of/af20200000f1x-43), [Linguaggi formali
-e automi](https://www.unimi.it/it/ugov/of/af2020000f1x-116…) o più *specifici*
-(in [Basi di dati](https://www.unimi.it/it/ugov/of/af20200000f1x-51), [Sistemi
-operativi](https://www.unimi.it/it/ugov/of/af20200000f1x-98), [Reti di
-calcolatori](https://www.unimi.it/it/ugov/of/af20200000f1x-50…) che di
-considerare *programmi più complessi* per dimensione e ciclo di vita (in
-[Ingegneria del software](https://www.unimi.it/it/ugov/of/af20200000f1x-99)…).
+*problemi più complessi* (ad esempio negli insegnamenti di 
+[Algoritmi e strutture dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/algoritmi-e-strutture-dati-0), 
+[Ricerca operativa](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/ricerca-operativa), 
+[Linguaggi formali e automi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/linguaggi-formali-e-automi)…) 
+o più *specifici*
+(in 
+[Basi di dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/basi-di-dati-0), 
+[Sistemi
+operativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/sistemi-operativi), 
+[Reti di calcolatori](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/reti-di-calcolatori-0)…) 
+che di considerare *programmi più complessi* per dimensione e ciclo di vita (in
+[Ingegneria del software](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/ingegneria-del-software)…).
 
 L'insegnamento "Programmazione II" ha l'obiettivo di accrescere le competenze
 acquisite nel corso del primo anno tramite l'ampliamento della *ricchezza
@@ -124,13 +119,10 @@ costituiscono argomenti del corso:
 
 <div style="background-color: lightyellow;">
 
-Materiale di supporto molto utile può essere reperito a partire dagli
-[handout](https://github.com/prog2-unimi/handouts/tree/aa12021), dalle
-[esercitazioni](https://github.com/prog2-unimi/esercitazioni), dalle
-[note](https://github.com/prog2-unimi/notes) e dai [temi d'esame
-svolti](https://prog2unimi-temi-svolti.netlify.app/). Tale materiale può
-costituire il *punto di partenza per alcune domande durante l'esame orale*, per
-cui **si raccomanda di prenderne visione** per tempo.
+Si veda anche la sezione "Materiale di supporto" in fondo a questa pagina:
+alcuni dei contenuti presenti in tale materiale potranno costituire il *punto di
+partenza per alcune domande durante l'esame orale*, per cui *si raccomanda di
+prenderne visione*!
 
 </div>
 
@@ -153,18 +145,6 @@ La prova finale è costituita da una **prova pratica** valutata in trentesimi (c
 verte sulla progettazione e sviluppo di un software secondo delle *specifiche*
 assegnate) seguita da una **discussione orale** (a richiesta per chi abbia riportato una valutazione compresa tra 23/30 e 27/30 nella prova pratica e obbligatoria per chi abbia riportato una valutazione superiore).
 
-<div style="background-color: lightyellow;">
-
-In conseguenza dei recenti sviluppi della situazione e in ottemperanza alle
-nuove e recenti indicazioni ricevute dal Rettore e dal Presidente del Collegio
-Didattico (dati in particolare i problemi relativi alla capienza delle aule
-informatizzate), **le prove scritte e orali** degli appelli di gennaio e
-febbraio **si svolgeranno a distanza** per tutti gli studenti — fatte salve
-ulteriori e repentine comunicazioni dovute a cambiamenti nelle indicazioni
-dell'Ateneo, indipendenti dalla volontà del docente.
-
-</div>
-
 Attraverso tali prove il candidato deve dimostrare:
 
 * la conoscenza delle definizioni e delle nozioni fondamentali riguardo agli
@@ -172,25 +152,14 @@ Attraverso tali prove il candidato deve dimostrare:
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
 
-Prima dell'inizio della prova pratica, gli studenti riceveranno al proprio
-indirizzo `@studenti.unimi.it` una mail contenente delle istruzioni per il
-collegamento ed un link **personale e non cedibile** per collegarsi (usando il
-browser [Chrome](https://www.google.com/chrome/), o
+Prima dell'inizio della prova pratica, che si svolgerà in uno dei laboratori
+dell'Ateneo, gli studenti riceveranno al proprio indirizzo `@studenti.unimi.it`
+una mail contenente delle istruzioni per il collegamento ed un link **personale
+e non cedibile** per collegarsi (usando il browser
+[Chrome](https://www.google.com/chrome/), o
 [Firefox](https://www.mozilla.org/firefox/browsers/), senza necessità di
 installare alcun altro software) ad un ambiente di sviluppo remoto basato su
 [Visual Studio Code](https://code.visualstudio.com/).
-
-<div style="background-color: lightyellow;">
-
-L'accesso *a distanza* a tale ambiente prevede una fase di *identificazione*
-durante la quale lo studente scatta una foto con la webcam del suo computer al
-proprio volto ritratto a fianco di un documento di riconoscimento (legalmente
-valido, con fotografia); tale foto sarà utilizzata *esclusivamente per
-l'identificazione dello studente da parte dei membri della commissione d'esame e
-sarà cancellata non oltre il termine dell'esame*; durante la prova lo studente
-dovrà mantenere aperta una sessione in videoconferenza col docente.
-
-</div>
 
 ### Criteri di valutazione
 
@@ -233,3 +202,14 @@ generale riguardo alla programmazione, sono:
 * Steve McConnel (2004)
   [Code Complete](http://www.informit.com/store/code-complete-9780735619678) *Microsoft Press*
 
+### Materiale di supporto
+
+Materiale di supporto molto utile può essere reperito a partire da:
+
+* gli [handout](https://github.com/prog2-unimi/handouts) e le [esercitazioni](https://github.com/prog2-unimi/esercitazioni), 
+* le [note](https://github.com/prog2-unimi/notes) e da
+* i [temi d'esame svolti](https://prog2unimi-temi-svolti.netlify.app/).
+
+I contenuti di questo materiale potranno costituire il *punto di partenza per
+alcune domande durante l'esame orale*, per cui **si raccomanda di prenderne
+visione** per tempo.

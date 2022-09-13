@@ -31,5 +31,4 @@ pregati di prendere visione delle linee guida per il  `rapporto con gli studenti
 
    info
    diario
-   risultati
    strumenti
