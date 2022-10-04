@@ -141,9 +141,11 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 
 L'insegnamento non prevede prove in itinere.
 
-La prova finale è costituita da una **prova pratica** valutata in trentesimi (che
-verte sulla progettazione e sviluppo di un software secondo delle *specifiche*
-assegnate) seguita da una **discussione orale** (a richiesta per chi abbia riportato una valutazione compresa tra 23/30 e 27/30 nella prova pratica e obbligatoria per chi abbia riportato una valutazione superiore).
+La prova finale è costituita da una **prova pratica** valutata in trentesimi
+(che verte sulla progettazione e sviluppo di un software secondo delle
+*specifiche* assegnate) seguita da una **discussione orale** (a richiesta del
+docente, o studente, di norma sconsigliata per chi abbia riportato una
+valutazione compresa tra 18/30 e 23/30 nella prova pratica).
 
 Attraverso tali prove il candidato deve dimostrare:
 
