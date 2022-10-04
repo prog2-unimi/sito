@@ -39,7 +39,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T03     | M 11/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_                  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_ ; H `t04`_                     |
+  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_                                |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -80,19 +80,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Generics and subtyping: https://prog2-unimi.github.io/notes/TGERDS.html
 
 .. _JUnit: https://junit.org/
-
-.. _t04: https://github.com/prog2-unimi/handouts/tree/de9a840a95db074fa2f4628e52ff92ba08b56a41/src/it/unimi/di/prog2/t04
-.. _t07: https://github.com/prog2-unimi/handouts/tree/d283b28efed290d1d44675fd89a1c027f5cb3e7e/src/it/unimi/di/prog2/t07
-.. _t11: https://github.com/prog2-unimi/handouts/tree/35d282bf1185faeca847bc1461abcb7daa29740b/src/it/unimi/di/prog2/t11
-.. _t13: https://github.com/prog2-unimi/handouts/tree/318f1bac5e15cd616382aa62e0222e5022904f5b/src/it/unimi/di/prog2/t13
-
-.. _e01: https://github.com/prog2-unimi/esercitazioni/tree/7b323f1d8fb46605dbb3fe66d021817f1c9ec6fa/soluzioni
-.. _e02: https://github.com/prog2-unimi/esercitazioni/tree/c9a30aa5db86b72a44fefda97eb4104ba2bafd99/soluzioni/e02
-.. _e03: https://github.com/prog2-unimi/esercitazioni/tree/257d97a4754eb6e0feaddc9e69effc0a991bf3d6/soluzioni/e03
-.. _e04: https://github.com/prog2-unimi/esercitazioni/tree/d55fe83f161ab269e166338b612d522f82fb6217/soluzioni/e04
-.. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b1ed7023c171f069b2ffe28f4e68acb0af427e6d/soluzioni/e05
-.. _e06: https://github.com/prog2-unimi/esercitazioni/tree/f73d4c680cefd93a8a830d48baab72366eb54847/soluzioni/e05
-.. _e08: https://github.com/prog2-unimi/esercitazioni/tree/de2980b9925430f47350403f700be597679d589d/testi/e08
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
