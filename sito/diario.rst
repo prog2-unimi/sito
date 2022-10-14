@@ -37,9 +37,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T02     | V  7/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T03     | M 11/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_                  |
+  | T03     | M 11/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
+  |         |         |                                  | `_Creating and Using Objects`_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Scanner`_                                |
+  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -49,8 +50,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/oop/
 
 .. _Calling Methods and Constructors: https://dev.java/learn/calling-methods-and-constructors/
+.. _Creating and Using Objects :https://dev.java/learn/creating-and-using-objects/
 
 .. _Lists: https://dev.java/learn/extending-collection-with-list/
+.. _Numbers and Strings: https://dev.java/learn/numbers-and-strings/
 .. _Scanner: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
