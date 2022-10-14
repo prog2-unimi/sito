@@ -38,9 +38,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T03     | M 11/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `_Creating and Using Objects`_                                        |
+  |         |         |                                  | `Creating and Using Objects`_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
+  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_; `t04`_|
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -50,7 +50,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Objects, Classes, Interfaces, Packages, and Inheritance: https://dev.java/oop/
 
 .. _Calling Methods and Constructors: https://dev.java/learn/calling-methods-and-constructors/
-.. _Creating and Using Objects :https://dev.java/learn/creating-and-using-objects/
+.. _Creating and Using Objects: https://dev.java/learn/creating-and-using-objects/
 
 .. _Lists: https://dev.java/learn/extending-collection-with-list/
 .. _Numbers and Strings: https://dev.java/learn/numbers-and-strings/
@@ -83,6 +83,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Generics and subtyping: https://prog2-unimi.github.io/notes/TGERDS.html
 
 .. _JUnit: https://junit.org/
+
+.. _t04: https://github.com/prog2-unimi/handouts/tree/7ef1c237251906aece40f31a30f64e6d35af00c1/src/it/unimi/di/prog2/t04
+
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
