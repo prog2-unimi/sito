@@ -50,7 +50,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E02     | V 28/10 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T07     | V  4/11 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*;                                        |
+  | T07     | V  4/11 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*; `t07`_                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T08     | M  8/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*; [JT `Records`_]                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -103,7 +103,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _JUnit: https://junit.org/
 
 .. _t04: https://github.com/prog2-unimi/handouts/tree/7ef1c237251906aece40f31a30f64e6d35af00c1/src/it/unimi/di/prog2/t04
+.. _t07: https://github.com/prog2-unimi/handouts/tree/8483e42cdc4e8beffa5dc0e7799889e1c7fb0b0a/src/it/unimi/di/prog2/t07
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/96f43ed6bca58c4aa9ddd1569fa21be3ec632a63/testi/e01
+
+
 
 
 .. admonition:: Nota bene
