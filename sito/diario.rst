@@ -54,11 +54,16 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T08     | M  8/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*; [JT `Records`_]                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E03     | V 11/11 |                                  |                                                                       |
+  | E03     | V 11/11 |                                  | E `e03`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T09     | M 15/11 |                                  | PDJ 5 *7 - 9*; EJ 8 *49 - 52*; [JT `Programming With Assertions`_]    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E04     | V 18/11 |                                  |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T10     | M 22/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*; JT `Access control`_, `Nested Classes`_     |
+  |         |         |                                  | `Anonymous Classes`_; H `t11`_                                        |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E05     | V 25/11 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -105,8 +110,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t04: https://github.com/prog2-unimi/handouts/tree/7ef1c237251906aece40f31a30f64e6d35af00c1/src/it/unimi/di/prog2/t04
 .. _t07: https://github.com/prog2-unimi/handouts/tree/8483e42cdc4e8beffa5dc0e7799889e1c7fb0b0a/src/it/unimi/di/prog2/t07
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/96f43ed6bca58c4aa9ddd1569fa21be3ec632a63/testi/e01
-
-
+.. _e03: https://github.com/prog2-unimi/esercitazioni/tree/c64f16de217d6a8febea0a2cb62d42ff5b51870a/testi/e03
 
 
 .. admonition:: Nota bene
