@@ -58,12 +58,20 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T09     | M 15/11 |                                  | PDJ 5 *7 - 9*; EJ 8 *49 - 52*; [JT `Programming With Assertions`_]    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E04     | V 18/11 |                                  |                                                                       |
+  | E04     | V 18/11 |                                  | E `e04`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T10     | M 22/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*; JT `Access control`_, `Nested Classes`_     |
-  |         |         |                                  | `Anonymous Classes`_; H `t11`_                                        |
+  |         |         |                                  | `Anonymous Classes`_; ........                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E05     | V 25/11 |                                  |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | T11     | M 29/11 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_            |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | E06     | V  2/12 |                                  |                                                                       |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T12     | M  6/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_;                                 |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T13     | M 13/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H H Equality_, Composition_                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -111,6 +119,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t07: https://github.com/prog2-unimi/handouts/tree/8483e42cdc4e8beffa5dc0e7799889e1c7fb0b0a/src/it/unimi/di/prog2/t07
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/96f43ed6bca58c4aa9ddd1569fa21be3ec632a63/testi/e01
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/c64f16de217d6a8febea0a2cb62d42ff5b51870a/testi/e03
+.. _e04: https://github.com/prog2-unimi/esercitazioni/tree/45ab674df8ed9b4d8b193236dd4aa6cb64924ff4/testi/e04
 
 
 .. admonition:: Nota bene
