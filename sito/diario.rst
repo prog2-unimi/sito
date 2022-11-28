@@ -63,7 +63,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T10     | M 22/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*; JT `Access control`_, `Nested Classes`_     |
   |         |         |                                  | `Anonymous Classes`_; `t10`_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E05     | V 25/11 |                                  |                                                                       |
+  | E05     | V 25/11 |                                  | E `e05`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T11     | M 29/11 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -121,7 +121,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/c64f16de217d6a8febea0a2cb62d42ff5b51870a/testi/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/45ab674df8ed9b4d8b193236dd4aa6cb64924ff4/testi/e04
 .. _t10: https://github.com/prog2-unimi/handouts/tree/13c8105b4537c76a4a69056df27f2738f64ba5fd/src/it/unimi/di/prog2/t10
-
+.. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b21f6942034fddfa674c4e82b7076051376e7a3d/testi/e05
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
