@@ -40,7 +40,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T03     | M 11/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
   |         |         |                                  | `Creating and Using Objects`_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_; `t04`_|
+  | T04     | V 14/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
+  |         |         |                                  | H `t04`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T05     | M 18/10 | Astrazione procedurale           | PDJ 3; [`How to Write Javadoc`_, `Javadoc Guide`_]                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -50,9 +51,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E02     | V 28/10 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T07     | V  4/11 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*; `t07`_                                 |
+  | T07     | V  4/11 | Astrazione dei dati              | PDJ 5 *1 - 3*; EJ 2 *1, 2, 4*; H `t07`_                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T08     | M  8/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*; [JT `Records`_]                        |
+  | T08     | M  8/11 |                                  | PDJ 5 *4 - 6*; EJ 3 *10 - 13*; [JT `Records`_]; `t08`_                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E03     | V 11/11 |                                  | E `e03`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -61,17 +62,17 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | E04     | V 18/11 |                                  | E `e04`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T10     | M 22/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*; JT `Access control`_, `Nested Classes`_     |
-  |         |         |                                  | `Anonymous Classes`_; `t10`_                                          |
+  |         |         |                                  | `Anonymous Classes`_; H `t10`_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E05     | V 25/11 |                                  | E `e05`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T11     | M 29/11 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_            |
+  | T11     | M 29/11 | Ereditarietà e composizione      | PDJ 7 *1 - 5*; H Dispatching_, `Ereditarietà e ontologia`_; H `t11`_  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E06     | V  2/12 |                                  |                                                                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T12     | M  6/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_;                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T13     | M 13/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H H Equality_, Composition_                     |
+  | T13     | M 13/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H Equality_, Composition_                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -120,8 +121,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e01: https://github.com/prog2-unimi/esercitazioni/tree/96f43ed6bca58c4aa9ddd1569fa21be3ec632a63/testi/e01
 .. _e03: https://github.com/prog2-unimi/esercitazioni/tree/c64f16de217d6a8febea0a2cb62d42ff5b51870a/testi/e03
 .. _e04: https://github.com/prog2-unimi/esercitazioni/tree/45ab674df8ed9b4d8b193236dd4aa6cb64924ff4/testi/e04
+.. _t08: https://github.com/prog2-unimi/handouts/tree/1a9dec42e253852d4b905f10a1e5abe1db1fb958/src/it/unimi/di/prog2/t08
 .. _t10: https://github.com/prog2-unimi/handouts/tree/13c8105b4537c76a4a69056df27f2738f64ba5fd/src/it/unimi/di/prog2/t10
 .. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b21f6942034fddfa674c4e82b7076051376e7a3d/testi/e05
+.. _t11: https://github.com/prog2-unimi/handouts/tree/1a9dec42e253852d4b905f10a1e5abe1db1fb958/src/it/unimi/di/prog2/t11
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
