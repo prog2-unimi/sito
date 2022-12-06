@@ -70,7 +70,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E06     | V  2/12 |                                  | E `e06`_                                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | T12     | M  6/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_;                                 |
+  | T12     | M  6/12 |                                  | PDJ 7 *6 - 8*; JT `Default Methods`_; H `t12`_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T13     | M 13/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H Equality_, Composition_                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -79,8 +79,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | T14     | M 20/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_, `Generics (Bracha)`_; EJ 5 *26 - 31*;          |
   |         |         |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | T15     | M 10/01 | Esercizi di ricapitolazione      |                                                                       |
-  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | T15     | M 10/01 | *Tools of the trade* e           |                                                                       |
+  +---------+---------+ esercizi di ricapitolazione      +-----------------------------------------------------------------------+
   | E08     | V 13/01 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
@@ -136,6 +136,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b21f6942034fddfa674c4e82b7076051376e7a3d/testi/e05
 .. _t11: https://github.com/prog2-unimi/handouts/tree/1a9dec42e253852d4b905f10a1e5abe1db1fb958/src/it/unimi/di/prog2/t11
 .. _e06: https://github.com/prog2-unimi/esercitazioni/tree/e0c9c86960a83e90c9427823b35467782e75436b/testi/e06/
+.. _t12: https://github.com/prog2-unimi/handouts/tree/03c9f11b35b36eb69e993cf04b9ac53117e03a24/src/it/unimi/di/prog2/t12
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
