@@ -74,7 +74,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | T13     | M 13/12 |                                  | PDJ 7 *9 - 11*; EJ 4; H Equality_, Composition_                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | E07     | V 16/12 |                                  |                                                                       |
+  | E07     | V 16/12 |                                  | E `e07`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+ 
   | T14     | M 20/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_, `Generics (Bracha)`_; EJ 5 *26 - 31*;          |
   |         |         |                                  | H `Generics and subtyping`_                                           |
@@ -135,8 +135,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _t10: https://github.com/prog2-unimi/handouts/tree/13c8105b4537c76a4a69056df27f2738f64ba5fd/src/it/unimi/di/prog2/t10
 .. _e05: https://github.com/prog2-unimi/esercitazioni/tree/b21f6942034fddfa674c4e82b7076051376e7a3d/testi/e05
 .. _t11: https://github.com/prog2-unimi/handouts/tree/1a9dec42e253852d4b905f10a1e5abe1db1fb958/src/it/unimi/di/prog2/t11
-.. _e06: https://github.com/prog2-unimi/esercitazioni/tree/e0c9c86960a83e90c9427823b35467782e75436b/testi/e06/
+.. _e06: https://github.com/prog2-unimi/esercitazioni/tree/e0c9c86960a83e90c9427823b35467782e75436b/testi/e06
 .. _t12: https://github.com/prog2-unimi/handouts/tree/03c9f11b35b36eb69e993cf04b9ac53117e03a24/src/it/unimi/di/prog2/t12
+.. _e07: https://github.com/prog2-unimi/esercitazioni/tree/cfb0292496d695c75d38d9b6664b6d9c279af9aa/testi/e07
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
