@@ -76,8 +76,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | E07     | V 16/12 |                                  | E `e07`_                                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+ 
-  | T14     | M 20/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_, `Generics (Bracha)`_; EJ 5 *26 - 31*;          |
-  |         |         |                                  | H `Generics and subtyping`_                                           |
+  | T14     | M 20/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H `Generics and subtyping`_    |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | T15     | M 10/01 | *Tools of the trade* e           |                                                                       |
   +---------+---------+ esercizi di ricapitolazione      +-----------------------------------------------------------------------+
@@ -106,17 +105,16 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
-.. _Access Control: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
-.. _Nested Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
-.. _Anonymous Classes: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
+.. _Access Control: https://dev.java/learn/creating-classes/#anchor_3
+.. _Nested Classes: https://dev.java/learn/nested-classes/
+.. _Anonymous Classes: https://dev.java/learn/when-to-use-nested-classes-local-classes-anonymous-classes-and-lambda-expressions/
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
-.. _Default Methods: https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
+.. _Default Methods: https://dev.java/learn/implementing-an-interface/#anchor_4
 .. _Collections (tutorial): https://docs.oracle.com/javase/tutorial/collections/
 .. _Collections (docs): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
-.. _Generics: https://docs.oracle.com/javase/tutorial/java/generics/
-.. _Generics (Bracha): https://docs.oracle.com/javase/tutorial/extra/generics/
+.. _Generics: https://dev.java/learn/generics/
 
 .. _Dispatching: https://prog2-unimi.github.io/notes/DM.html
 .. _Ereditarietà e ontologia: https://prog2-unimi.github.io/notes/EACO.html
