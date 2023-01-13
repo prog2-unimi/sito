@@ -78,8 +78,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+ 
   | T14     | M 20/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H `Generics and subtyping`_    |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | E08     | M 10/01 | *Tools of the trade* e           |                                                                       |
-  +---------+---------+ esercizi di ricapitolazione      +-----------------------------------------------------------------------+
+  | E08     | M 10/01 | *Tools of the trade* e           | H `Ferri del mestiere`_; `Collections (Bloch)`_,                      |
+  +---------+---------+ esercizi di ricapitolazione      + `Collections (tutorial)`_, `Collections (API)`_                       +
   | T15     | V 13/01 |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
@@ -111,10 +111,12 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
 .. _Default Methods: https://dev.java/learn/implementing-an-interface/#anchor_4
-.. _Collections (tutorial): https://docs.oracle.com/javase/tutorial/collections/
-.. _Collections (docs): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _Collections (tutorial): https://dev.java/learn/the-collections-framework/
+.. _Collections (API): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://dev.java/learn/generics/
+
+.. _Ferri del mestiere: https://prog2unimi-temi-svolti.netlify.app/intro/ifdm
 
 .. _Dispatching: https://prog2-unimi.github.io/notes/DM.html
 .. _Ereditarietà e ontologia: https://prog2-unimi.github.io/notes/EACO.html
