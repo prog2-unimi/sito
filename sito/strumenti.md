@@ -42,9 +42,8 @@ come quello mostrato nel [repository d'esempio](https://github.com/prog2-unimi/b
 
 ### GitHub e Gitpod
 
-<div style="background-color: lightyellow;">
-
-```{warning}
+:::{note}
+:class: warnadmonition
 
 Gli strumenti descritti in questa sezione, il cui uso è del tutto facoltativo, sono
 indicati e offerti senza alcuna garanzia di funzionamento, o di supporto, da parte
@@ -53,8 +52,7 @@ del docente.
 Nel caso in cui venga riscontrata una qualunque difficoltà, o malfunzionamento,
 si consiglia di procedere in modo autonomo con l'installazione e configurazione
 dell'ambiente di sviluppo sul proprio computer.
-```
-</div>
+:::
 
 Per svolgere le esercitazioni e gli *homework* è possibile utilizzare il *cloud
 IDE* [Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual

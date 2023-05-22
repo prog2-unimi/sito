@@ -45,6 +45,14 @@ exclude_patterns = ['**.ipynb_checkpoints']
 
 smartquotes = False
 
+# -- Options for Myst parser -------------------------------------------------
+
+myst_heading_anchors = 3
+
+myst_enable_extensions = [
+    "colon_fence",
+]
+
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'basic'
@@ -62,8 +70,6 @@ html_last_updated_fmt = '%-d/%-m/%y'
 html_context = {
     'iso_now': datetime.datetime.utcnow().isoformat()
 }
-
-myst_heading_anchors = 3
 
 # -- Options for todo extension ----------------------------------------------
 

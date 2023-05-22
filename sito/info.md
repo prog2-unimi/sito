@@ -117,14 +117,15 @@ costituiscono argomenti del corso:
     * "Mastering the API", limitatamente a [The Collections
       Framework](https://dev.java/learn/the-collections-framework/).
 
-<div style="background-color: lightyellow;">
+
+:::{note}
+:class: warnadmonition
 
 Si veda anche la sezione "Materiale di supporto" in fondo a questa pagina:
 alcuni dei contenuti presenti in tale materiale potranno costituire il *punto di
 partenza per alcune domande durante l'esame orale*, per cui *si raccomanda di
 prenderne visione*!
-
-</div>
+:::
 
 ## Prerequisiti
 
@@ -151,15 +152,6 @@ Attraverso tali prove il candidato deve dimostrare:
   aspetti di orientazione agli oggetti e programmazione,
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
-
-Prima dell'inizio della prova pratica, che si svolgerà in uno dei laboratori
-dell'Ateneo, gli studenti riceveranno al proprio indirizzo `@studenti.unimi.it`
-una mail contenente delle istruzioni per il collegamento ed un link **personale
-e non cedibile** per collegarsi (usando il browser
-[Chrome](https://www.google.com/chrome/), o
-[Firefox](https://www.mozilla.org/firefox/browsers/), senza necessità di
-installare alcun altro software) ad un ambiente di sviluppo remoto basato su
-[Visual Studio Code](https://code.visualstudio.com/).
 
 ### Criteri di valutazione
 
