@@ -2,15 +2,12 @@
 
 ## Orario e modalità delle lezioni
 
-L'insegnamento è organizzato in 16 lezioni di **teoria** tenute da [Massimo
-Santini](https://santini.di.unimi.it/) (di due ore), che si svolgono di norma il
-*martedì* alle ore *14:30* e 8 lezioni di **esercitazioni** tenute da [Luca
-Prigioniero](https://prigioniero.di.unimi.it/) (di tre ore), che si svolgono il
-*venerdì* dalle *10:30*; il [diario](diario) riporta le date ed il tipo di
-ciascuna lezione. Le lezioni di martedì si svolgono in aula *V3* mentre quelle
-del venerdì si svolgono in aula *Magna Bertoni*; maggiori informazioni sulle
-aule sono disponibili all'[apposito
-sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture).
+L'insegnamento è organizzato in 16 lezioni di **teoria** (di due ore), che si
+svolgono di norma il *martedì* alle ore *10:30* e 8 lezioni di **esercitazioni**
+(di tre ore), che si svolgono il *venerdì* dalle *10:30*; il [diario](diario)
+riporta le date ed il tipo di ciascuna lezione. Le lezioni si svolgono in aula
+*Magna Bertoni* (per informazioni consultate l'[apposito
+sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture)).
 
 ## Obiettivi dell'insegnamento
 
@@ -23,29 +20,30 @@ rendano il calcolo suscettibile di esecuzione da parte di un dispositivo
 automatico (come ad esempio un computer).
 
 L'insegnamento
-[Programmazione](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/programmazione-0) 
+[Programmazione](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/programmazione-0) 
 del primo anno fornisce le prime competenze relative a tale disciplina, esse verranno
 accresciute negli anni successivi sia rispetto alla capacità di trattare
 *problemi più complessi* (ad esempio negli insegnamenti di 
-[Algoritmi e strutture dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/algoritmi-e-strutture-dati-0), 
-[Ricerca operativa](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/ricerca-operativa), 
-[Linguaggi formali e automi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/linguaggi-formali-e-automi)…) 
+[Algoritmi e strutture dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/algoritmi-e-strutture-dati-0), 
+[Ricerca operativa](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/ricerca-operativa), 
+[Linguaggi formali e automi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/linguaggi-formali-e-automi)…) 
 o più *specifici*
 (in 
-[Basi di dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/basi-di-dati-0), 
+[Basi di dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/basi-di-dati-0), 
 [Sistemi
-operativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/sistemi-operativi), 
-[Reti di calcolatori](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/reti-di-calcolatori-0)…) 
+operativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/sistemi-operativi), 
+[Reti di calcolatori](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/reti-di-calcolatori-0)…) 
 che di considerare *programmi più complessi* per dimensione e ciclo di vita (in
-[Ingegneria del software](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2023/ingegneria-del-software)…).
+[Ingegneria del software](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/ingegneria-del-software)…).
 
-L'insegnamento "Programmazione II" ha l'obiettivo di accrescere le competenze
-acquisite nel corso del primo anno tramite l'ampliamento della *ricchezza
-espressiva* del linguaggio (o *paradigma*) di programmazione; facendo tesoro
-della conoscenza del paradigma *imperativo* appresa tramite l'uso del linguaggio
-*Go*, l'insegnamento introduce il paradigma *object oriented* (assieme alle
-relative tecniche di specificazione e progetto) attraverso il linguaggio *Java*
-(e non solo).
+L'insegnamento [Programmazione
+II](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/programmazione-ii)
+ha l'obiettivo di accrescere le competenze acquisite nel corso del primo anno
+tramite l'ampliamento della *ricchezza espressiva* del linguaggio (o
+*paradigma*) di programmazione; facendo tesoro della conoscenza del paradigma
+*imperativo* appresa tramite l'uso del linguaggio *Go*, l'insegnamento introduce
+il paradigma *object oriented* (assieme alle relative tecniche di specificazione
+e progetto) attraverso il linguaggio *Java* (e non solo).
 
 ## Risultati di apprendimento attesi
 
