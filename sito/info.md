@@ -2,12 +2,17 @@
 
 ## Orario e modalità delle lezioni
 
-L'insegnamento è organizzato in 16 lezioni di **teoria** (di due ore), che si
-svolgono di norma il *martedì* alle ore *10:30* e 8 lezioni di **esercitazioni**
-(di tre ore), che si svolgono il *venerdì* dalle *10:30*; il [diario](diario)
-riporta le date ed il tipo di ciascuna lezione. Le lezioni si svolgono in aula
-*Magna Bertoni* (per informazioni consultate l'[apposito
+L'insegnamento corrisponde a 6 CFU, corrispondenti a 150 ore di studio
+complessive; la parte frontale consta di 56 ore, ripartite *approssimativamente*
+in 32 ore di **teoria** (corrispondenti a 4 CFU) e 24 ore di **esercitazioni**
+(corrispondenti a 2 CFU); il che conduce a circa 100 ore di studio individuale.
+
+Le lezioni si svolgono il *martedì* alle ore *10:30* e il *venerdì* dalle
+*10:30* in aula *Magna Bertoni* (per informazioni consultate l'[apposito
 sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture)).
+
+Il [diario](diario) riporta le date, gli argomenti e il materiale didattico di
+ciascuna lezione.svolgono .
 
 ## Obiettivi dell'insegnamento
 
@@ -196,7 +201,7 @@ generale riguardo alla programmazione, sono:
 
 Materiale di supporto molto utile può essere reperito a partire da:
 
-* gli [handout](https://github.com/prog2-unimi/handouts) e le [esercitazioni](https://github.com/prog2-unimi/esercitazioni), 
+* gli [handout](https://github.com/prog2-unimi/handouts), 
 * le [note](https://github.com/prog2-unimi/notes) e da
 * i [temi d'esame svolti](https://prog2unimi-temi-svolti.netlify.app/).
 

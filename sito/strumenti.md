@@ -35,11 +35,6 @@ chi preferisce può installare una [versione open](https://vscodium.com/).
 Evidentemente ciascuno può adoperare (sul proprio computer) l'editor che trova
 più comodo.
 
-Per gli studenti interessati, ma sottolineando che *non è assolutamente materia
-dell'insegnamento* e *non è assolutamente richiesto per il superamento dell'esame*,
-è possibile usare uno strumento di [build automation](https://en.wikipedia.org/wiki/Build_automation),
-come quello mostrato nel [repository d'esempio](https://github.com/prog2-unimi/build-automation-example).
-
 ### GitHub e Gitpod
 
 :::{note}
@@ -54,9 +49,9 @@ si consiglia di procedere in modo autonomo con l'installazione e configurazione
 dell'ambiente di sviluppo sul proprio computer.
 :::
 
-Per svolgere le esercitazioni e gli *homework* è possibile utilizzare il *cloud
-IDE* [Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual
-Studio Code](https://code.visualstudio.com/) e
+Per svolgere gli esercizi e studiare è possibile utilizzare il *cloud IDE*
+[Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual Studio
+Code](https://code.visualstudio.com/) e
 dell'[OpenJDK](https://openjdk.java.net/), offerti come servizio cloud (ossia
 accessibili gratuitamente in rete, senza necessità di installare, o configurare,
 alcun software).
@@ -67,7 +62,3 @@ creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è possibile
 beneficiare di [agevolazioni
 interessanti](https://education.github.com/students) come il [GitHub Student
 Developer Pack](https://education.github.com/pack).
-
-Una volta creato l'account è possibile verificare che tutto funzioni a dovere
-usando il bottone "Open in Gitpod" nel [repository delle
-esercitazioni](https://github.com/prog2-unimi/esercitazioni).

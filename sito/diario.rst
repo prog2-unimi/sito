@@ -11,12 +11,9 @@ Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
 <http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
-con *JT* a `The Java™ Tutorials <https://dev.java/learn/>`__,
-quello con *H* si riferisce agli handout (siano essi *notebook* o *sorgenti*
-disponibili nel `repository degli handout
-<https://github.com/prog2-unimi/handouts>`__ del corso), infine il materiale
-indicato con *E* si riferisce alle esercitazioni (disponibili nel `repository
-delle esercitazioni <https://github.com/prog2-unimi/esercitazioni>`__ del
+con *JT* a `The Java™ Tutorials <https://dev.java/learn/>`__, quello con *H* si
+riferisce agli handout (siano essi *notebook* o *sorgenti* disponibili nel
+`repository degli handout <https://github.com/prog2-unimi/handouts>`__ del
 corso); si veda la nota sui :ref:`numeri di sezione <numeridisezione>` che reca
 indicazioni su quali parti del materiale sono *parte del programma* e quali
 *letture consigliate, ma facoltative*.
