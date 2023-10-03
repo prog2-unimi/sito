@@ -1,13 +1,17 @@
 # Strumenti e materiale di supporto
 
 Questa pagina contiene alcune indicazioni circa il [linguaggio di
-programmazione](#java) e gli strumenti di [supporto allo sviluppo](#strumenti-di-supporto)
-adottati per il corso.
+programmazione](#java) e gli strumenti di [supporto allo
+sviluppo](#strumenti-di-supporto) adottati per il corso.
 
-Si osserva che, data la *maturità culturale* che ci si attende dagli studenti
-che frequentano un insegnamento del secondo anno, il docente **non intende
-fornire alcun supporto** all'installazione, configurazione e uso pratico degli
-strumenti qui descritti.
+:::{note}
+:class: warnadmonition
+
+Data la *maturità culturale* che ci si attende dagli studenti che frequentano un
+insegnamento del secondo anno, il docente **non fornirà alcun supporto**
+all'installazione, configurazione e uso pratico degli strumenti qui descritti,
+sia nell'ambiente desktop che cloud.
+:::
 
 ## Java
 
@@ -24,41 +28,70 @@ gratuitamente sia con licenza
 Oltre ai libri di testo, è di fondamentale importanza consultare la
 [documentazione](https://docs.oracle.com/en/java/javase/17/), in particolare
 quella delle [API](https://docs.oracle.com/en/java/javase/17/docs/api/) delle
-librerie incluse nel JDK. Possono risultare molto utili anche i [vari](https://docs.oracle.com/javase/tutorial/) [tutorial](https://dev.java/learn/) ufficiali di Oracle.
+librerie incluse nel JDK. Possono risultare molto utili anche i
+[vari](https://docs.oracle.com/javase/tutorial/)
+[tutorial](https://dev.java/learn/) ufficiali di Oracle.
 
 ## Strumenti di supporto
 
-Sebbene sia possibile usare un IDE, durante il corso (e durante l'esame) verrà
-utilizzato l'editor [Visual Studio Code](https://code.visualstudio.com/) con il
-relativo [supporto per Java](https://code.visualstudio.com/docs/languages/java);
-chi preferisce può installare una [versione open](https://vscodium.com/).
-Evidentemente ciascuno può adoperare (sul proprio computer) l'editor che trova
-più comodo.
+Lo scambio di informazioni tra docente e studenti avverrà principalmente
+attraverso il servizio [GitLab](https://gitlab.di.unimi.it/) del Dipartimento di
+Informatica a cui gli studenti possono accedere tramite le proprie credenziali
+di Ateneo.
 
-### GitHub e Gitpod
+È possibile usare qualunque editor o IDE, durante il corso verrà utilizzato
+l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
+[supporto per Java](https://code.visualstudio.com/docs/languages/java); chi
+preferisce può installare una [versione open](https://vscodium.com/).
 
-:::{note}
-:class: warnadmonition
+Al fine di consentire l'automazione di alcuni compiti, come la generazione della
+documentazione e l'esecuzione dei *black-box* test (necessari al superamento
+dell'esame), durante il corso verranno utilizzati il *build automation tool*
+denominato [Gradle](https://gradle.org/) unitamente al *testing framework*
+[JUnit](https://junit.org/junit5/). Una *conoscenza approfondita del
+funzionamento di tali strumenti non è affatto necessaria per il superamento
+dell'esame*, perché la loro configurazione ed uso saranno automatizzati da parte
+del docente, come ad esempio nel repository degli
+[handout](https://github.com/prog2-unimi/handouts). Gli studenti interessati ad
+approfondire possono tuttavia consultare un [esempio d'uso più
+completo](https://github.com/prog2-unimi/build-automation-example) che può
+risultare utile per la realizzazione del progetto.
 
-Gli strumenti descritti in questa sezione, il cui uso è del tutto facoltativo, sono
-indicati e offerti senza alcuna garanzia di funzionamento, o di supporto, da parte
-del docente.
+### Ambienti di sviluppo
 
-Nel caso in cui venga riscontrata una qualunque difficoltà, o malfunzionamento,
-si consiglia di procedere in modo autonomo con l'installazione e configurazione
-dell'ambiente di sviluppo sul proprio computer.
-:::
+Lo svolgimento degli esercizi e la realizzazione del progetto possono avvenire
+in due diversi ambienti di sviluppo:
 
-Per svolgere gli esercizi e studiare è possibile utilizzare il *cloud IDE*
+* sul proprio *desktop* computer,
+* in rete, utilizzando una combinazione di servizi *cloud*.
+
+#### Desktop
+
+La prima soluzione è maggiormente flessibile rispetto alla scelta delle
+configurazioni, più performante e meno dipendente dalla disponibilità
+dell'accesso alla rete e dall'offerta di servizi di terze parti.
+
+D'altro canto è certamente più complessa da predisporre e può presentare alcune
+difficoltà tecniche che richiedono un certo grado di autonomia da parte dello
+studente. Se si decide di intraprendere questa strada, uno strumento utile a
+districarsi nell'installazione dei vari strumenti può essere
+[SdkMan](https://sdkman.io/).
+
+#### Cloud
+
+La seconda soluzione è notevolmente più semplice da predisporre, in quanto
+richiede solo la creazione di alcuni account gratuiti e l'uso via rete di
+servizi di terze parti. Sarà la soluzione adottata dal docente durante lo
+svolgimento delle esercitazioni.
+
+L'ambiente di sviluppo utilizzato è il *cloud IDE*
 [Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual Studio
-Code](https://code.visualstudio.com/) e
-dell'[OpenJDK](https://openjdk.java.net/), offerti come servizio cloud (ossia
-accessibili gratuitamente in rete, senza necessità di installare, o configurare,
-alcun software).
+Code](https://code.visualstudio.com/) e di un ambiente bastato sulle corrette
+versioni del Java Developement Kit, Gradle, JUnit e git.
 
-Si consiglia che gli studenti interessati creino quanto prima un account su
-[GitHub](https://github.com/), necessario per l'uso di GitPod; si osservi che
-creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è possibile
-beneficiare di [agevolazioni
+Al fine di poter accedere a tale servizio è necessario autenticarsi, una delle
+possibilità per farlo è usare un account [GitHub](https://github.com/); si
+osservi che creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è
+possibile beneficiare di [agevolazioni
 interessanti](https://education.github.com/students) come il [GitHub Student
 Developer Pack](https://education.github.com/pack).
