@@ -37,7 +37,8 @@ librerie incluse nel JDK. Possono risultare molto utili anche i
 Lo scambio di informazioni tra docente e studenti avverrà principalmente
 attraverso il servizio [GitLab](https://gitlab.di.unimi.it/) del Dipartimento di
 Informatica a cui gli studenti possono accedere tramite le proprie credenziali
-di Ateneo.
+di Ateneo secondo le [istruzioni per accedere al
+gruppo](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di).
 
 È possibile usare qualunque editor o IDE, durante il corso verrà utilizzato
 l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
@@ -62,36 +63,8 @@ risultare utile per la realizzazione del progetto.
 Lo svolgimento degli esercizi e la realizzazione del progetto possono avvenire
 in due diversi ambienti di sviluppo:
 
-* sul proprio *desktop* computer,
+* sul proprio computer,
 * in rete, utilizzando una combinazione di servizi *cloud*.
 
-#### Desktop
-
-La prima soluzione è maggiormente flessibile rispetto alla scelta delle
-configurazioni, più performante e meno dipendente dalla disponibilità
-dell'accesso alla rete e dall'offerta di servizi di terze parti.
-
-D'altro canto è certamente più complessa da predisporre e può presentare alcune
-difficoltà tecniche che richiedono un certo grado di autonomia da parte dello
-studente. Se si decide di intraprendere questa strada, uno strumento utile a
-districarsi nell'installazione dei vari strumenti può essere
-[SdkMan](https://sdkman.io/).
-
-#### Cloud
-
-La seconda soluzione è notevolmente più semplice da predisporre, in quanto
-richiede solo la creazione di alcuni account gratuiti e l'uso via rete di
-servizi di terze parti. Sarà la soluzione adottata dal docente durante lo
-svolgimento delle esercitazioni.
-
-L'ambiente di sviluppo utilizzato è il *cloud IDE*
-[Gitpod](https://www.gitpod.io/) che consiste di una di istanza [Visual Studio
-Code](https://code.visualstudio.com/) e di un ambiente bastato sulle corrette
-versioni del Java Developement Kit, Gradle, JUnit e git.
-
-Al fine di poter accedere a tale servizio è necessario autenticarsi, una delle
-possibilità per farlo è usare un account [GitHub](https://github.com/); si
-osservi che creando l'account con l'indirizzo ufficiale `@studenti.unimi.it` è
-possibile beneficiare di [agevolazioni
-interessanti](https://education.github.com/students) come il [GitHub Student
-Developer Pack](https://education.github.com/pack).
+È in corso una sperimentazione con alcuni studenti per stabilire un modo
+semplice per poter utilizzare il proprio computer.
