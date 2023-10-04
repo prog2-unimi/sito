@@ -29,10 +29,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 01      | M  26/9 | Introduzione                     | PDJ 1                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 02      | V  29/9 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
-  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H01_      |
+  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  4/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Creating and Using Objects`_                                         |
+  |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V  6/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
   |         |         |                                  |                                                                       |
@@ -41,7 +41,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 |
 
 
-.. _H01: https://github.com/prog2-unimi/handouts/tree/b1d784bf4cd4c3baf50f4603b7e23356437d131c/src/main/java/it/unimi/di/prog2/l01
+.. _H02: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h02
+.. _H03: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h03
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
