@@ -37,8 +37,7 @@ librerie incluse nel JDK. Possono risultare molto utili anche i
 Lo scambio di informazioni tra docente e studenti avverrà principalmente
 attraverso il servizio [GitLab](https://gitlab.di.unimi.it/) del Dipartimento di
 Informatica a cui gli studenti possono accedere tramite le proprie credenziali
-di Ateneo secondo le [istruzioni per accedere al
-gruppo](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di).
+di Ateneo secondo le [istruzioni per utilizzare il servizio](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di).
 
 È possibile usare qualunque editor o IDE, durante il corso verrà utilizzato
 l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
@@ -57,14 +56,3 @@ del docente, come ad esempio nel repository degli
 approfondire possono tuttavia consultare un [esempio d'uso più
 completo](https://github.com/prog2-unimi/build-automation-example) che può
 risultare utile per la realizzazione del progetto.
-
-### Ambienti di sviluppo
-
-Lo svolgimento degli esercizi e la realizzazione del progetto possono avvenire
-in due diversi ambienti di sviluppo:
-
-* sul proprio computer,
-* in rete, utilizzando una combinazione di servizi *cloud*.
-
-È in corso una sperimentazione con alcuni studenti per stabilire un modo
-semplice per poter utilizzare il proprio computer.
