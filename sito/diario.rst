@@ -42,7 +42,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h02
-.. _H03: https://github.com/prog2-unimi/handouts/tree/304cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h03
+.. _H03: https://github.com/prog2-unimi/handouts/tree/5e6b1d97f45ea00787a3ae2b54c8302ce88f39ce/src/main/java/it/unimi/di/prog2/h03
 .. _H04: https://github.com/prog2-unimi/handouts/tree/c76d524be80ef9c32112d61368fcd30008738c03/src/main/java/it/unimi/di/prog2/h04
 
 .. _Getting Started: https://dev.java/learn/getting-started/
