@@ -44,15 +44,20 @@ l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
 [supporto per Java](https://code.visualstudio.com/docs/languages/java); chi
 preferisce può installare una [versione open](https://vscodium.com/).
 
-Al fine di consentire l'automazione di alcuni compiti, come la generazione della
-documentazione e l'esecuzione dei *black-box* test (necessari al superamento
-dell'esame), durante il corso verranno utilizzati il *build automation tool*
-denominato [Gradle](https://gradle.org/) unitamente al *testing framework*
-[JUnit](https://junit.org/junit5/). Una *conoscenza approfondita del
-funzionamento di tali strumenti non è affatto necessaria per il superamento
-dell'esame*, perché la loro configurazione ed uso saranno automatizzati da parte
-del docente, come ad esempio nel repository degli
-[handout](https://github.com/prog2-unimi/handouts). Gli studenti interessati ad
-approfondire possono tuttavia consultare un [esempio d'uso più
-completo](https://github.com/prog2-unimi/build-automation-example) che può
-risultare utile per la realizzazione del progetto.
+### Consegna e testing 
+
+Al fine di consentire l'automazione di alcuni compiti, l'esecuzione dei
+*black-box* test, la generazione della documentazione e la consegna (necessari
+al superamento dell'esame), durante il corso verranno utilizzati il *build
+automation tool* denominato [Gradle](https://gradle.org/) unitamente al *testing
+framework* [JUnit](https://junit.org/junit5/) e al sistema di gestione delle
+revisioni del software [git](https://git-scm.com/). Una *conoscenza approfondita
+del funzionamento di tali strumenti non è affatto necessaria per il superamento
+dell'esame*, perché la loro configurazione ed uso sono automatizzati da parte
+del docente, come illustrato dettagliatamente nel repository degli
+[esercizi](https://gitlab.di.unimi.it/prog2), o come avviene nel repository
+degli [handout](https://github.com/prog2-unimi/handouts).
+
+Gli studenti interessati ad approfondire possono tuttavia consultare un [esempio
+d'uso più completo](https://github.com/prog2-unimi/build-automation-example) che
+può risultare utile per la realizzazione del progetto.
