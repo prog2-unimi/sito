@@ -62,7 +62,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Scanner: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/javadoc.html
 
 .. _Exceptions: https://dev.java/learn/exceptions/
 
