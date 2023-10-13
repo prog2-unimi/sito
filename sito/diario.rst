@@ -39,7 +39,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 05      | M 11/10 | Astrazione procedurale           | PDJ 3; H05_                                                           |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 06      | V 13/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_                             |
+  | 06      | V 13/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_; H06_                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -49,6 +49,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H03: https://github.com/prog2-unimi/handouts/tree/5e6b1d97f45ea00787a3ae2b54c8302ce88f39ce/src/main/java/it/unimi/di/prog2/h03
 .. _H04: https://github.com/prog2-unimi/handouts/tree/c76d524be80ef9c32112d61368fcd30008738c03/src/main/java/it/unimi/di/prog2/h04
 .. _H05: https://github.com/prog2-unimi/handouts/tree/3029d9e60ee5bc0f3418febb220d08d459a5551d/src/main/java/it/unimi/di/prog2/h05
+.. _H06: https://github.com/prog2-unimi/handouts/tree/aebc8f0b69748a6f239b9c42677768fbb77849da/src/main/java/it/unimi/di/prog2/h06
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
