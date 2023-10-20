@@ -41,9 +41,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 06      | V 13/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_; H06_                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 07      | M 18/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
+  | 07      | M 18/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_; H07_                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 08      | V 20/10 | Astrazione dei dati              | PDJ 5.1, 5.2                                                          |
+  | 08      | V 20/10 | Astrazione dei dati              | PDJ 5.1, 5.2; H08_                                                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 25/10 |                                  | PDJ 5.3; EJ 2 *1, 2, 4*; JT `Records`_                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -64,6 +64,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H04: https://github.com/prog2-unimi/handouts/tree/c76d524be80ef9c32112d61368fcd30008738c03/src/main/java/it/unimi/di/prog2/h04
 .. _H05: https://github.com/prog2-unimi/handouts/tree/3029d9e60ee5bc0f3418febb220d08d459a5551d/src/main/java/it/unimi/di/prog2/h05
 .. _H06: https://github.com/prog2-unimi/handouts/tree/aebc8f0b69748a6f239b9c42677768fbb77849da/src/main/java/it/unimi/di/prog2/h06
+.. _H07: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h07
+.. _H08: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h08
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
