@@ -47,7 +47,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 25/10 |                                  | PDJ 5.3; EJ 2 *1, 2, 4*; JT `Records`_; H09_                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 10      | V 27/10 |                                  | PDJ 5.4; EJ 3 *10 - 13*                                               |
+  | 10      | V 27/10 |                                  | PDJ 5.4; EJ 3 *10 - 13*; H10_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 11      | V  3/11 |                                  | PDF 5.5, 5.6                                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -67,6 +67,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H07: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h07
 .. _H08: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h08
 .. _H09: https://github.com/prog2-unimi/handouts/tree/c0ab48f7c4058843b079dbb0e1732d0a23fd3cdb/src/main/java/it/unimi/di/prog2/h09
+.. _H10: https://github.com/prog2-unimi/handouts/tree/58f54b9b85f5f30e263541c4c309abf5ff2a55cb/src/main/java/it/unimi/di/prog2/h10
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
