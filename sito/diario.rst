@@ -49,11 +49,15 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 10      | V 27/10 |                                  | PDJ 5.4; EJ 3 *10 - 13*; H10_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 11      | V  3/11 |                                  | PDF 5.5, 5.6                                                          |
+  | 11      | V  3/11 |                                  | PDF 5.5, 5.6; JT `Programming With Assertions`_; H11_                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 12      | M  7/11 |                                  | PDJ 5.7; EJ 8 *49 - 52*; JT `Programming With Assertions`_            |
+  | 12      | M  7/11 |                                  | PDJ 5.7; EJ 8 *49 - 52*                                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 13      | V 10/11 |                                  | PDJ 5.8, 5.9                                                          |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 14      | M 24/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*                                              |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 15      | V 17/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -67,7 +71,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H07: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h07
 .. _H08: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h08
 .. _H09: https://github.com/prog2-unimi/handouts/tree/c0ab48f7c4058843b079dbb0e1732d0a23fd3cdb/src/main/java/it/unimi/di/prog2/h09
-.. _H10: https://github.com/prog2-unimi/handouts/tree/58f54b9b85f5f30e263541c4c309abf5ff2a55cb/src/main/java/it/unimi/di/prog2/h10
+.. _H10: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h10
+.. _H11: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h11
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
