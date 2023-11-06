@@ -5,7 +5,7 @@
 L'insegnamento corrisponde a 6 CFU, corrispondenti a 150 ore di studio
 complessive; la parte frontale consta di 56 ore, ripartite *approssimativamente*
 in 32 ore di **teoria** (corrispondenti a 4 CFU) e 24 ore di **esercitazioni**
-(corrispondenti a 2 CFU); il che conduce a circa 100 ore di studio individuale.
+(corrispondenti a 2 CFU); il che comporta circa 100 ore di studio individuale.
 
 Le lezioni si svolgono il *martedì* alle ore *10:30* e il *venerdì* dalle
 *10:30* in aula *Magna Bertoni* (per informazioni consultate l'[apposito
