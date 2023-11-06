@@ -42,25 +42,45 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 07      | M 18/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_; H07_                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 08      | V 20/10 | Astrazione dei dati              | PDJ 5.1, 5.2; H08_                                                    |
+  | 08      | V 20/10 | Astrazione dei dati              | PDJ 5 *1, 2*; H08_                                                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 09      | M 25/10 |                                  | PDJ 5.3; EJ 2 *1, 2, 4*; JT `Records`_; H09_                          |
+  | 09      | M 25/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_; H09_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 10      | V 27/10 |                                  | PDJ 5.4; EJ 3 *10 - 13*; H10_                                         |
+  | 10      | V 27/10 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*; H10_                                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 11      | V  3/11 |                                  | PDF 5.5, 5.6; JT `Programming With Assertions`_; H11_                 |
+  | 11      | V  3/11 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_; H11_                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 12      | M  8/11 |                                  | PDJ 5.7; EJ 8 *49 - 52*                                               |
+  | 12      | M  8/11 |                                  | PDJ 5 *7*; EJ 8 *49 - 52*                                             |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 13      | V 10/11 |                                  | PDJ 5.8, 5.9                                                          |
+  | 13      | V 10/11 |                                  | PDJ 5 *8, 9*                                                          |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 14      | M 15/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 15      | V 17/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-
+  | 16      | M 22/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 17      | V 24/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 18      | M 29/11 |                                  | PDJ 7 *6*;                                                            |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 19      | V  1/12 |                                  | PDJ 7 *7, 8*; JT `Default Methods`_; EJ 4                             |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 20      | M  6/12 |                                  | PDJ 7 *9*; H Equality_, Composition_                                  |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 21      | M 13/12 |                                  | PDJ 7 *10, 11*                                                        |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 22      | V 15/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*                                 |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 23      | M 20/12 |                                  | H `Generics and subtyping`_                                           |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 24      | M 10/01 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
+  |         |         |                                  | `Collections (API)`_                                                  |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 25      | V 12/01 | *Tools of the trade*             | H `Ferri del mestiere`_                                               |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  
 |
-
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h02
 .. _H03: https://github.com/prog2-unimi/handouts/tree/5e6b1d97f45ea00787a3ae2b54c8302ce88f39ce/src/main/java/it/unimi/di/prog2/h03
@@ -99,7 +119,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
 .. _Default Methods: https://dev.java/learn/implementing-an-interface/#anchor_4
-.. _Collections (tutorial): https://dev.java/learn/the-collections-framework/
+.. _Collections (tutorial): https://dev.java/learn/api/collections-framework/
 .. _Collections (API): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://dev.java/learn/generics/
@@ -111,8 +131,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Composition: https://prog2-unimi.github.io/notes/CED.html
 .. _Equality: https://prog2-unimi.github.io/notes/UEE.html
 .. _Generics and subtyping: https://prog2-unimi.github.io/notes/TGERDS.html
-
-.. _JUnit: https://junit.org/
 
 .. admonition:: Nota bene
   :class: alert alert-secondary
