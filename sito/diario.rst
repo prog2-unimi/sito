@@ -50,9 +50,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 11      | V  3/11 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_; H11_                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 12      | M  8/11 |                                  | PDJ 5 *7*; EJ 8 *49 - 52*                                             |
+  | 12      | M  8/11 |                                  | PDJ 5 *7*; EJ 8 *49 - 52*; `H11 (rivisto)`_                           |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 13      | V 10/11 |                                  | PDJ 5 *8, 9*                                                          |
+  | 13      | V 10/11 |                                  | PDJ 5 *8, 9*; H13_                                                    |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 14      | M 15/11 | Iterazione                       | PDJ 6; EJ 4 *24*, 9 *58*                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -92,6 +92,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H09: https://github.com/prog2-unimi/handouts/tree/c0ab48f7c4058843b079dbb0e1732d0a23fd3cdb/src/main/java/it/unimi/di/prog2/h09
 .. _H10: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h10
 .. _H11: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h11
+.. _H11 (rivisto): https://github.com/prog2-unimi/handouts/tree/c9682f17b495d64eda7e4a982d8004a35a4acdb6/src/main/java/it/unimi/di/prog2/h11
+.. _H13: https://github.com/prog2-unimi/handouts/tree/e15679d8302db4dee478317acd2059f15bc42a1f/src/main/java/it/unimi/di/prog2/h13
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
