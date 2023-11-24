@@ -60,7 +60,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 16      | M 22/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 17      | V 24/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
+  | 17      | V 24/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_; H17_                      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 18      | M 29/11 |                                  | PDJ 7 *6*;                                                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -96,6 +96,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H13: https://github.com/prog2-unimi/handouts/tree/e15679d8302db4dee478317acd2059f15bc42a1f/src/main/java/it/unimi/di/prog2/h13
 .. _H14: https://github.com/prog2-unimi/handouts/tree/bf747629fe5057c211f79c79b75bd24501fa01fe/src/main/java/it/unimi/di/prog2/h14
 .. _H15: https://github.com/prog2-unimi/handouts/tree/66e3bcc567e68c8dea820bce0f8429426ff81eb1/src/main/java/it/unimi/di/prog2/h15
+.. _H17: https://github.com/prog2-unimi/handouts/tree/ec62e972a2cb047a8becb7891577472bbd16450a/src/main/java/it/unimi/di/prog2/h17
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
