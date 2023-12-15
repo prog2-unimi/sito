@@ -70,10 +70,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 21      | M 13/12 |                                  | PDJ 7 *10, 11*; H Composition_                                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 22      | V 15/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*                                 |
+  | 22      | V 15/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H21_                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | Martedì 19/12     | **PRESENTAZIONE PROGETTO**       | *Aula Magna A. Bertoni*                                               |
-  | ore 10:30         |                                  |                                                                       |
+  | ore 10:30         | `[testo]`_                       |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 23      | M 20/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -84,6 +84,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
+
+.. _[testo]: https://gitlab.di.unimi.it/prog2/projects/01-mua
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h02
 .. _H03: https://github.com/prog2-unimi/handouts/tree/5e6b1d97f45ea00787a3ae2b54c8302ce88f39ce/src/main/java/it/unimi/di/prog2/h03
@@ -102,6 +104,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H17: https://github.com/prog2-unimi/handouts/tree/ec62e972a2cb047a8becb7891577472bbd16450a/src/main/java/it/unimi/di/prog2/h17
 .. _H18: https://github.com/prog2-unimi/handouts/tree/a377dd92fdd56e5f6d89c9b4a837203f5caa7ace/src/main/java/it/unimi/di/prog2/h18
 .. _H19: https://github.com/prog2-unimi/handouts/tree/6aa306badacebba7a23016406b7741ea4ced37a9/src/main/java/it/unimi/di/prog2/h19
+.. _H21: https://github.com/prog2-unimi/handouts/tree/e4b13d1192d1ad7069ad106d692c9ed9df469b84/src/main/java/it/unimi/di/prog2/h21
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
