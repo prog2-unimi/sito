@@ -70,7 +70,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 21      | M 13/12 |                                  | PDJ 7 *10, 11*; H Composition_                                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 22      | V 15/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H21_                           |
+  | 22      | V 15/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H22_                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | Martedì 19/12     | **PRESENTAZIONE PROGETTO**       | *Aula Magna A. Bertoni*                                               |
   | ore 10:30         | `[testo]`_                       |                                                                       |
@@ -104,7 +104,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H17: https://github.com/prog2-unimi/handouts/tree/ec62e972a2cb047a8becb7891577472bbd16450a/src/main/java/it/unimi/di/prog2/h17
 .. _H18: https://github.com/prog2-unimi/handouts/tree/a377dd92fdd56e5f6d89c9b4a837203f5caa7ace/src/main/java/it/unimi/di/prog2/h18
 .. _H19: https://github.com/prog2-unimi/handouts/tree/6aa306badacebba7a23016406b7741ea4ced37a9/src/main/java/it/unimi/di/prog2/h19
-.. _H21: https://github.com/prog2-unimi/handouts/tree/e4b13d1192d1ad7069ad106d692c9ed9df469b84/src/main/java/it/unimi/di/prog2/h21
+.. _H22: https://github.com/prog2-unimi/handouts/tree/a2692f3451eb914ef1a3a8a7bea3f953f4906f42/src/main/java/it/unimi/di/prog2/h22
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
