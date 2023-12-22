@@ -156,6 +156,17 @@ Attraverso tali prove il candidato deve dimostrare:
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
 
+:::{note}
+:class: warnadmonition
+
+Lo svolgimento del progetto prevede l'uso dell'istanza di **GitLab** del
+Dipartimento di Informatica, che è accessibile come illustrato nelle  [apposite
+istruzioni](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di). Prima di
+iscriversi al **SIFA** si raccomanda di prendere visione delle istruzioni e di
+approntare il proprio account come richiesto.
+
+:::
+
 ### Criteri di valutazione
 
 Per maggior chiarezza, i criteri di valutazione della *prova pratica* sono
