@@ -80,7 +80,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 24      | M 10/01 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
   |         |         |                                  | `Collections (API)`_; H24_                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 25      | V 12/01 | *Tools of the trade*             | H `Ferri del mestiere`_                                               |
+  | 25      | V 12/01 | *Tools of the trade*             | H `Ferri del mestiere`_; H25_                                         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
@@ -106,6 +106,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H19: https://github.com/prog2-unimi/handouts/tree/6aa306badacebba7a23016406b7741ea4ced37a9/src/main/java/it/unimi/di/prog2/h19
 .. _H22: https://github.com/prog2-unimi/handouts/tree/a2692f3451eb914ef1a3a8a7bea3f953f4906f42/src/main/java/it/unimi/di/prog2/h22
 .. _H24: https://github.com/prog2-unimi/handouts/tree/680f8b95ecbb282eafa2788b3d4972d2779e10fb/src/main/java/it/unimi/di/prog2/h24
+.. _H25: https://github.com/prog2-unimi/handouts/tree/009aca4b11a8bd935ca6d69ef359fd85b5cdd824/src/main/java/it/unimi/di/prog2/h25
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
