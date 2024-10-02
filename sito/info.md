@@ -160,7 +160,7 @@ Attraverso tali prove il candidato deve dimostrare:
 :class: warnadmonition
 
 Lo svolgimento del progetto prevede l'uso dell'istanza di **GitLab** del
-Dipartimento di Informatica, che è accessibile come illustrato nelle  [apposite
+Dipartimento di Informatica, che è accessibile come illustrato nelle [apposite
 istruzioni](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di). Prima di
 iscriversi al **SIFA** si raccomanda di prendere visione delle istruzioni e di
 approntare il proprio account come richiesto.

@@ -29,38 +29,17 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 01      | M  2/10 | Introduzione                     | PDJ 1                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 02      | V  4/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
-  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
+  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  9/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
+  |         |         |                                  | `Creating and Using Objects`_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_; H04_  |
+  | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
 
 .. _[testo]: https://gitlab.di.unimi.it/prog2/projects/01-mua
-
-.. _H02: https://github.com/prog2-unimi/handouts/tree/404cdb9201c9a1d3e8faad28e422e40314137a0b/src/main/java/it/unimi/di/prog2/h02
-.. _H03: https://github.com/prog2-unimi/handouts/tree/5e6b1d97f45ea00787a3ae2b54c8302ce88f39ce/src/main/java/it/unimi/di/prog2/h03
-.. _H04: https://github.com/prog2-unimi/handouts/tree/c76d524be80ef9c32112d61368fcd30008738c03/src/main/java/it/unimi/di/prog2/h04
-.. _H05: https://github.com/prog2-unimi/handouts/tree/3029d9e60ee5bc0f3418febb220d08d459a5551d/src/main/java/it/unimi/di/prog2/h05
-.. _H06: https://github.com/prog2-unimi/handouts/tree/aebc8f0b69748a6f239b9c42677768fbb77849da/src/main/java/it/unimi/di/prog2/h06
-.. _H07: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h07
-.. _H08: https://github.com/prog2-unimi/handouts/tree/e6bb05c41d064abfcf75f771376819ecbd8a64a3/src/main/java/it/unimi/di/prog2/h08
-.. _H09: https://github.com/prog2-unimi/handouts/tree/c0ab48f7c4058843b079dbb0e1732d0a23fd3cdb/src/main/java/it/unimi/di/prog2/h09
-.. _H10: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h10
-.. _H11: https://github.com/prog2-unimi/handouts/tree/2ec48f16bb0a98a44a2196d23001cf4a68729bac/src/main/java/it/unimi/di/prog2/h11
-.. _H11 (rivisto): https://github.com/prog2-unimi/handouts/tree/c9682f17b495d64eda7e4a982d8004a35a4acdb6/src/main/java/it/unimi/di/prog2/h11
-.. _H13: https://github.com/prog2-unimi/handouts/tree/e15679d8302db4dee478317acd2059f15bc42a1f/src/main/java/it/unimi/di/prog2/h13
-.. _H14: https://github.com/prog2-unimi/handouts/tree/bf747629fe5057c211f79c79b75bd24501fa01fe/src/main/java/it/unimi/di/prog2/h14
-.. _H15: https://github.com/prog2-unimi/handouts/tree/66e3bcc567e68c8dea820bce0f8429426ff81eb1/src/main/java/it/unimi/di/prog2/h15
-.. _H17: https://github.com/prog2-unimi/handouts/tree/ec62e972a2cb047a8becb7891577472bbd16450a/src/main/java/it/unimi/di/prog2/h17
-.. _H18: https://github.com/prog2-unimi/handouts/tree/a377dd92fdd56e5f6d89c9b4a837203f5caa7ace/src/main/java/it/unimi/di/prog2/h18
-.. _H19: https://github.com/prog2-unimi/handouts/tree/6aa306badacebba7a23016406b7741ea4ced37a9/src/main/java/it/unimi/di/prog2/h19
-.. _H22: https://github.com/prog2-unimi/handouts/tree/a2692f3451eb914ef1a3a8a7bea3f953f4906f42/src/main/java/it/unimi/di/prog2/h22
-.. _H24: https://github.com/prog2-unimi/handouts/tree/680f8b95ecbb282eafa2788b3d4972d2779e10fb/src/main/java/it/unimi/di/prog2/h24
-.. _H25: https://github.com/prog2-unimi/handouts/tree/009aca4b11a8bd935ca6d69ef359fd85b5cdd824/src/main/java/it/unimi/di/prog2/h25
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
