@@ -50,10 +50,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Lists: https://dev.java/learn/api/collections-framework/lists/
 .. _Numbers and Strings: https://dev.java/learn/numbers-strings/
-.. _Scanner: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
+.. _Scanner: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/17/javadoc/javadoc.html
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/21/javadoc/javadoc.html
 
 .. _Exceptions: https://dev.java/learn/exceptions/
 
@@ -68,7 +68,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Default Methods: https://dev.java/learn/implementing-an-interface/#anchor_4
 .. _Collections (tutorial): https://dev.java/learn/api/collections-framework/
-.. _Collections (API): https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html
+.. _Collections (API): https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/doc-files/coll-index.html
 .. _Collections (Bloch): https://www.cs.cmu.edu/~charlie/courses/15-214/2016-fall/slides/15-collections%20design.pdf
 .. _Generics: https://dev.java/learn/generics/
 
