@@ -29,15 +29,18 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 01      | M  2/10 | Introduzione                     | PDJ 1                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 02      | V  4/10 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
-  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
+  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  9/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Creating and Using Objects`_                                         |
+  |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
+
+.. _H02: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h02
+.. _H03: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h03
 
 .. _[testo]: https://gitlab.di.unimi.it/prog2/projects/01-mua
 
