@@ -34,7 +34,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 03      | M  9/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
   |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_        |
+  | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
+  |         |         |                                  | `Ferri del mestiere I/O`_                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
@@ -42,7 +43,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H02: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h02
 .. _H03: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h03
 
-.. _[testo]: https://gitlab.di.unimi.it/prog2/projects/01-mua
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
@@ -54,6 +54,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Lists: https://dev.java/learn/api/collections-framework/lists/
 .. _Numbers and Strings: https://dev.java/learn/numbers-strings/
 .. _Scanner: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html
+
+.. _Ferri del mestiere I/O: https://prog2unimi-temi-svolti.netlify.app/intro/ifdm/io
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 .. _Javadoc Guide: https://docs.oracle.com/en/java/javase/21/javadoc/javadoc.html
