@@ -35,14 +35,17 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
-  |         |         |                                  | `Ferri del mestiere I/O`_                                             |
+  |         |         |                                  | `Ferri del mestiere I/O`_; H04_                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  
+  | 05      | M 16/10 | Astrazione procedurale           | PDJ 3                                                                 |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 06      | V 18/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_                             |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 |
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h02
 .. _H03: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h03
-
+.. _H04: https://github.com/prog2-unimi/handouts/tree/52bef199f10e9403b4f115e83882349557cc0e23/src/main/java/it/unimi/di/prog2/h04
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
