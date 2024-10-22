@@ -11,10 +11,9 @@ Il *materiale didattico* indicato come *PDJ* si riferisce al libro di testo
 <http://www.informit.com/store/program-development-in-java-abstraction-specification-9780768684698>`__,
 quello indicato con *EJ* si riferisce al libro di testo `Effective Java
 <http://www.informit.com/store/effective-java-9780134685991>`__, quello indicato
-con *JT* a `The Java™ Tutorials <https://dev.java/learn/>`__, quello con *H* si
-riferisce agli handout (siano essi *notebook* o *sorgenti* disponibili nel
-`repository degli handout <https://github.com/prog2-unimi/handouts>`__ del
-corso); si veda la nota sui :ref:`numeri di sezione <numeridisezione>` che reca
+con *JT* a `The Java™ Tutorials <https://dev.java/learn/>`__, quello con *H*, *E* o *S* si
+riferisce rispettivamente agli appunti, esercizi o soluzioni contenuti nel
+`repository degli handout <https://github.com/prog2-unimi/handouts>`__; si veda la nota sui :ref:`numeri di sezione <numeridisezione>` che reca
 indicazioni su quali parti del materiale sono *parte del programma* e quali
 *letture consigliate, ma facoltative*.
 
@@ -32,16 +31,16 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  9/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Creating and Using Objects`_; H03_                                   |
+  |         |         |                                  | `Creating and Using Objects`_; H03_, E03_                             |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V 11/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
-  |         |         |                                  | `Ferri del mestiere I/O`_; H04_                                       |
+  |         |         |                                  | `Ferri del mestiere I/O`_; H04_, E04_                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 05      | M 16/10 | Astrazione procedurale           | PDJ 3; H05_                                                           |
+  | 05      | M 16/10 | Astrazione procedurale           | PDJ 3; H05_, E05_                                                     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 06      | V 18/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 07      | M 23/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
+  | 07      | M 23/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_; E06_                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 08      | V 25/10 | Astrazione dei dati              | PDJ 5 *1, 2*                                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -58,10 +57,14 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 |
 
-.. _H02: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h02
-.. _H03: https://github.com/prog2-unimi/handouts/tree/7859fd10be238bf42a82ece03bc19655173dec0d/src/main/java/it/unimi/di/prog2/h03
-.. _H04: https://github.com/prog2-unimi/handouts/tree/52bef199f10e9403b4f115e83882349557cc0e23/src/main/java/it/unimi/di/prog2/h04
-.. _H05: https://github.com/prog2-unimi/handouts/tree/c553cd69d994eb3fea3c7dd82f70f79a53d19e6e/src/main/java/it/unimi/di/prog2/h05
+.. _H02: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h02
+.. _H03: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h03
+.. _E03: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e03
+.. _H04: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h04
+.. _E04: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e04
+.. _H05: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h05
+.. _E05: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e05
+.. _E06: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e06
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/

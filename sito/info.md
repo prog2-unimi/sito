@@ -195,7 +195,7 @@ I libri di testo (ossia il cui uso *non è facoltativo*) del corso sono:
 * Joshua Bloch (2017),
   [Effective Java](http://www.informit.com/store/effective-java-9780134685991), *Addison-Wesley Professional*.
 
-Si consulti anche la sezione su [Java](strumenti.md#java) della pagina sugli
+Si consulti anche la sezione sul [linguaggio Java](strumenti.md#il-linguaggio-java) della pagina sugli
 [strumenti](strumenti) per avere informazioni sulla documentazione specifica del
 linguaggio.
 

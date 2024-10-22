@@ -1,9 +1,5 @@
 # Strumenti e materiale di supporto
 
-Questa pagina contiene alcune indicazioni circa il [linguaggio di
-programmazione](#java) e gli strumenti di [supporto allo
-sviluppo](#strumenti-di-supporto) adottati per il corso.
-
 :::{note}
 :class: warnadmonition
 
@@ -13,13 +9,13 @@ all'installazione, configurazione e uso pratico degli strumenti qui descritti,
 sia nell'ambiente desktop che cloud.
 :::
 
-## Java
+## Il linguaggio Java
 
 Sebbene a partire dalle versioni più recenti le differenze nel linguaggio siano
-minime e il corso non coprirà le *feature* più moderne, è comunque consigliabile
-usare l'ultima versione coperta da [long term
+minime e il corso non coprirà le *feature* più moderne, il corso fa riferimento
+all'ultima versione coperta da [long term
 support](https://en.wikipedia.org/wiki/Long-term_support) (LTS) del Java
-Development Kit (JDK), ossia il **Java SE Development Kit 21**.  Si consiglia
+Development Kit (JDK), ossia il **Java SE Development Kit 21**. Si consiglia
 pertanto di installare la **versione ufficiale Oracle**, disponibile
 gratuitamente sia con licenza
 [proprietaria](https://www.oracle.com/technetwork/java/javase/downloads/) che
@@ -32,32 +28,26 @@ librerie incluse nel JDK. Possono risultare molto utili anche i
 [vari](https://docs.oracle.com/javase/tutorial/)
 [tutorial](https://dev.java/learn/) ufficiali di Oracle.
 
-## Strumenti di supporto
+## Sorgenti ed esercizi
 
-Lo scambio di informazioni tra docente e studenti avverrà principalmente
-attraverso il servizio [GitLab](https://gitlab.di.unimi.it/) del Dipartimento di
-Informatica a cui gli studenti possono accedere tramite le proprie credenziali
-di Ateneo secondo le [istruzioni per utilizzare il servizio](https://gitlab.di.unimi.it/prog2#prog2-gitlab-di).
+Il materiale di supporto al corso redatto dal docente (come ad esempio: il
+codice mostrato a lezione, il testo degli esercizi e delle soluzioni proposte
+per alcuni di essi) è disponibile a partire dal repository degli
+[handout](https://github.com/prog2-unimi/handouts).
 
-È possibile usare qualunque editor o IDE, durante il corso verrà utilizzato
-l'editor [Visual Studio Code](https://code.visualstudio.com/) con il relativo
-[supporto per Java](https://code.visualstudio.com/docs/languages/java); chi
-preferisce può installare una [versione open](https://vscodium.com/).
+Seguendo le istruzioni riportate in tale repository è possibile scaricare una
+copia locale del medesimo e, a patto di aver installato il solo JDK, compilare
+ed eseguire il codice in esso contenuto, nonché svolgere gli esercizi in esso
+proposti (e sottoporli a test *black-box*).
 
-### Consegna e testing 
+:::{admonition} GitLab@DI
+:class: sadadmonition
 
-Al fine di consentire l'automazione di alcuni compiti, l'esecuzione dei
-*black-box* test, la generazione della documentazione e la consegna (necessari
-al superamento dell'esame), durante il corso verranno utilizzati il *build
-automation tool* denominato [Gradle](https://gradle.org/) unitamente al *testing
-framework* [JUnit](https://junit.org/junit5/) e al sistema di gestione delle
-revisioni del software [git](https://git-scm.com/). Una *conoscenza approfondita
-del funzionamento di tali strumenti non è affatto necessaria per il superamento
-dell'esame*, perché la loro configurazione ed uso sono automatizzati da parte
-del docente, come illustrato dettagliatamente nel repository degli
-[esercizi](https://gitlab.di.unimi.it/prog2), o come avviene nel repository
-degli [handout](https://github.com/prog2-unimi/handouts).
+A seguito dei giudizi riportati nei questionari di valutazione didattica, nonché
+grazie a un ulteriore questionario che ha coinvolto studenti provenienti da più
+anni accademici, è emerso che la piattaforma GitLab@DI risulta di difficile
+utilizzo per una larga parte degli studenti e addirittura di scarsa utilità per
+la maggioranza di essi. Per questa ragione, è stata dismessa a favore della
+soluzione descritta nel paragrafo precedente.
 
-Gli studenti interessati ad approfondire possono tuttavia consultare un [esempio
-d'uso più completo](https://github.com/prog2-unimi/build-automation-example) che
-può risultare utile per la realizzazione del progetto.
+:::
