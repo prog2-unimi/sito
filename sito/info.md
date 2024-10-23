@@ -25,24 +25,24 @@ rendano il calcolo suscettibile di esecuzione da parte di un dispositivo
 automatico (come ad esempio un computer).
 
 L'insegnamento
-[Programmazione](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/programmazione-0) 
+[Programmazione](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/programmazione-0) 
 del primo anno fornisce le prime competenze relative a tale disciplina, esse verranno
 accresciute negli anni successivi sia rispetto alla capacità di trattare
 *problemi più complessi* (ad esempio negli insegnamenti di 
-[Algoritmi e strutture dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/algoritmi-e-strutture-dati-0), 
-[Ricerca operativa](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/ricerca-operativa), 
-[Linguaggi formali e automi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/linguaggi-formali-e-automi)…) 
+[Algoritmi e strutture dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/algoritmi-e-strutture-dati-0), 
+[Ricerca operativa](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/ricerca-operativa), 
+[Linguaggi formali e automi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/linguaggi-formali-e-automi)…) 
 o più *specifici*
 (in 
-[Basi di dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/basi-di-dati-0), 
+[Basi di dati](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/basi-di-dati-0), 
 [Sistemi
-operativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/sistemi-operativi), 
-[Reti di calcolatori](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/reti-di-calcolatori-0)…) 
+operativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/sistemi-operativi), 
+[Reti di calcolatori](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/reti-di-calcolatori-0)…) 
 che di considerare *programmi più complessi* per dimensione e ciclo di vita (in
-[Ingegneria del software](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/ingegneria-del-software)…).
+[Ingegneria del software](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/ingegneria-del-software)…).
 
 L'insegnamento [Programmazione
-II](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/programmazione-ii)
+II](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2025/programmazione-ii)
 ha l'obiettivo di accrescere le competenze acquisite nel corso del primo anno
 tramite l'ampliamento della *ricchezza espressiva* del linguaggio (o
 *paradigma*) di programmazione; facendo tesoro della conoscenza del paradigma
@@ -106,29 +106,27 @@ costituiscono argomenti del corso:
 * per quanto concerne  [The Java™
   Tutorials](https://dev.java/learn/), le sezioni
     * "Running Your First Java Application" limitatamente a [Getting Started
-      with Java](https://dev.java/learn/getting-started-with-java/);
-    * "Getting to Know the Language", limitatamente a [Getting to know the
-      basics of the Java
-      language](https://dev.java/learn/java-language-basics/), [Objects,
-      Classes, Interfaces, Packages, and inheritance](https://dev.java/oop/),
-      [Classes and Objects](https://dev.java/learn/classes-and-objects/),
-      [Numbers and strings](https://dev.java/learn/numbers-and-strings/),
+      with Java](https://dev.java/learn/getting-started/);
+    * "Getting to Know the Language", limitatamente a [Java Language Basics](https://dev.java/learn/language-basics/), [Objects,
+      Classes, Interfaces, Packages, and inheritance](https://dev.java/learn/oop/),
+      [Classes and Objects](https://dev.java/learn/classes-objects/),
+      [Numbers and strings](https://dev.java/learn/numbers-strings/),
       [Inheritance](https://dev.java/learn/inheritance/),
       [Interfaces](https://dev.java/learn/interfaces/),
       [Generics](https://dev.java/learn/generics/) e
       [Packages](https://dev.java/learn/packages/);
     * "Mastering the API", limitatamente a [The Collections
-      Framework](https://dev.java/learn/the-collections-framework/).
+      Framework](https://dev.java/learn/api/collections-framework/).
 
 
 :::{note}
 :class: warnadmonition
 
 Si veda anche la sezione "Materiale di supporto" in fondo a questa pagina:
-alcuni dei contenuti presenti in tale materiale potranno costituire il *punto di
+alcuni dei contenuti citati in tale sezione potranno costituire il *punto di
 partenza per alcune domande durante l'esame orale*, per cui *si raccomanda di
-prenderne visione*!
-:::
+prenderne visione*! :
+::
 
 ## Prerequisiti
 
@@ -155,6 +153,29 @@ Attraverso tali prove il candidato deve dimostrare:
   aspetti di orientazione agli oggetti e programmazione,
 * la capacità di applicare tale conoscenza a un semplice caso concreto tramite
   lo sviluppo di frammenti di codice.
+
+### Dettagli pratici
+
+Per ciascun appello, **alla chiusura delle iscrizioni** su SIFA/UNIMIA (che di
+norma avviene una settimana prima della data dell'appello), gli studenti
+*regolarmente iscritti* riceveranno per email le informazioni su come *reperire
+la descrizione del progetto* (costituita da una cartella compressa contenente le
+specifiche, i file di test e le configurazioni necessarie a compilare, eseguire
+e testare il codice e la documentazione).
+
+Entro il **mezzogiorno della data dell'appello** gli studenti dovranno
+*consegnare* la propria *soluzione* (esclusivamente nel *formato descritto nel
+progetto*) tramite il [servizio di upload](https://upload.di.unimi.it/) del
+Dipartimento di Informatica.
+
+Nei giorni seguenti (generalmente entro una settimana), gli studenti che
+potranno accedere all'orale riceveranno per email le informazioni su come
+*prenotare tempestivamente* la data ed ora del colloquio (che si terranno in
+base alle disponibilità del docente, generalmente entro due settimane). 
+
+La mancata consegna del progetto nei termini stabiliti, la mancata prenotazione
+della data del colloquio entro la data indicata, o l'assenza dal colloquio,
+comporteranno il **mancato superamento** dell'esame.
 
 ### Criteri di valutazione
 
