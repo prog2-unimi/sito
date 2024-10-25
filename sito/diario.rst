@@ -42,7 +42,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 07      | M 23/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_; E06_                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 08      | V 25/10 | Astrazione dei dati              | PDJ 5 *1, 2*                                                          |
+  | 08      | V 25/10 | Astrazione dei dati              | PDJ 5 *1, 2*; H08_                                                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 30/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -65,6 +65,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H05: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h05
 .. _E05: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e05
 .. _E06: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e06
+.. _H08: https://github.com/prog2-unimi/handouts/tree/b4d8629714a901c279ace11b2121afdb53c3d06f/src/main/java/it/unimi/di/prog2/h08
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
