@@ -46,7 +46,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 30/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_; H09_, E09_                  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 10      | V  6/11 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*                                             |
+  | 10      | M  6/11 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*                                             |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 11      | V  8/11 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -66,8 +66,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E05: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e05
 .. _E06: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/e06
 .. _H08: https://github.com/prog2-unimi/handouts/tree/b4d8629714a901c279ace11b2121afdb53c3d06f/src/main/java/it/unimi/di/prog2/h08
-.. _H09: https://github.com/prog2-unimi/handouts/tree/1f9543e50151d16e6ae9b4bc46b74252957ccbc0/src/main/java/it/unimi/di/prog2/h09
-.. _E09: https://github.com/prog2-unimi/handouts/tree/1f9543e50151d16e6ae9b4bc46b74252957ccbc0/src/main/java/it/unimi/di/prog2/e09
+.. _H09: https://github.com/prog2-unimi/handouts/tree/85a43c79f1437b91c8a91e3da7301da15b5beda3/src/main/java/it/unimi/di/prog2/h09
+.. _E09: https://github.com/prog2-unimi/handouts/tree/85a43c79f1437b91c8a91e3da7301da15b5beda3/src/main/java/it/unimi/di/prog2/e09
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
