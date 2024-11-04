@@ -6,7 +6,8 @@
 Data la *maturità culturale* che ci si attende dagli studenti che frequentano un
 insegnamento del secondo anno, il docente **non fornirà alcun supporto**
 all'installazione, configurazione e uso pratico degli strumenti software
-richiesti per la parte pratica dell'insegnamento. :::
+richiesti per la parte pratica dell'insegnamento. 
+:::
 
 ## Il linguaggio Java
 
