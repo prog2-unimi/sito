@@ -125,8 +125,8 @@ costituiscono argomenti del corso:
 Si veda anche la sezione "Materiale di supporto" in fondo a questa pagina:
 alcuni dei contenuti citati in tale sezione potranno costituire il *punto di
 partenza per alcune domande durante l'esame orale*, per cui *si raccomanda di
-prenderne visione*! :
-::
+prenderne visione*! 
+:::
 
 ## Prerequisiti
 
