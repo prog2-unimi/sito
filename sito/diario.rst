@@ -48,7 +48,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 10      | M  6/11 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*; H10_, E10_                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 11      | V  8/11 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_                       |
+  | 11      | V  8/11 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_; H11_                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 12      | M 13/11 |                                  | PDJ 5 *7*; EJ 8 *49 - 52*;                                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -70,6 +70,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E09: https://github.com/prog2-unimi/handouts/tree/85a43c79f1437b91c8a91e3da7301da15b5beda3/src/main/java/it/unimi/di/prog2/e09
 .. _H10: https://github.com/prog2-unimi/handouts/tree/500e81efaefcea88e8d728d0379ca21a3500d0d6/src/main/java/it/unimi/di/prog2/h10
 .. _E10: https://github.com/prog2-unimi/handouts/tree/500e81efaefcea88e8d728d0379ca21a3500d0d6/src/main/java/it/unimi/di/prog2/e10
+.. _H11: https://github.com/prog2-unimi/handouts/tree/8f7b7018493792d6de3636ef5aaa69f16b373369/src/main/java/it/unimi/di/prog2/h11
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
