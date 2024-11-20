@@ -54,7 +54,23 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 13      | V 15/11 |                                  | PDJ 5 *8, 9*                                                          |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-
+  | 14      | M 20/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*                                              |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 17      | V 29/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 18      | M  4/12 |                                  | PDJ 7 *6*                                                             |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 19      | V  6/12 |                                  | PDJ 7 *7, 8*; JT `Default Methods`_; EJ 4                             |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 20      | M 11/12 |                                  | PDJ 7 *9*; H Equality_                                                |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 21      | V 13/12 |                                  | PDJ 7 *10, 11*; H Composition_                                        |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  
 |
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h02
@@ -95,7 +111,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
 
-.. _Access Control: https://dev.java/learn/creating-classes/#anchor_3
+.. _Access Control: https://dev.java/learn/classes-objects/creating-classes/#controlling-access
 .. _Nested Classes: https://dev.java/learn/nested-classes/
 .. _Anonymous Classes: https://dev.java/learn/when-to-use-nested-classes-local-classes-anonymous-classes-and-lambda-expressions/
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
