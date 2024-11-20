@@ -54,7 +54,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 13      | V 15/11 |                                  | PDJ 5 *8, 9*; H13_                                                    |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 14      | M 20/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*                                              |
+  | 14      | M 20/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*; H14_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -87,8 +87,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H10: https://github.com/prog2-unimi/handouts/tree/500e81efaefcea88e8d728d0379ca21a3500d0d6/src/main/java/it/unimi/di/prog2/h10
 .. _E10: https://github.com/prog2-unimi/handouts/tree/500e81efaefcea88e8d728d0379ca21a3500d0d6/src/main/java/it/unimi/di/prog2/e10
 .. _H11: https://github.com/prog2-unimi/handouts/tree/8f7b7018493792d6de3636ef5aaa69f16b373369/src/main/java/it/unimi/di/prog2/h11
-.. _H11: https://github.com/prog2-unimi/handouts/tree/00101e2e0acaa1d78670bf2d38f93ce4b8edfe92/src/main/java/it/unimi/di/prog2/e12
-.. _H13: https://github.com/prog2-unimi/handouts/tree/0a1aedb83ba0be0ddc68423d69f6d2e65f907275/src/main/java/it/unimi/di/prog2/e13
+.. _E12: https://github.com/prog2-unimi/handouts/tree/00101e2e0acaa1d78670bf2d38f93ce4b8edfe92/src/main/java/it/unimi/di/prog2/e12
+.. _H13: https://github.com/prog2-unimi/handouts/tree/0a1aedb83ba0be0ddc68423d69f6d2e65f907275/src/main/java/it/unimi/di/prog2/h13
+.. _H14: https://github.com/prog2-unimi/handouts/tree/1e46d5735b7dc1e8c552946b4159ab4cf876fd39/src/main/java/it/unimi/di/prog2/h14
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
