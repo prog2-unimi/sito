@@ -56,7 +56,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 14      | M 20/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*; H14_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
+  | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_;        |
+  |         |         |                                  | H15_, E15_                                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -90,6 +91,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E12: https://github.com/prog2-unimi/handouts/tree/00101e2e0acaa1d78670bf2d38f93ce4b8edfe92/src/main/java/it/unimi/di/prog2/e12
 .. _H13: https://github.com/prog2-unimi/handouts/tree/0a1aedb83ba0be0ddc68423d69f6d2e65f907275/src/main/java/it/unimi/di/prog2/h13
 .. _H14: https://github.com/prog2-unimi/handouts/tree/1e46d5735b7dc1e8c552946b4159ab4cf876fd39/src/main/java/it/unimi/di/prog2/h14
+.. _H15: https://github.com/prog2-unimi/handouts/tree/f9affba57f61d83095c5cfe45cffd7eafacf3812/src/main/java/it/unimi/di/prog2/h15
+.. _E15: https://github.com/prog2-unimi/handouts/tree/f9affba57f61d83095c5cfe45cffd7eafacf3812/src/main/java/it/unimi/di/prog2/e15
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
