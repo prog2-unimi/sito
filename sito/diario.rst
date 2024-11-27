@@ -59,7 +59,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_;        |
   |         |         |                                  | H15_, E15_                                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; Dispatching_                                            |
+  | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H15_; Dispatching_                                      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 17      | V 29/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -93,6 +93,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H14: https://github.com/prog2-unimi/handouts/tree/1e46d5735b7dc1e8c552946b4159ab4cf876fd39/src/main/java/it/unimi/di/prog2/h14
 .. _H15: https://github.com/prog2-unimi/handouts/tree/f9affba57f61d83095c5cfe45cffd7eafacf3812/src/main/java/it/unimi/di/prog2/h15
 .. _E15: https://github.com/prog2-unimi/handouts/tree/f9affba57f61d83095c5cfe45cffd7eafacf3812/src/main/java/it/unimi/di/prog2/e15
+.. _H16: https://github.com/prog2-unimi/handouts/tree/ff26a3024034e20ca317abf0c65234ad26e2729f/src/main/java/it/unimi/di/prog2/h16
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
