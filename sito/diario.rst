@@ -59,7 +59,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 15      | V 22/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_;        |
   |         |         |                                  | H15_, E15_                                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
+  | 16      | M 27/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; Dispatching_                                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 17      | V 29/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
