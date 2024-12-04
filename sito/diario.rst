@@ -95,8 +95,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E15: https://github.com/prog2-unimi/handouts/tree/f9affba57f61d83095c5cfe45cffd7eafacf3812/src/main/java/it/unimi/di/prog2/e15
 .. _H17: https://github.com/prog2-unimi/handouts/tree/36b687cb62312715d85a674b177ae1953c59565e/src/main/java/it/unimi/di/prog2/h17
 .. _E17: https://github.com/prog2-unimi/handouts/tree/36b687cb62312715d85a674b177ae1953c59565e/src/main/java/it/unimi/di/prog2/e17
-.. _H18: https://github.com/prog2-unimi/handouts/tree/bdcda609a00996c7911576e998a1a71251572bac/src/main/java/it/unimi/di/prog2/h18
-.. _E18: https://github.com/prog2-unimi/handouts/tree/bdcda609a00996c7911576e998a1a71251572bac/src/main/java/it/unimi/di/prog2/e18
+.. _H18: https://github.com/prog2-unimi/handouts/tree/3b3b64c4917237edefff260dcb119c680e8bddf8/src/main/java/it/unimi/di/prog2/h18
+.. _E18: https://github.com/prog2-unimi/handouts/tree/3b3b64c4917237edefff260dcb119c680e8bddf8/src/main/java/it/unimi/di/prog2/e18
 
 
 .. _Getting Started: https://dev.java/learn/getting-started/
