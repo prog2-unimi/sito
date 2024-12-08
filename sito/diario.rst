@@ -65,7 +65,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 18      | M  4/12 |                                  | PDJ 7 *6*; H18_, E18_                                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 19      | V  6/12 |                                  | PDJ 7 *7, 8*; JT `Default Methods`_; EJ 4                             |
+  | 19      | V  6/12 |                                  | PDJ 7 *7, 8*; JT `Default Methods`_; EJ 4; H19_, E19_                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 20      | M 11/12 |                                  | PDJ 7 *9*; H Equality_                                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -97,6 +97,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E17: https://github.com/prog2-unimi/handouts/tree/36b687cb62312715d85a674b177ae1953c59565e/src/main/java/it/unimi/di/prog2/e17
 .. _H18: https://github.com/prog2-unimi/handouts/tree/3b3b64c4917237edefff260dcb119c680e8bddf8/src/main/java/it/unimi/di/prog2/h18
 .. _E18: https://github.com/prog2-unimi/handouts/tree/3b3b64c4917237edefff260dcb119c680e8bddf8/src/main/java/it/unimi/di/prog2/e18
+.. _H19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/h19
+.. _E19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/e19
 
 
 .. _Getting Started: https://dev.java/learn/getting-started/
