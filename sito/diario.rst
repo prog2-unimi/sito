@@ -70,8 +70,21 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 20      | M 11/12 |                                  | PDJ 7 *9*; H Equality_                                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 21      | V 13/12 |                                  | PDJ 7 *10, 11*; H Composition_                                        |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+ 
+  | 22      | M 18/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*                                 |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 23      | V 20/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  
+  |         | V 27/12 | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 24      | M  8/01 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
+  |         |         |                                  | `Collections (API)`_                                                  |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 25      | V 10/01 | *Tools of the trade* e *AQA*     | H `Ferri del mestiere`_                                               |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  |         | TBA     | *PRESENTAZIONE PROGETTO*         |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+
 |
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/9ff0c768470def1d28923f8f04aed3f2d5cd6a42/src/main/java/it/unimi/di/prog2/h02
@@ -100,6 +113,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/h19
 .. _E19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/e19
 
+.. _UploadDI: https://upload.di.unimi.it/session/4082
 
 .. _Getting Started: https://dev.java/learn/getting-started/
 .. _Java Language Basics: https://dev.java/learn/language-basics/
