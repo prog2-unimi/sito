@@ -75,7 +75,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 23      | V 20/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  |         | V 27/12 | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
+  |         | V 23/12 | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 24      | M  8/01 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
   |         |         |                                  | `Collections (API)`_                                                  |
