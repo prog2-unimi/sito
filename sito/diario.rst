@@ -73,7 +73,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+ 
   | 22      | M 18/12 | Polimorfismo e generici          | PDJ 8; JT `Generics`_; EJ 5 *26 - 31*; H22_                           |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 23      | V 20/12 |                                  | H `Generics and subtyping`_                                           |
+  | 23      | V 20/12 |                                  | H `Generics and subtyping`_; H23_                                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   |         | *TBA*   | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -113,6 +113,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/h19
 .. _E19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/e19
 .. _H22: https://github.com/prog2-unimi/handouts/tree/a1ca2d76226d57c8e60a617fe127652a737cc381/src/main/java/it/unimi/di/prog2/h22
+.. _H23: https://github.com/prog2-unimi/handouts/tree/e3b74ee7a68b1e97dbb2d698abe80b51cc762f22/src/main/java/it/unimi/di/prog2/h23
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
