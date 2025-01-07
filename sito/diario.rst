@@ -75,14 +75,14 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 23      | V 20/12 |                                  | H `Generics and subtyping`_; H23_                                     |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  |         | *TBA*   | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
+  |         | V  3/01 | **PUBBLICAZIONE PROGETTO**       | UploadDI_                                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 24      | M  8/01 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
-  |         |         |                                  | `Collections (API)`_                                                  |
-  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 25      | V 10/01 | *Tools of the trade* e *AQA*     | H `Ferri del mestiere`_                                               |
+  |         |         |                                  | `Collections (API)`_; H24_                                            |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   |         | *TBA*   | *PRESENTAZIONE PROGETTO*         |                                                                       |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 25      | V 10/01 | *Tools of the trade* e *AQA*     | H `Ferri del mestiere`_                                               |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -114,6 +114,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/e19
 .. _H22: https://github.com/prog2-unimi/handouts/tree/a1ca2d76226d57c8e60a617fe127652a737cc381/src/main/java/it/unimi/di/prog2/h22
 .. _H23: https://github.com/prog2-unimi/handouts/tree/e3b74ee7a68b1e97dbb2d698abe80b51cc762f22/src/main/java/it/unimi/di/prog2/h23
+.. _H24: https://github.com/prog2-unimi/handouts/tree/99c7b10a065a03e64ed627b3cf24c622a7806d49/src/main/java/it/unimi/di/prog2/h24
+
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
