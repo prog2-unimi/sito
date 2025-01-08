@@ -111,7 +111,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E19: https://github.com/prog2-unimi/handouts/tree/e8eb918a0a18e24dad62f7d882b317b5cd8b7810/src/main/java/it/unimi/di/prog2/e19
 .. _H22: https://github.com/prog2-unimi/handouts/tree/a1ca2d76226d57c8e60a617fe127652a737cc381/src/main/java/it/unimi/di/prog2/h22
 .. _H23: https://github.com/prog2-unimi/handouts/tree/e3b74ee7a68b1e97dbb2d698abe80b51cc762f22/src/main/java/it/unimi/di/prog2/h23
-.. _H24: https://github.com/prog2-unimi/handouts/tree/99c7b10a065a03e64ed627b3cf24c622a7806d49/src/main/java/it/unimi/di/prog2/h24
+.. _H24: https://github.com/prog2-unimi/handouts/tree/8969e43d39cf1074e54d7f8f84b2c8c946943e37/src/main/java/it/unimi/di/prog2/h24
 
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
