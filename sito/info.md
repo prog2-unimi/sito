@@ -80,16 +80,16 @@ Riguardo ai principi, sono introdotti e discussi:
 * l'uso di **astrazioni** di vario livello (come i metodi, i tipi di dato astratti, l'iterazione esterna, l'estensione),
 * alcuni **strumenti concettuali** per ragionare su tali astrazioni (come l'*invariante di rappresentazione*, la *funzione di astrazione*, le *pre-*/*post-condizioni*, gli *effetti collaterali*, l'*induzione sui tipi di dato*…),
 * alcuni **criteri di valutazione della qualità** del progetto di codice *object oriented* (come l'*incapsulamento*, il *data hiding*, la *manutenibilità*, il *riuso* e l'*estendibilità*),
-* alcune tecniche di *verifica* e di *debugging*.
+* alcune tecniche elementari di *verifica* e di *debugging*.
 
 Riguardo al linguaggio Java, sono presentati i seguenti aspetti del linguaggio:
 
 * costrutti di controllo del flusso (sequenza, iterazione e selezione),
-* tipi di dati elementari,
+* tipi di dati primitivi e riferimento (array e stringhe),
 * funzioni (metodi statici),
-* classi (concrete, astratte ed interne),
+* classi (concrete, astratte, anonime ed interne),
 * interfacce (con metodi di default),
-* ereditariertà e polimorfismo,
+* ereditarietà e polimorfismo,
 * tipi generici (uso e cenni alla progettazione e realizzazione, vincoli di tipo e wildcard).
 
 ### Programma dettagliato
@@ -133,7 +133,8 @@ prenderne visione*!
 Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisito
 *in modo solido* prima di apprestarsi a seguire le lezioni:
 
-* programmazione [il corso di "Programmazione" è formalmente **propedeutico**],
+* programmazione [il corso di "Programmazione" è formalmente **propedeutico**];
+* strutture dati [dall'insegnamento "Algoritmi e strutture dati" che precede questo];
 * tecniche di dimostrazione di base [dagli insegnamenti di "Matematica del
   discreto" e/o "Logica matematica"];
 * aspetti elementari dei linguaggi formali [dal corso "Linguaggi formali e
@@ -141,11 +142,11 @@ Di seguito sono elencate alcune conoscenze preliminari che è bene aver acquisit
 
 ## Modalità di valutazione
 
-L'insegnamento non prevede prove in itinere.
+L'insegnamento *non* prevede prove in itinere.
 
 La prova finale è costituita da una **progetto individuale** (da svolgere a
 casa) che verte sulla progettazione e sviluppo di un software secondo delle
-*specifiche* assegnate, seguito da una **discussione orale**.
+*specifiche* assegnate, sempre seguito da una **discussione orale**.
 
 Attraverso tali prove il candidato deve dimostrare:
 
@@ -156,8 +157,8 @@ Attraverso tali prove il candidato deve dimostrare:
 
 ### Dettagli pratici
 
-Per ciascun appello, **alla chiusura delle iscrizioni** su SIFA/UNIMIA (che di
-norma avviene una settimana prima della data dell'appello), gli studenti
+Per ciascun appello, **alla chiusura delle iscrizioni** su SIFA/UNIMIA (che
+avviene almeno una settimana prima della data dell'appello), gli studenti
 *regolarmente iscritti* riceveranno per email le informazioni su come *reperire
 la descrizione del progetto* (costituita da una cartella compressa contenente le
 specifiche, i file di test e le configurazioni necessarie a compilare, eseguire
@@ -174,7 +175,7 @@ potranno accedere all'orale riceveranno per email le informazioni su come
 base alle disponibilità del docente, generalmente entro due settimane). 
 
 La mancata consegna del progetto nei termini stabiliti, la mancata prenotazione
-della data del colloquio entro la data indicata, o l'assenza dal colloquio,
+della data del colloquio entro la data indicata, o l'assenza dal medesimo,
 comporteranno il **mancato superamento** dell'esame.
 
 ### Criteri di valutazione
@@ -209,8 +210,8 @@ Si consulti anche la sezione sul [linguaggio Java](strumenti.md#il-linguaggio-ja
 [strumenti](strumenti) per avere informazioni sulla documentazione specifica del
 linguaggio.
 
-Le letture consigliate, utili ad approfondire e migliorare la propria competenza
-generale riguardo alla programmazione, sono:
+Le letture consigliate, utili ad un *particolare approfondimento* e a migliorare
+la propria competenza generale riguardo alla programmazione, sono:
 
 * Brian W. Kernighan, Rob Pike (1999)
   [The Practice of Programming](http://www.informit.com/store/practice-of-programming-9780201615869) *Addison-Wesley Professional Computing Series*
