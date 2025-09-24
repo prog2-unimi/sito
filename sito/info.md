@@ -5,14 +5,15 @@
 L'insegnamento corrisponde a 6 CFU, corrispondenti a 150 ore di studio
 complessive; la parte frontale consta di 56 ore, ripartite *approssimativamente*
 in 32 ore di **teoria** (corrispondenti a 4 CFU) e 24 ore di **esercitazioni**
-(corrispondenti a 2 CFU); il che comporta circa 100 ore di studio individuale.
+(corrispondenti a 2 CFU); il che comporta circa 100 ore *ulteriori* di **studio
+individuale**.
 
-Le lezioni si svolgono il *mercoledì* e il *venerdì* dalle *10:30* in aula
-*Magna Bertoni* (per informazioni consultate l'[apposito
+Le lezioni si svolgono il *mercoledì* e il *venerdì* dalle *10:30* (per
+informazioni sulle aule consultate l'[apposito
 sito](https://informatica.cdl.unimi.it/it/il-corso/luoghi-e-strutture)).
 
 Il [diario](diario) riporta le date, gli argomenti e il materiale didattico di
-ciascuna lezione.svolgono .
+ciascuna lezione.
 
 ## Obiettivi dell'insegnamento
 
