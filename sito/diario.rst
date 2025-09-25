@@ -27,7 +27,16 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +=========+=========+==================================+=======================================================================+
   | 01      | M  24/9 | Introduzione                     | PDJ 1                                                                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
- 
+  | 02      | V  26/9 | Il linguaggio Java               | PDJ 2 *1 - 3*; JT `Getting Started`_, `Java Language Basics`_,        |
+  |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_            |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 03      | M  1/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
+  |         |         |                                  | `Creating and Using Objects`_                                         |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
+  |         |         |                                  | `Ferri del mestiere I/O`_; H04_, E04_                                 |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+   
 |
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
