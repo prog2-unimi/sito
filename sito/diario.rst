@@ -34,7 +34,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Creating and Using Objects`_                                         |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
-  |         |         |                                  | `Ferri del mestiere I/O`_; H04_, E04_                                 |
+  |         |         |                                  | `Ferri del mestiere I/O`_                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
    
 |
