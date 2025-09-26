@@ -39,15 +39,3 @@ copia locale del medesimo e (a patto che sul proprio sistema sia disponibile una
 qualunque versione recente del *Java Runtime Environment*), compilare ed
 eseguire il codice in esso contenuto, nonché svolgere gli esercizi in esso
 proposti (e sottoporli a test *black-box*).
-
-:::{admonition} GitLab@DI
-:class: sadadmonition
-
-A seguito dei giudizi riportati nei questionari di valutazione didattica, nonché
-grazie a un ulteriore questionario che ha coinvolto studenti provenienti da più
-anni accademici, è emerso che la piattaforma GitLab@DI risulta di difficile
-utilizzo per una larga parte degli studenti e addirittura di scarsa utilità per
-la maggioranza di essi. Per questa ragione, è stata dismessa a favore della
-soluzione descritta nel paragrafo precedente.
-
-:::
