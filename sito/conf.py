@@ -14,7 +14,7 @@ import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'Prog2@UniMI'
-copyright = '2021, Massimo Santini'
+copyright = '2025, Massimo Santini'
 author = 'Massimo Santini'
 
 version = ''

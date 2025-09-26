@@ -15,13 +15,13 @@ Sebbene a partire dalle versioni più recenti le differenze nel linguaggio siano
 minime e l'insegnamento non coprirà le *feature* più moderne, verrà fatto
 riferimento all'ultima versione coperta da [long term
 support](https://en.wikipedia.org/wiki/Long-term_support) (LTS) del Java
-Development Kit (JDK), ossia il **Java SE Development Kit 21**. 
+Development Kit (JDK), ossia il **Java SE Development Kit 25**. 
 
 Ricordando che l'obiettivo dell'insegnamento non è l'apprendimento del
 linguaggio Java, bensì l'acquisizione di competenze di programmazione ad
 oggetti, oltre ai libri di testo, è di fondamentale importanza consultare la
-[documentazione](https://docs.oracle.com/en/java/javase/21/), in particolare
-quella delle [API](https://docs.oracle.com/en/java/javase/21/docs/api/) delle
+[documentazione](https://docs.oracle.com/en/java/javase/25/), in particolare
+quella delle [API](https://docs.oracle.com/en/java/javase/25/docs/api/) delle
 librerie incluse nel JDK. Per chiarire dubbi di natura più pratica riguardo al
 linguaggio, possono risultare molto utili anche i
 [vari](https://docs.oracle.com/javase/tutorial/)
