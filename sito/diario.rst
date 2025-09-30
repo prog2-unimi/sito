@@ -31,10 +31,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  1/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Creating and Using Objects`_                                         |
+  |         |         |                                  | `Ferri del mestiere I/O`_ (`Scanner`_, `Formatter`_)                  |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_, `Scanner`_;       |
-  |         |         |                                  | `Ferri del mestiere I/O`_                                             |
+  | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_                    |
+  |         |         |                                  |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
    
 |
@@ -53,6 +53,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Lists: https://dev.java/learn/api/collections-framework/lists/
 .. _Numbers and Strings: https://dev.java/learn/numbers-strings/
 .. _Scanner: https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Scanner.html
+.. _Formatter: https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Formatter.html
 
 .. _Ferri del mestiere I/O: https://prog2unimi-temi-svolti.netlify.app/intro/ifdm/io
 
