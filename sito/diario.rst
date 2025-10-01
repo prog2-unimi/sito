@@ -31,7 +31,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Objects, Classes, Interfaces, Packages, and Inheritance`_; H02_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 03      | M  1/10 |                                  | PDJ 2 *4, 5*; JT `Calling Methods and Constructors`_,                 |
-  |         |         |                                  | `Ferri del mestiere I/O`_ (`Scanner`_, `Formatter`_)                  |
+  |         |         |                                  | `Ferri del mestiere I/O`_ (`Scanner`_, `Formatter`_); H03_, E03_      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_                    |
   |         |         |                                  |                                                                       |
@@ -40,6 +40,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 |
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/9abe44d9bd4ed4fecf0cae1dcaf0086168291637/src/main/java/it/unimi/di/prog2/h02
+.. _H03: https://github.com/prog2-unimi/handouts/tree/dd89fe58db0f8d918ec0dc3f430c7d022b9d6d01/src/main/java/it/unimi/di/prog2/h03
+.. _E03: https://github.com/prog2-unimi/handouts/tree/dd89fe58db0f8d918ec0dc3f430c7d022b9d6d01/src/main/java/it/unimi/di/prog2/e03
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
