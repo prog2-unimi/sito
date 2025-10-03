@@ -34,7 +34,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   |         |         |                                  | `Ferri del mestiere I/O`_ (`Scanner`_, `Formatter`_); H03_, E03_, S03_|
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_,                   |
-  |         |         |                                  | `Wrapper Classes`_                                                    |
+  |         |         |                                  | `Wrapper Classes`_; H04_                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
    
 |
@@ -43,6 +43,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H03: https://github.com/prog2-unimi/handouts/tree/dd89fe58db0f8d918ec0dc3f430c7d022b9d6d01/src/main/java/it/unimi/di/prog2/h03
 .. _E03: https://github.com/prog2-unimi/handouts/tree/dd89fe58db0f8d918ec0dc3f430c7d022b9d6d01/src/main/java/it/unimi/di/prog2/e03
 .. _S03: https://github.com/prog2-unimi/handouts/tree/e47c3ab8ca7654bb849abbcde16ebc287f7a795d/src/main/java/it/unimi/di/prog2/s03
+.. _H04: https://github.com/prog2-unimi/handouts/tree/2458b671eab8c2cb7dfda604cc984bd17938a471/src/main/java/it/unimi/di/prog2/h04
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
