@@ -36,7 +36,13 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_,                   |
   |         |         |                                  | `Wrapper Classes`_; H04_                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-   
+  | 05      | M  8/10 | Astrazione procedurale           | PDJ 3; E05_                                                           |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 06      | V 10/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_                             |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 07      | M 15/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  
 |
 
 .. _H02: https://github.com/prog2-unimi/handouts/tree/9abe44d9bd4ed4fecf0cae1dcaf0086168291637/src/main/java/it/unimi/di/prog2/h02
@@ -44,6 +50,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E03: https://github.com/prog2-unimi/handouts/tree/dd89fe58db0f8d918ec0dc3f430c7d022b9d6d01/src/main/java/it/unimi/di/prog2/e03
 .. _S03: https://github.com/prog2-unimi/handouts/tree/e47c3ab8ca7654bb849abbcde16ebc287f7a795d/src/main/java/it/unimi/di/prog2/s03
 .. _H04: https://github.com/prog2-unimi/handouts/tree/2458b671eab8c2cb7dfda604cc984bd17938a471/src/main/java/it/unimi/di/prog2/h04
+.. _E05: https://github.com/prog2-unimi/handouts/tree/701b1381105eb3975fefa979241518aa770b58ad/src/main/java/it/unimi/di/prog2/e05
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
