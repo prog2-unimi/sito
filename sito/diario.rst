@@ -36,7 +36,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 04      | V  3/10 |                                  | PDJ 2 *6 - 8*; JT `Lists`_, `Numbers and Strings`_,                   |
   |         |         |                                  | `Wrapper Classes`_; H04_                                              |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 05      | M  8/10 | Astrazione procedurale           | PDJ 3; E05_                                                           |
+  | 05      | M  8/10 | Astrazione procedurale           | PDJ 3; E05_, S05_                                                     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 06      | V 10/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -51,6 +51,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _S03: https://github.com/prog2-unimi/handouts/tree/e47c3ab8ca7654bb849abbcde16ebc287f7a795d/src/main/java/it/unimi/di/prog2/s03
 .. _H04: https://github.com/prog2-unimi/handouts/tree/2458b671eab8c2cb7dfda604cc984bd17938a471/src/main/java/it/unimi/di/prog2/h04
 .. _E05: https://github.com/prog2-unimi/handouts/tree/701b1381105eb3975fefa979241518aa770b58ad/src/main/java/it/unimi/di/prog2/e05
+.. _S05: https://github.com/prog2-unimi/handouts/tree/77b73cfd4333657fd16b5de8e10806fa1b8774a9/src/main/java/it/unimi/di/prog2/s05
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
@@ -70,7 +71,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Ferri del mestiere I/O: https://prog2unimi-temi-svolti.netlify.app/intro/ifdm/io
 
 .. _How to Write Javadoc: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/25/javadoc/javadoc.html
+.. _Javadoc Guide: https://docs.oracle.com/en/java/javase/25/javadoc/javadoc-tool.html
 
 .. _Exceptions: https://dev.java/learn/exceptions/
 
