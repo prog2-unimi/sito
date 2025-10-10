@@ -68,7 +68,7 @@ html_static_path = ['_static']
 html_last_updated_fmt = '%-d/%-m/%y'
 
 html_context = {
-    'iso_now': datetime.datetime.utcnow().isoformat()
+    'iso_now': datetime.datetime.now(datetime.timezone.utc).isoformat()
 }
 
 # -- Options for todo extension ----------------------------------------------
