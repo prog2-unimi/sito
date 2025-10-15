@@ -40,7 +40,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 06      | V 10/10 |                                  | `How to Write Javadoc`_, `Javadoc Guide`_; H06_, E06_                 |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 07      | M 15/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_                                        |
+  | 07      | M 15/10 | Eccezioni                        | PDJ 4; EJ 10; JT `Exceptions`_; H07_                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   
 |
@@ -54,6 +54,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _S05: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/s05
 .. _H06: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h06
 .. _E06: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/e06
+.. _H07: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h07
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
