@@ -46,27 +46,27 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 22/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_; H09_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 10      | V 24/10 |                                  | PDF 5 *5, 6*; JT `Programming With Assertions`_                       |
+  | 10      | V 24/10 |                                  | PDF 5 *5 - 7*; JT `Programming With Assertions`_                      |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*                                             |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 12      | V 31/10 |                                  | PDJ 5 *7 - 9*; EJ 8 *49 - 52*                                         |
+  | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*                                          |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
 
-.. _H02: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h02
-.. _H03: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h03
-.. _E03: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/e03
-.. _S03: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/s03
-.. _H04: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h04
-.. _E05: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/e05
-.. _S05: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/s05
-.. _H06: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h06
-.. _E06: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/e06
-.. _H07: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h07
-.. _H08: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h08
-.. _H09: https://github.com/prog2-unimi/handouts/tree/aa2425/src/main/java/it/unimi/di/prog2/h09
+.. _H02: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h02
+.. _H03: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h03
+.. _E03: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e03
+.. _S03: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s03
+.. _H04: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h04
+.. _E05: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e05
+.. _S05: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s05
+.. _H06: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h06
+.. _E06: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e06
+.. _H07: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h07
+.. _H08: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h08
+.. _H09: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h09
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
