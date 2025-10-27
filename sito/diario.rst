@@ -46,7 +46,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 09      | M 22/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_; H09_                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 10      | V 24/10 |                                  | PDF 5 *5 - 7*; JT `Programming With Assertions`_                      |
+  | 10      | V 24/10 |                                  | PDF 5 *5 - 7*; JT `Programming With Assertions`_; H10_                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*                                             |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -67,6 +67,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H07: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h07
 .. _H08: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h08
 .. _H09: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h09
+.. _H10: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h10
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
