@@ -44,11 +44,11 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 08      | V 17/10 | Astrazione dei dati              | PDJ 5 *1, 2*; H08_                                                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 09      | M 22/10 |                                  | PDJ 5 *3*; EJ 2 *1, 2, 4*; JT `Records`_; H09_                        |
+  | 09      | M 22/10 |                                  | PDJ 5 *3*; JT `Records`_; H09_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 10      | V 24/10 |                                  | PDF 5 *5 - 7*; JT `Programming With Assertions`_; H10_                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 3 *10 - 13*                                             |
+  | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 2 *1, 2, 4*; EJ 3 *10 - 13*; H11_                       |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*                                          |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -68,6 +68,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H08: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h08
 .. _H09: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h09
 .. _H10: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h10
+.. _H11: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h11
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
