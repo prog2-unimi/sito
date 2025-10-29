@@ -48,9 +48,14 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 10      | V 24/10 |                                  | PDF 5 *5 - 7*; JT `Programming With Assertions`_; H10_                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 2 *1, 2, 4*; EJ 3 *10 - 13*; H11_                       |
+  | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 2 *1, 2, 4*, 3 *10 - 13*;                               |
+  |         |         |                                  | `Methods From the Object Class`_; H11_                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*                                          |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  | 13      | M 5/ 11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*                                              |
+  +---------+---------+                                  +-----------------------------------------------------------------------+
+  | 14      | V 7/1 1 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -95,6 +100,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _Records: https://dev.java/learn/using-record-to-model-immutable-data/
 
 .. _Programming With Assertions: https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html
+
+.. _Methods From the Object Class: https://dev.java/learn/inheritance/objects/
 
 .. _Access Control: https://dev.java/learn/classes-objects/creating-classes/#controlling-access
 .. _Nested Classes: https://dev.java/learn/nested-classes/
