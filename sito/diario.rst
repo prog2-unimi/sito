@@ -51,7 +51,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 11      | M 29/10 |                                  | PDJ 5 *4*; EJ 2 *1, 2, 4*, 3 *10 - 13*;                               |
   |         |         |                                  | `Methods From the Object Class`_; H11_                                |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*                                          |
+  | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*; H12_                                    |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 13      | M 5/ 11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*                                              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -74,6 +74,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H09: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h09
 .. _H10: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h10
 .. _H11: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h11
+.. _H12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h12
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
