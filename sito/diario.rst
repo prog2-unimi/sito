@@ -53,7 +53,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 12      | V 31/10 |                                  | PDJ 5 *8, 9*; EJ 8 *49 - 52*; H12_, E12_, S12_                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 13      | M  5/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*                                              |
+  | 13      | M  5/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*; H13_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -101,6 +101,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h12
 .. _E12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e12
 .. _S12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s12
+.. _H13: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h13
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
