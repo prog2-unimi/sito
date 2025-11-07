@@ -55,7 +55,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 13      | M  5/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*; H13_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_, `Anonymous Classes`_         |
+  | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_; H14_, E14_                   |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 15      | M 12/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; Dispatching_                                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -102,6 +102,8 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e12
 .. _S12: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s12
 .. _H13: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h13
+.. _H14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h14
+.. _E14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e14
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
@@ -133,7 +135,6 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 
 .. _Access Control: https://dev.java/learn/classes-objects/creating-classes/#controlling-access
 .. _Nested Classes: https://dev.java/learn/nested-classes/
-.. _Anonymous Classes: https://dev.java/learn/when-to-use-nested-classes-local-classes-anonymous-classes-and-lambda-expressions/
 .. _For-each: https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html
 
 .. _Default Methods: https://dev.java/learn/implementing-an-interface/#anchor_4
