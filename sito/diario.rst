@@ -78,7 +78,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   | 23      | V 12/12 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
   |         |         |                                  | `Collections (API)`_                                                  |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 24      | V 17/12 | *Tools of the trade*,            | UploadDI_; H `Ferri del mestiere`_                                    |
+  | 24      | M 17/12 | *Tools of the trade*,            | UploadDI_; H `Ferri del mestiere`_                                    |
   |         |         | **Presentazione progetto**       |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
