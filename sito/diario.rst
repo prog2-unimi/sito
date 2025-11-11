@@ -55,7 +55,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 13      | M  5/11 | Astrazione iterazione            | PDJ 6; EJ 4 *24*, 9 *58*; H13_                                        |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_; H14_, E14_                   |
+  | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_; H14_, E14_, S14_             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 15      | M 12/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; Dispatching_                                            |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -104,6 +104,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H13: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h13
 .. _H14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h14
 .. _E14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e14
+.. _S14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s14
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
