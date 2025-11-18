@@ -57,15 +57,15 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 14      | V  7/11 |                                  | JT `Access control`_, `Nested Classes`_; H14_, E14_, S14_             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 15      | M 12/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; Dispatching_                                            |
+  | 15      | M 12/11 | Ereditarietà e composizione      | PDJ 7 *1, 2*; H Dispatching_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 16      | V 14/11 |                                  | PDJ 7 *3 - 5*; `Ereditarietà e ontologia`_                            |
+  | 16      | V 14/11 |                                  | PDJ 7 *3 - 5*; H `Ereditarietà e ontologia`_; H16_                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 17      | M 10/11 |                                  | PDJ 7 *6*                                                             |
+  | 17      | M 19/11 |                                  | PDJ 7 *6*; H17_, E17_                                                 |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 18      | V 21/11 |                                  | PDJ 7 *7, 8*; JT `Default Methods`_                                   |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 19      | M 26/11 |                                  | PDJ 7 *9*; H Equality_                                                |
+  | 19      | M 26/11 |                                  | PDJ 7 *9*; H Equality_,                                               |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 20      | V 28/11 |                                  | PDJ 7 *10, 11*; H Composition_                                        |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -105,6 +105,9 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h14
 .. _E14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e14
 .. _S14: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s14
+.. _H16: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h16
+.. _H17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h17
+.. _E17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e17
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
