@@ -63,7 +63,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 17      | M 19/11 |                                  | PDJ 7 *6*;  H17_, E17_, S17_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 18      | V 21/11 |                                  | PDJ 7 *7, 8*; EJ 4 *20 -22*; JT `Default Methods`_                    |
+  | 18      | V 21/11 |                                  | PDJ 7 *7, 8*; EJ 4 *20 -22*; JT `Default Methods`_; H18_              |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 19      | M 26/11 |                                  | PDJ 7 *9*; EJ 3 *10*; H Equality_                                     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
@@ -109,6 +109,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h17
 .. _E17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e17
 .. _S17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s17
+.. _H18: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h18
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
