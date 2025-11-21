@@ -61,11 +61,11 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 16      | V 14/11 |                                  | PDJ 7 *3 - 5*; EJ 4 *15 - 17*; H `Ereditarietà e ontologia`_; H16_    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 17      | M 19/11 |                                  | PDJ 7 *6*;  H17_, E17_                                                |
+  | 17      | M 19/11 |                                  | PDJ 7 *6*;  H17_, E17_, S17_                                          |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 18      | V 21/11 |                                  | PDJ 7 *7, 8*; EJ 4 *20 -22*; JT `Default Methods`_                    |
   +---------+---------+                                  +-----------------------------------------------------------------------+
-  | 19      | M 26/11 |                                  | PDJ 7 *9*; EJ 3 *10*; H Equality_,                                    |
+  | 19      | M 26/11 |                                  | PDJ 7 *9*; EJ 3 *10*; H Equality_                                     |
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 20      | V 28/11 |                                  | PDJ 7 *10, 11*; EJ 5 *18, 19*; H Composition_                         |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
@@ -108,6 +108,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _H16: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h16
 .. _H17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h17
 .. _E17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e17
+.. _S17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s17
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
