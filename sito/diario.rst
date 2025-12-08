@@ -73,11 +73,12 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 22      | V  5/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 23      | M 10/12 | *Collections*                    | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
-  |         |         |                                  | `Collections (API)`_                                                  |
+  |         | M 10/12 | **LEZIONE ANNULLATA**            | [*diversamente da quanto comunicato in aula, la lezione è annullata* ]|
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  | 24      | V 12/12 | *Tools of the trade*,            | UploadDI_; H `Ferri del mestiere`_                                    |
-  |         |         | **Presentazione progetto**       |                                                                       |
+  | 23      | V 12/12 | *Collections* e                  | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
+  |         |         | *Tools of the trade*             | `Collections (API)`_; H `Ferri del mestiere`_                         |
+  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
+  |         | **TBA** | **Presentazione progetto**       | UploadDI_                                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
