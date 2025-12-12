@@ -73,7 +73,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 22      | V  5/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  |         | M 10/12 | **LEZIONE ANNULLATA**            | [*sostituita da un laboratorio di "Algoritmi e strutture dati"* ]     |
+  |         | M 10/12 | **LEZIONE ANNULLATA**            |                                                                       |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 23      | V 12/12 | *Collections* e                  | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
   |         |         | *Tools of the trade*             | `Collections (API)`_; H `Ferri del mestiere`_                         |
