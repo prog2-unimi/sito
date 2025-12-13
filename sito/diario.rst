@@ -73,12 +73,10 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
   +---------+---------+                                  +-----------------------------------------------------------------------+
   | 22      | V  5/12 |                                  | H `Generics and subtyping`_                                           |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  |         | M 10/12 | **LEZIONE ANNULLATA**            |                                                                       |
-  +---------+---------+----------------------------------+-----------------------------------------------------------------------+
   | 23      | V 12/12 | *Collections* e                  | JT `Collections (Bloch)`_, `Collections (tutorial)`_,                 |
-  |         |         | *Tools of the trade*             | `Collections (API)`_; H `Ferri del mestiere`_                         |
+  |         |         | *Tools of the trade*             | `Collections (API)`_; H `Ferri del mestiere`_; H23_                   |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
-  |         | **TBA** | **Presentazione progetto**       | UploadDI_                                                             |
+  | 24      | M 17/12 | **Presentazione progetto**       | UploadDI_                                                             |
   +---------+---------+----------------------------------+-----------------------------------------------------------------------+
 
 |
@@ -109,6 +107,7 @@ indicazioni su quali parti del materiale sono *parte del programma* e quali
 .. _E17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/e17
 .. _S17: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/s17
 .. _H18: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h18
+.. _H23: https://github.com/prog2-unimi/handouts/tree/aa2526/src/main/java/it/unimi/di/prog2/h23
 
 .. _UploadDI: https://upload.di.unimi.it/session/4082
 
